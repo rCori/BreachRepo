@@ -1,0 +1,998 @@
+﻿Log file open, 01/04/18 21:01:09
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: Breach
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-1728921813) SRandInit(-1728921813).
+LogInit: Read version file with build ID '3709383'
+LogInit: Overriding engine version to CL 3794801, compatible CL 3709383
+LogInit: Registered custom module enumerator with build ID '3709383'
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.155297
+LogD3D11RHI: Aftermath initialized
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3709383).
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.18-CL-3794801
+LogInit: Engine Version: 4.18.2-3794801+++UE4+Release-4.18
+LogInit: Compatible Engine Version: 4.18.0-3709383+++UE4+Release-4.18
+LogInit: Net CL: 3709383
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 30
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 20
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 12
+LogInit: Compiled (64-bit): Dec  8 2017 02:04:53
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.18
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.01.05-05.01.10:248][  0]LogInit: Selected Device Profile: [Windows]
+[2018.01.05-05.01.10:248][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.01.05-05.01.10:258][  0]LogInit: Computer: DESKTOP-PQPAGDU
+[2018.01.05-05.01.10:258][  0]LogInit: User: Ryanc
+[2018.01.05-05.01.10:258][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.01.05-05.01.10:258][  0]LogInit: High frequency timer resolution =3.417969 MHz
+[2018.01.05-05.01.10:259][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.01.05-05.01.10:259][  0]LogMemory: Platform Memory Stats for Windows
+[2018.01.05-05.01.10:259][  0]LogMemory: Process Physical Memory: 272.20 MB used, 272.20 MB peak
+[2018.01.05-05.01.10:259][  0]LogMemory: Process Virtual Memory: 263.71 MB used, 263.71 MB peak
+[2018.01.05-05.01.10:259][  0]LogMemory: Physical Memory: 5018.89 MB used,  11307.80 MB free, 16326.68 MB total
+[2018.01.05-05.01.10:259][  0]LogMemory: Virtual Memory: 637.51 MB used,  11307.80 MB free, 134217728.00 MB total
+[2018.01.05-05.01.10:373][  0]LogInit: Using OS detected language (en-US).
+[2018.01.05-05.01.10:373][  0]LogInit: Using OS detected locale (en-US).
+[2018.01.05-05.01.10:375][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.01.05-05.01.10:716][  0]LogInit: Setting process to per monitor DPI aware
+[2018.01.05-05.01.10:902][  0]LogD3D11RHI: D3D11 adapters:
+[2018.01.05-05.01.10:929][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2018.01.05-05.01.10:929][  0]LogD3D11RHI:       8096/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.01.05-05.01.10:930][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.01.05-05.01.10:930][  0]LogD3D11RHI:       0/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.01.05-05.01.10:930][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.01.05-05.01.10:934][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.01.05-05.01.10:934][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2018.01.05-05.01.10:934][  0]LogWindows: EnumDisplayDevices:
+[2018.01.05-05.01.10:935][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2018.01.05-05.01.10:935][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.01.05-05.01.10:935][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.01.05-05.01.10:935][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.01.05-05.01.10:935][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2018.01.05-05.01.10:935][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2018.01.05-05.01.10:935][  0]LogD3D11RHI:   Driver Version: 388.31 (internal:23.21.13.8831, unified:388.31)
+[2018.01.05-05.01.10:935][  0]LogD3D11RHI:      Driver Date: 11-14-2017
+[2018.01.05-05.01.10:935][  0]LogRHI: Texture pool is 5667 MB (70% of 8096 MB)
+[2018.01.05-05.01.10:953][  0]LogD3D11RHI: Async texture creation enabled
+[2018.01.05-05.01.11:006][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.01.05-05.01.11:054][  0]LogShaderCompilers: Guid format shader working directory is -27 characters bigger than the processId version (../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Intermediate/Shaders/WorkingDirectory/3180/).
+[2018.01.05-05.01.11:054][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Ryanc/AppData/Local/Temp/UnrealShaderWorkingDir/82373DD74FC504EE0D878A90DC4557BB/'.
+[2018.01.05-05.01.11:054][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.01.05-05.01.11:800][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.01.05-05.01.11:841][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.01.05-05.01.11:883][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.01.05-05.01.11:924][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.01.05-05.01.11:965][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.01.05-05.01.12:007][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.01.05-05.01.12:048][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.01.05-05.01.12:090][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.01.05-05.01.12:125][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.01.05-05.01.12:165][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.01.05-05.01.12:205][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.01.05-05.01.12:245][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.01.05-05.01.12:286][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.01.05-05.01.12:326][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.01.05-05.01.12:406][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.01.05-05.01.12:406][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.01.05-05.01.12:446][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.01.05-05.01.12:477][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.01.05-05.01.12:553][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.01.05-05.01.12:575][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.01.05-05.01.12:615][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.01.05-05.01.12:655][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.01.05-05.01.12:695][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.01.05-05.01.12:735][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.01.05-05.01.12:735][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.01.05-05.01.13:109][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.01.05-05.01.13:179][  0]LogDerivedDataCache: Loaded boot cache 0.07s 78MB C:/Users/Ryanc/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.01.05-05.01.13:179][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Ryanc/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.01.05-05.01.13:179][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.01.05-05.01.13:179][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.01.05-05.01.13:179][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.01.05-05.01.13:179][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.01.05-05.01.13:193][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.01.05-05.01.13:205][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Ryanc/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.01.05-05.01.13:213][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.01.05-05.01.13:214][  0]LogSlate: Using Freetype 2.6.0
+[2018.01.05-05.01.13:214][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.01.05-05.01.13:214][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.01.05-05.01.13:513][  0]LogInit: Selected Device Profile: [Windows]
+[2018.01.05-05.01.13:778][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.01.05-05.01.13:811][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.01.05-05.01.13:811][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.01.05-05.01.13:811][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.01.05-05.01.13:811][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.01.05-05.01.13:811][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.01.05-05.01.13:832][  0]LogNetVersion: Breach , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2924493875)
+[2018.01.05-05.01.13:963][  0]LogAssetRegistry: FAssetRegistry took 0.0250 seconds to start up
+[2018.01.05-05.01.14:386][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.056365 seconds
+[2018.01.05-05.01.14:390][  0]LogUObjectArray: 35900 objects as part of root set at end of initial load.
+[2018.01.05-05.01.14:390][  0]LogUObjectAllocator: 7372024 out of 0 bytes used by permanent object pool.
+[2018.01.05-05.01.14:390][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.01.05-05.01.14:433][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.01.05-05.01.16:647][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.01.05-05.01.16:684][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.01.05-05.01.17:229][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.01.05-05.01.17:564][  0]SourceControl: Source control is disabled
+[2018.01.05-05.01.17:564][  0]SourceControl: Source control is disabled
+[2018.01.05-05.01.17:607][  0]SourceControl: Source control is disabled
+[2018.01.05-05.01.17:649][  0]SourceControl: Source control is disabled
+[2018.01.05-05.01.18:306][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.01.05-05.01.18:523][  0]LogOcInput: OculusInput pre-init called
+[2018.01.05-05.01.18:756][  0]LogEngine: Initializing Engine...
+[2018.01.05-05.01.18:758][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.01.05-05.01.18:938][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.01.05-05.01.18:938][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.01.05-05.01.19:052][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.01.05-05.01.19:061][  0]LogInit: XAudio2 using 'Speakers (2- Logitech G35 Gaming Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.01.05-05.01.19:075][  0]LogInit: FAudioDevice initialized.
+[2018.01.05-05.01.19:309][  0]LogDerivedDataCache: Saved boot cache 0.23s 78MB C:/Users/Ryanc/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.01.05-05.01.19:321][  0]LogInit: Texture streaming: Enabled
+[2018.01.05-05.01.19:401][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.01.05-05.01.19:504][  0]LogInit: Transaction tracking system initialized
+[2018.01.05-05.01.19:752][  0]BlueprintLog: New page: Editor Load
+[2018.01.05-05.01.20:454][  0]LocalizationService: Localization service is disabled
+[2018.01.05-05.01.21:037][  0]LogConsoleResponse: Display: 
+[2018.01.05-05.01.21:177][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.01.05-05.01.21:177][  0]LogCook: Display: Mobile HDR setting 1
+[2018.01.05-05.01.21:177][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.01.05-05.01.22:113][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/' took 0.02s
+[2018.01.05-05.01.22:149][  0]SourceControl: Source control is disabled
+[2018.01.05-05.01.22:149][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.01.05-05.01.22:149][  0]LightingResults: New page: Lighting Build
+[2018.01.05-05.01.22:184][  0]MapCheck: New page: Map Check
+[2018.01.05-05.01.22:184][  0]LightingResults: New page: Lighting Build
+[2018.01.05-05.01.23:046][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.01.05-05.01.23:051][  0]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_1.Mesh2P'
+[2018.01.05-05.01.23:053][  0]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_1.Mesh2P'
+[2018.01.05-05.01.23:055][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.01.05-05.01.23:068][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.01.05-05.01.23:126][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 58.238ms to complete.
+[2018.01.05-05.01.23:126][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.977
+[2018.01.05-05.01.23:242][  0]LogCollectionManager: Loaded 0 collections in 0.001514 seconds
+[2018.01.05-05.01.23:310][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Saved/Collections/' took 0.01s
+[2018.01.05-05.01.23:310][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/Developers/Ryanc/Collections/' took 0.01s
+[2018.01.05-05.01.23:310][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/Collections/' took 0.01s
+[2018.01.05-05.01.23:310][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.01.05-05.01.23:317][  0]LogContentBrowser: Native class hierarchy populated in 0.0069 seconds. Added 2363 classes and 519 folders.
+[2018.01.05-05.01.23:370][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.01.05-05.01.23:402][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.01.05-05.01.23:437][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2018.01.05-05.01.23:503][  0]LogSlate: Took 0.000151 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.01.05-05.01.23:504][  0]LogSlate: Took 0.000166 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.01.05-05.01.23:508][  0]LogSlate: Took 0.000159 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.01.05-05.01.23:588][  0]LogRenderer: Reallocating scene render targets to support 952x516 Format 10 NumSamples 1 (Frame:1).
+[2018.01.05-05.01.23:778][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2018.01.05-05.01.23:778][  0]LogLoad: (Engine Initialization) Total time: 15.44 seconds
+[2018.01.05-05.01.23:778][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.01.05-05.01.23:778][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.01.05-05.01.23:778][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.01.05-05.01.23:787][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.01.05-05.01.23:805][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.01.05-05.01.23:842][  0]LogRenderer: Reallocating scene render targets to support 952x532 Format 10 NumSamples 1 (Frame:3).
+[2018.01.05-05.01.23:874][  0]LogSlate: Took 0.000140 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.05-05.01.23:901][  1]LogAssetRegistry: Asset discovery search completed in 9.9590 seconds
+[2018.01.05-05.01.23:903][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.01.05-05.01.23:903][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000047 seconds (updated 0 objects)
+[2018.01.05-05.01.24:805][ 86]LogSlate: Took 0.000193 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.05-05.03.24:119][280]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter)
+[2018.01.05-05.03.25:064][370]LogSlate: Took 0.000180 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.01.05-05.03.34:556][212]LogSlate: Took 0.000126 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.05-05.03.34:824][212]LogAIModule: Creating AISystem for world AIDemo
+[2018.01.05-05.03.34:853][212]Cmd: MAP LOAD FILE="../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/FirstPersonBP/Maps/AIDemo.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.01.05-05.03.34:853][212]LightingResults: New page: Lighting Build
+[2018.01.05-05.03.34:853][212]LoadErrors: New page: Loading map: AIDemo.umap
+[2018.01.05-05.03.34:880][212]MapCheck: New page: Map Check
+[2018.01.05-05.03.34:881][212]LightingResults: New page: Lighting Build
+[2018.01.05-05.03.34:946][212]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.01.05-05.03.34:985][212]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.01.05-05.03.35:055][212]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 70.212ms to complete.
+[2018.01.05-05.03.35:056][212]LogFileHelpers: Loading map 'AIDemo' took 0.204
+[2018.01.05-05.03.40:508][420]LogEditorViewport: Clicking on Actor (LMB): NavMeshBoundsVolume (NavMeshBoundsVolume)
+[2018.01.05-05.03.41:333][512]LogEditorViewport: Clicking on Actor (LMB): NavMeshBoundsVolume (NavMeshBoundsVolume)
+[2018.01.05-05.03.42:044][591]LogEditorViewport: Clicking on Actor (LMB): BP_EnemyCharacter_C (BP_EnemyCharacter)
+[2018.01.05-05.03.52:216][289]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 116 classes and 0 folders.
+[2018.01.05-05.04.05:545][735]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.01.05-05.04.06:703][761]BlueprintLog: New page: Compile BP_EnemyCharacter
+[2018.01.05-05.04.07:970][771]LogSavePackage: Save=20.03ms
+[2018.01.05-05.04.07:970][771]LogSavePackage: Moving '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Saved/BP_EnemyCharacter8E47744747C4E837B7F30880DEB48C73.tmp' to '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/EnemyCharacter/Blueprints/BP_EnemyCharacter.uasset'
+[2018.01.05-05.04.07:974][771]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/EnemyCharacter/Blueprints/BP_EnemyCharacter.uasset
+[2018.01.05-05.04.09:429][800]LogSavePackage: Save=36.82ms
+[2018.01.05-05.04.09:429][800]LogSavePackage: Moving '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Saved/AIDemoB09370EC450A5F5FF9279787B043CFC4.tmp' to '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/FirstPersonBP/Maps/AIDemo.umap'
+[2018.01.05-05.04.09:432][800]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/FirstPersonBP/Maps/AIDemo.umap
+[2018.01.05-05.04.09:534][800]LogSavePackage: Save=58.38ms
+[2018.01.05-05.04.09:534][800]LogSavePackage: Moving '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Saved/AIDemo_BuiltDataF191040647F01C85E81DA283B77399AE.tmp' to '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/FirstPersonBP/Maps/AIDemo_BuiltData.uasset'
+[2018.01.05-05.04.09:535][800]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/FirstPersonBP/Maps/AIDemo_BuiltData.uasset
+[2018.01.05-05.04.10:752][824]LogTemp: Repeating last play command: Selected Viewport
+[2018.01.05-05.04.10:832][824]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.05-05.04.10:833][824]PIE: New page: PIE session: AIDemo (Jan 4, 2018, 1:04:10 PM)
+[2018.01.05-05.04.10:833][824]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_AIDemo
+[2018.01.05-05.04.10:836][824]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003355s)
+[2018.01.05-05.04.10:836][824]LogAIModule: Creating AISystem for world AIDemo
+[2018.01.05-05.04.10:837][824]LogPlayLevel: PIE: World Init took: (0.000556s)
+[2018.01.05-05.04.10:837][824]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/AIDemo.AIDemo to /Game/FirstPersonBP/Maps/UEDPIE_0_AIDemo.AIDemo (0.004132s)
+[2018.01.05-05.04.10:858][824]LogInit: XAudio2 using 'Speakers (2- Logitech G35 Gaming Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.01.05-05.04.10:870][824]LogInit: FAudioDevice initialized.
+[2018.01.05-05.04.10:915][824]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.01.05-05.04.10:917][824]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_AIDemo.AIDemo up for play (max tick rate 0) at 2018.01.04-21.04.10
+[2018.01.05-05.04.10:918][824]LogWorld: Bringing up level for play took: 0.001333
+[2018.01.05-05.04.10:951][824]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0002 seconds. Added 11 classes and 0 folders.
+[2018.01.05-05.04.10:952][824]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/FirstPersonBP/Maps/UEDPIE_0_AIDemo.AIDemo:PersistentLevel.FirstPersonCharacter_C_0.Mesh2P'
+[2018.01.05-05.04.10:982][824]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_AIDemo 0.028
+[2018.01.05-05.04.16:378][962]LogEditorViewport: Clicking on Actor (LMB): BP_EnemyCharacter_C (BP_EnemyCharacter)
+[2018.01.05-05.04.18:174][  3]Cmd: DELETE
+[2018.01.05-05.04.18:174][  3]Cmd: ACTOR DELETE
+[2018.01.05-05.04.18:175][  3]LogEditorActor: Deleted Actor: BP_EnemyCharacter_C
+[2018.01.05-05.04.18:192][  3]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2018.01.05-05.04.24:660][142]LogTemp: Repeating last play command: Selected Viewport
+[2018.01.05-05.04.24:680][142]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.05-05.04.24:681][142]PIE: New page: PIE session: AIDemo (Jan 4, 2018, 1:04:24 PM)
+[2018.01.05-05.04.24:681][142]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_AIDemo
+[2018.01.05-05.04.24:685][142]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004243s)
+[2018.01.05-05.04.24:685][142]LogAIModule: Creating AISystem for world AIDemo
+[2018.01.05-05.04.24:685][142]LogPlayLevel: PIE: World Init took: (0.000511s)
+[2018.01.05-05.04.24:686][142]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/AIDemo.AIDemo to /Game/FirstPersonBP/Maps/UEDPIE_0_AIDemo.AIDemo (0.004959s)
+[2018.01.05-05.04.24:735][142]LogInit: XAudio2 using 'Speakers (2- Logitech G35 Gaming Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.01.05-05.04.24:746][142]LogInit: FAudioDevice initialized.
+[2018.01.05-05.04.24:777][142]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.01.05-05.04.24:778][142]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_AIDemo.AIDemo up for play (max tick rate 0) at 2018.01.04-21.04.24
+[2018.01.05-05.04.24:779][142]LogWorld: Bringing up level for play took: 0.001393
+[2018.01.05-05.04.24:780][142]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/FirstPersonBP/Maps/UEDPIE_0_AIDemo.AIDemo:PersistentLevel.FirstPersonCharacter_C_0.Mesh2P'
+[2018.01.05-05.04.24:781][142]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_AIDemo -0.174
+[2018.01.05-05.04.32:181][297]LogSlate: Took 0.000170 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.01.05-05.04.46:061][572]LogSavePackage: Save=35.70ms
+[2018.01.05-05.04.46:061][572]LogSavePackage: Moving '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Saved/AIDemo23A7B0B54DAB128CD34609A5615B724F.tmp' to '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/FirstPersonBP/Maps/AIDemo.umap'
+[2018.01.05-05.04.46:063][572]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/FirstPersonBP/Maps/AIDemo.umap
+[2018.01.05-05.04.46:130][572]LogSavePackage: Save=30.43ms
+[2018.01.05-05.04.46:130][572]LogSavePackage: Moving '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Saved/AIDemo_BuiltData7F994D224C99053CF4C5BE84AC424C72.tmp' to '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/FirstPersonBP/Maps/AIDemo_BuiltData.uasset'
+[2018.01.05-05.04.46:131][572]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/FirstPersonBP/Maps/AIDemo_BuiltData.uasset
+[2018.01.05-05.04.46:773][583]LogTemp: Repeating last play command: Selected Viewport
+[2018.01.05-05.04.46:796][583]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.05-05.04.46:796][583]PIE: New page: PIE session: AIDemo (Jan 4, 2018, 1:04:46 PM)
+[2018.01.05-05.04.46:796][583]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_AIDemo
+[2018.01.05-05.04.46:800][583]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003676s)
+[2018.01.05-05.04.46:800][583]LogAIModule: Creating AISystem for world AIDemo
+[2018.01.05-05.04.46:800][583]LogPlayLevel: PIE: World Init took: (0.000513s)
+[2018.01.05-05.04.46:800][583]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/AIDemo.AIDemo to /Game/FirstPersonBP/Maps/UEDPIE_0_AIDemo.AIDemo (0.004394s)
+[2018.01.05-05.04.46:845][583]LogInit: XAudio2 using 'Speakers (2- Logitech G35 Gaming Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.01.05-05.04.46:856][583]LogInit: FAudioDevice initialized.
+[2018.01.05-05.04.46:887][583]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.01.05-05.04.46:888][583]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_AIDemo.AIDemo up for play (max tick rate 0) at 2018.01.04-21.04.46
+[2018.01.05-05.04.46:889][583]LogWorld: Bringing up level for play took: 0.001269
+[2018.01.05-05.04.46:890][583]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/FirstPersonBP/Maps/UEDPIE_0_AIDemo.AIDemo:PersistentLevel.FirstPersonCharacter_C_0.Mesh2P'
+[2018.01.05-05.04.46:891][583]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_AIDemo -0.064
+[2018.01.05-05.05.12:005][439]BlueprintLog: New page: Compile FindRandomLocation
+[2018.01.05-05.05.12:704][478]LogSavePackage: Save=13.83ms
+[2018.01.05-05.05.12:704][478]LogSavePackage: Moving '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Saved/FindRandomLocation6F8366CF4B7AE98D6C8189ABD3BE4961.tmp' to '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/EnemyCharacter/Blueprints/EnemyAI/FindRandomLocation.uasset'
+[2018.01.05-05.05.12:706][478]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/EnemyCharacter/Blueprints/EnemyAI/FindRandomLocation.uasset
+[2018.01.05-05.05.15:072][622]LogTemp: Repeating last play command: Selected Viewport
+[2018.01.05-05.05.15:099][622]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.05-05.05.15:099][622]PIE: New page: PIE session: AIDemo (Jan 4, 2018, 1:05:15 PM)
+[2018.01.05-05.05.15:099][622]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_AIDemo
+[2018.01.05-05.05.15:103][622]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003879s)
+[2018.01.05-05.05.15:103][622]LogAIModule: Creating AISystem for world AIDemo
+[2018.01.05-05.05.15:103][622]LogPlayLevel: PIE: World Init took: (0.000561s)
+[2018.01.05-05.05.15:103][622]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/AIDemo.AIDemo to /Game/FirstPersonBP/Maps/UEDPIE_0_AIDemo.AIDemo (0.004652s)
+[2018.01.05-05.05.15:126][622]LogInit: XAudio2 using 'Speakers (2- Logitech G35 Gaming Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.01.05-05.05.15:137][622]LogInit: FAudioDevice initialized.
+[2018.01.05-05.05.15:170][622]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.01.05-05.05.15:171][622]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_AIDemo.AIDemo up for play (max tick rate 0) at 2018.01.04-21.05.15
+[2018.01.05-05.05.15:171][622]LogWorld: Bringing up level for play took: 0.001186
+[2018.01.05-05.05.15:172][622]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/FirstPersonBP/Maps/UEDPIE_0_AIDemo.AIDemo:PersistentLevel.FirstPersonCharacter_C_0.Mesh2P'
+[2018.01.05-05.05.15:173][622]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_AIDemo 0.219
+[2018.01.05-05.07.01:594][ 54]BlueprintLog: New page: Compile FindRandomLocation
+[2018.01.05-05.07.02:398][ 99]LogSavePackage: Save=13.81ms
+[2018.01.05-05.07.02:398][ 99]LogSavePackage: Moving '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Saved/FindRandomLocation91F0FD9E41F066310DDA55B8CBA5FBD4.tmp' to '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/EnemyCharacter/Blueprints/EnemyAI/FindRandomLocation.uasset'
+[2018.01.05-05.07.02:400][ 99]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/EnemyCharacter/Blueprints/EnemyAI/FindRandomLocation.uasset
+[2018.01.05-05.07.04:542][254]LogTemp: Repeating last play command: Selected Viewport
+[2018.01.05-05.07.04:568][254]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.05-05.07.04:568][254]PIE: New page: PIE session: AIDemo (Jan 4, 2018, 1:07:04 PM)
+[2018.01.05-05.07.04:568][254]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_AIDemo
+[2018.01.05-05.07.04:572][254]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003922s)
+[2018.01.05-05.07.04:573][254]LogAIModule: Creating AISystem for world AIDemo
+[2018.01.05-05.07.04:573][254]LogPlayLevel: PIE: World Init took: (0.000727s)
+[2018.01.05-05.07.04:573][254]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/AIDemo.AIDemo to /Game/FirstPersonBP/Maps/UEDPIE_0_AIDemo.AIDemo (0.004879s)
+[2018.01.05-05.07.04:596][254]LogInit: XAudio2 using 'Speakers (2- Logitech G35 Gaming Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.01.05-05.07.04:608][254]LogInit: FAudioDevice initialized.
+[2018.01.05-05.07.04:639][254]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.01.05-05.07.04:640][254]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_AIDemo.AIDemo up for play (max tick rate 0) at 2018.01.04-21.07.04
+[2018.01.05-05.07.04:641][254]LogWorld: Bringing up level for play took: 0.001329
+[2018.01.05-05.07.04:642][254]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/FirstPersonBP/Maps/UEDPIE_0_AIDemo.AIDemo:PersistentLevel.FirstPersonCharacter_C_0.Mesh2P'
+[2018.01.05-05.07.04:643][254]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_AIDemo -0.311
+[2018.01.05-05.07.38:286][378]LogSavePackage: Save=8.20ms
+[2018.01.05-05.07.38:286][378]LogSavePackage: Moving '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Saved/BT_EnemyAIEFA976B7467D97EFDDA26B94E14C772D.tmp' to '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/EnemyCharacter/Blueprints/EnemyAI/BT_EnemyAI.uasset'
+[2018.01.05-05.07.38:289][378]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/EnemyCharacter/Blueprints/EnemyAI/BT_EnemyAI.uasset
+[2018.01.05-05.07.40:005][423]LogTemp: Repeating last play command: Selected Viewport
+[2018.01.05-05.07.40:031][423]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.05-05.07.40:031][423]PIE: New page: PIE session: AIDemo (Jan 4, 2018, 1:07:40 PM)
+[2018.01.05-05.07.40:031][423]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_AIDemo
+[2018.01.05-05.07.40:035][423]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004082s)
+[2018.01.05-05.07.40:035][423]LogAIModule: Creating AISystem for world AIDemo
+[2018.01.05-05.07.40:036][423]LogPlayLevel: PIE: World Init took: (0.000640s)
+[2018.01.05-05.07.40:036][423]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/AIDemo.AIDemo to /Game/FirstPersonBP/Maps/UEDPIE_0_AIDemo.AIDemo (0.005005s)
+[2018.01.05-05.07.40:060][423]LogInit: XAudio2 using 'Speakers (2- Logitech G35 Gaming Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.01.05-05.07.40:071][423]LogInit: FAudioDevice initialized.
+[2018.01.05-05.07.40:101][423]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.01.05-05.07.40:102][423]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_AIDemo.AIDemo up for play (max tick rate 0) at 2018.01.04-21.07.40
+[2018.01.05-05.07.40:103][423]LogWorld: Bringing up level for play took: 0.001331
+[2018.01.05-05.07.40:104][423]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/FirstPersonBP/Maps/UEDPIE_0_AIDemo.AIDemo:PersistentLevel.FirstPersonCharacter_C_0.Mesh2P'
+[2018.01.05-05.07.40:105][423]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_AIDemo -0.85
+[2018.01.05-05.08.04:055][552]LogEditorViewport: Clicking on Actor (LMB): BP_EnemyCharacter_C (BP_EnemyCharacter)
+[2018.01.05-05.08.15:827][472]LogEditorViewport: Clicking on Actor (LMB): BP_EnemyCharacter_C (BP_EnemyCharacter)
+[2018.01.05-05.09.45:436][873]LogTemp: Repeating last play command: Selected Viewport
+[2018.01.05-05.09.45:464][873]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.05-05.09.45:464][873]PIE: New page: PIE session: AIDemo (Jan 4, 2018, 1:09:45 PM)
+[2018.01.05-05.09.45:464][873]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_AIDemo
+[2018.01.05-05.09.45:468][873]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004188s)
+[2018.01.05-05.09.45:469][873]LogAIModule: Creating AISystem for world AIDemo
+[2018.01.05-05.09.45:469][873]LogPlayLevel: PIE: World Init took: (0.000718s)
+[2018.01.05-05.09.45:469][873]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/AIDemo.AIDemo to /Game/FirstPersonBP/Maps/UEDPIE_0_AIDemo.AIDemo (0.005136s)
+[2018.01.05-05.09.45:495][873]LogInit: XAudio2 using 'Speakers (2- Logitech G35 Gaming Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.01.05-05.09.45:507][873]LogInit: FAudioDevice initialized.
+[2018.01.05-05.09.45:539][873]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.01.05-05.09.45:541][873]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_AIDemo.AIDemo up for play (max tick rate 0) at 2018.01.04-21.09.45
+[2018.01.05-05.09.45:541][873]LogWorld: Bringing up level for play took: 0.001346
+[2018.01.05-05.09.45:542][873]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/FirstPersonBP/Maps/UEDPIE_0_AIDemo.AIDemo:PersistentLevel.FirstPersonCharacter_C_0.Mesh2P'
+[2018.01.05-05.09.45:543][873]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_AIDemo 0.589
+[2018.01.05-05.10.09:030][277]LogSavePackage: Save=14.01ms
+[2018.01.05-05.10.09:030][277]LogSavePackage: Moving '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Saved/FindRandomLocationE2DA3985457ED82D8E605A8DDCEA408D.tmp' to '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/EnemyCharacter/Blueprints/EnemyAI/FindRandomLocation.uasset'
+[2018.01.05-05.10.09:034][277]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/EnemyCharacter/Blueprints/EnemyAI/FindRandomLocation.uasset
+[2018.01.05-05.10.11:005][408]BlueprintLog: New page: Compile FindRandomLocation
+[2018.01.05-05.10.53:704][330]LogEditorViewport: Clicking on Actor (LMB): BP_EnemyCharacter_C (BP_EnemyCharacter)
+[2018.01.05-05.11.00:559][734]LogRenderer: Reallocating scene render targets to support 1024x712 Format 10 NumSamples 1 (Frame:1).
+[2018.01.05-05.11.24:853][600]Cmd: MODE GRID=0
+[2018.01.05-05.11.27:270][772]Cmd: MODE GRID=1
+[2018.01.05-05.11.33:031][321]LogSavePackage: Save=20.95ms
+[2018.01.05-05.11.33:031][321]LogSavePackage: Moving '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Saved/BP_EnemyCharacter8B04FD4A41A71AA40798238E7EFF736E.tmp' to '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/EnemyCharacter/Blueprints/BP_EnemyCharacter.uasset'
+[2018.01.05-05.11.33:033][321]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/EnemyCharacter/Blueprints/BP_EnemyCharacter.uasset
+[2018.01.05-05.11.34:609][415]BlueprintLog: New page: Compile BP_EnemyCharacter
+[2018.01.05-05.11.36:426][432]LogSavePackage: Save=21.31ms
+[2018.01.05-05.11.36:426][432]LogSavePackage: Moving '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Saved/BP_EnemyCharacterAF5FB0AE41C86A3A63D2A4B5B1A614D2.tmp' to '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/EnemyCharacter/Blueprints/BP_EnemyCharacter.uasset'
+[2018.01.05-05.11.36:428][432]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/EnemyCharacter/Blueprints/BP_EnemyCharacter.uasset
+[2018.01.05-05.11.37:589][454]LogTemp: Repeating last play command: Selected Viewport
+[2018.01.05-05.11.37:618][454]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.05-05.11.37:619][454]PIE: New page: PIE session: AIDemo (Jan 4, 2018, 1:11:37 PM)
+[2018.01.05-05.11.37:619][454]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_AIDemo
+[2018.01.05-05.11.37:623][454]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004237s)
+[2018.01.05-05.11.37:623][454]LogAIModule: Creating AISystem for world AIDemo
+[2018.01.05-05.11.37:624][454]LogPlayLevel: PIE: World Init took: (0.000559s)
+[2018.01.05-05.11.37:624][454]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/AIDemo.AIDemo to /Game/FirstPersonBP/Maps/UEDPIE_0_AIDemo.AIDemo (0.005008s)
+[2018.01.05-05.11.37:674][454]LogInit: XAudio2 using 'Speakers (2- Logitech G35 Gaming Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.01.05-05.11.37:687][454]LogInit: FAudioDevice initialized.
+[2018.01.05-05.11.37:719][454]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.01.05-05.11.37:720][454]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_AIDemo.AIDemo up for play (max tick rate 0) at 2018.01.04-21.11.37
+[2018.01.05-05.11.37:721][454]LogWorld: Bringing up level for play took: 0.001297
+[2018.01.05-05.11.37:722][454]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/FirstPersonBP/Maps/UEDPIE_0_AIDemo.AIDemo:PersistentLevel.FirstPersonCharacter_C_0.Mesh2P'
+[2018.01.05-05.11.37:723][454]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_AIDemo 0.769
+[2018.01.05-05.11.40:907][530]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=327.266 Y=34.989 Z=129.861] for [FirstPersonProjectile_C]
+[2018.01.05-05.11.41:032][533]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=324.299 Y=35.319 Z=138.051] for [FirstPersonProjectile_C]
+[2018.01.05-05.11.41:156][536]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=322.917 Y=36.394 Z=136.274] for [FirstPersonProjectile_C]
+[2018.01.05-05.11.41:280][539]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=328.819 Y=32.819 Z=137.528] for [FirstPersonProjectile_C]
+[2018.01.05-05.11.41:405][542]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=320.856 Y=38.008 Z=134.516] for [FirstPersonProjectile_C]
+[2018.01.05-05.11.44:508][606]LogSavePackage: Save=44.14ms
+[2018.01.05-05.11.44:509][606]LogSavePackage: Moving '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Saved/AIDemo18B1863E48C3F827B40D5995B38C992F.tmp' to '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/FirstPersonBP/Maps/AIDemo.umap'
+[2018.01.05-05.11.44:511][606]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/FirstPersonBP/Maps/AIDemo.umap
+[2018.01.05-05.11.44:586][606]LogSavePackage: Save=29.78ms
+[2018.01.05-05.11.44:586][606]LogSavePackage: Moving '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Saved/AIDemo_BuiltData3EAE7379403E4182669E398AC4AB912F.tmp' to '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/FirstPersonBP/Maps/AIDemo_BuiltData.uasset'
+[2018.01.05-05.11.44:587][606]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/FirstPersonBP/Maps/AIDemo_BuiltData.uasset
+[2018.01.05-05.12.51:204][208]LogSavePackage: Save=8.19ms
+[2018.01.05-05.12.51:204][208]LogSavePackage: Moving '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Saved/BT_EnemyAI79CCD6E04545BBD2E53D8D9279F45511.tmp' to '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/EnemyCharacter/Blueprints/EnemyAI/BT_EnemyAI.uasset'
+[2018.01.05-05.12.51:207][208]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/EnemyCharacter/Blueprints/EnemyAI/BT_EnemyAI.uasset
+[2018.01.05-05.12.59:469][ 10]LogSavePackage: Save=8.38ms
+[2018.01.05-05.12.59:469][ 10]LogSavePackage: Moving '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Saved/BT_EnemyAI5360E53343F88FEBAB5393A5A5D56731.tmp' to '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/EnemyCharacter/Blueprints/EnemyAI/BT_EnemyAI.uasset'
+[2018.01.05-05.12.59:472][ 10]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/EnemyCharacter/Blueprints/EnemyAI/BT_EnemyAI.uasset
+[2018.01.05-05.13.02:400][277]LogEditorViewport: Clicking on Actor (LMB): BP_EnemyCharacter_C (BP_EnemyCharacter)
+[2018.01.05-05.13.55:645][657]Cmd: DELETE
+[2018.01.05-05.13.55:645][657]Cmd: ACTOR DELETE
+[2018.01.05-05.13.55:647][657]LogEditorActor: Deleted Actor: BP_EnemyCharacter_C
+[2018.01.05-05.13.55:666][657]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2018.01.05-05.14.01:121][981]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.01.05-05.15.41:819][949]LogSavePackage: Save=23.27ms
+[2018.01.05-05.15.41:819][949]LogSavePackage: Moving '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Saved/BP_EnemyCharacterA203BEAF454534CD95CE5C8E36D7C74A.tmp' to '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/EnemyCharacter/Blueprints/BP_EnemyCharacter.uasset'
+[2018.01.05-05.15.41:821][949]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/EnemyCharacter/Blueprints/BP_EnemyCharacter.uasset
+[2018.01.05-05.15.42:892][ 56]BlueprintLog: New page: Compile BP_EnemyCharacter
+[2018.01.05-05.15.45:039][239]LogSavePackage: Save=29.64ms
+[2018.01.05-05.15.45:039][239]LogSavePackage: Moving '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Saved/AIDemo86D2C50246D6D6BC33790DB9B9BFBB11.tmp' to '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/FirstPersonBP/Maps/AIDemo.umap'
+[2018.01.05-05.15.45:042][239]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/FirstPersonBP/Maps/AIDemo.umap
+[2018.01.05-05.15.45:112][239]LogSavePackage: Save=29.99ms
+[2018.01.05-05.15.45:112][239]LogSavePackage: Moving '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Saved/AIDemo_BuiltDataD7E7DED249DCAFB160B141B21BC01D06.tmp' to '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/FirstPersonBP/Maps/AIDemo_BuiltData.uasset'
+[2018.01.05-05.15.45:113][239]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/FirstPersonBP/Maps/AIDemo_BuiltData.uasset
+[2018.01.05-05.15.45:589][268]LogTemp: Repeating last play command: Selected Viewport
+[2018.01.05-05.15.45:616][268]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.05-05.15.45:616][268]PIE: New page: PIE session: AIDemo (Jan 4, 2018, 1:15:45 PM)
+[2018.01.05-05.15.45:617][268]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_AIDemo
+[2018.01.05-05.15.45:620][268]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003719s)
+[2018.01.05-05.15.45:621][268]LogAIModule: Creating AISystem for world AIDemo
+[2018.01.05-05.15.45:621][268]LogPlayLevel: PIE: World Init took: (0.000622s)
+[2018.01.05-05.15.45:621][268]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/AIDemo.AIDemo to /Game/FirstPersonBP/Maps/UEDPIE_0_AIDemo.AIDemo (0.004553s)
+[2018.01.05-05.15.45:644][268]LogInit: XAudio2 using 'Speakers (2- Logitech G35 Gaming Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.01.05-05.15.45:656][268]LogInit: FAudioDevice initialized.
+[2018.01.05-05.15.45:690][268]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.01.05-05.15.45:690][268]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_AIDemo.AIDemo up for play (max tick rate 0) at 2018.01.04-21.15.45
+[2018.01.05-05.15.45:691][268]LogWorld: Bringing up level for play took: 0.000585
+[2018.01.05-05.15.45:692][268]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/FirstPersonBP/Maps/UEDPIE_0_AIDemo.AIDemo:PersistentLevel.FirstPersonCharacter_C_0.Mesh2P'
+[2018.01.05-05.15.45:692][268]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_AIDemo 0.738
+[2018.01.05-05.16.00:852][849]LogSavePackage: Save=23.57ms
+[2018.01.05-05.16.00:852][849]LogSavePackage: Moving '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Saved/BP_EnemyCharacter1FDE24684333BDD94FCBAAACAECE7C00.tmp' to '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/EnemyCharacter/Blueprints/BP_EnemyCharacter.uasset'
+[2018.01.05-05.16.00:855][849]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/EnemyCharacter/Blueprints/BP_EnemyCharacter.uasset
+[2018.01.05-05.16.02:267][989]BlueprintLog: New page: Compile BP_EnemyCharacter
+[2018.01.05-05.16.02:959][ 25]BlueprintLog: New page: Compile BP_EnemyCharacter
+[2018.01.05-05.16.03:606][ 51]LogSavePackage: Save=23.55ms
+[2018.01.05-05.16.03:606][ 51]LogSavePackage: Moving '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Saved/BP_EnemyCharacterF0AAC49D41F78378815E9889CC7C3757.tmp' to '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/EnemyCharacter/Blueprints/BP_EnemyCharacter.uasset'
+[2018.01.05-05.16.03:607][ 51]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/EnemyCharacter/Blueprints/BP_EnemyCharacter.uasset
+[2018.01.05-05.16.12:438][970]LogTemp: Repeating last play command: Selected Viewport
+[2018.01.05-05.16.12:466][970]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.05-05.16.12:466][970]PIE: New page: PIE session: AIDemo (Jan 4, 2018, 1:16:12 PM)
+[2018.01.05-05.16.12:466][970]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_AIDemo
+[2018.01.05-05.16.12:470][970]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003821s)
+[2018.01.05-05.16.12:471][970]LogAIModule: Creating AISystem for world AIDemo
+[2018.01.05-05.16.12:471][970]LogPlayLevel: PIE: World Init took: (0.000679s)
+[2018.01.05-05.16.12:471][970]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/AIDemo.AIDemo to /Game/FirstPersonBP/Maps/UEDPIE_0_AIDemo.AIDemo (0.004746s)
+[2018.01.05-05.16.12:495][970]LogInit: XAudio2 using 'Speakers (2- Logitech G35 Gaming Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.01.05-05.16.12:506][970]LogInit: FAudioDevice initialized.
+[2018.01.05-05.16.12:539][970]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.01.05-05.16.12:540][970]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_AIDemo.AIDemo up for play (max tick rate 0) at 2018.01.04-21.16.12
+[2018.01.05-05.16.12:540][970]LogWorld: Bringing up level for play took: 0.001235
+[2018.01.05-05.16.12:541][970]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/FirstPersonBP/Maps/UEDPIE_0_AIDemo.AIDemo:PersistentLevel.FirstPersonCharacter_C_0.Mesh2P'
+[2018.01.05-05.16.12:542][970]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_AIDemo -0.412
+[2018.01.05-05.16.15:326][301]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=269.174 Y=-97.193 Z=127.657] for [FirstPersonProjectile_C]
+[2018.01.05-05.16.23:416][264]LogEditorViewport: Clicking on Actor (LMB): BP_EnemyCharacter_C (BP_EnemyCharacter)
+[2018.01.05-05.24.23:532][199]LogSavePackage: Save=34.56ms
+[2018.01.05-05.24.23:532][199]LogSavePackage: Moving '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Saved/AIDemo7197C91049EDEDD8490B22A2EDBE27FD.tmp' to '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/FirstPersonBP/Maps/AIDemo.umap'
+[2018.01.05-05.24.23:535][199]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/FirstPersonBP/Maps/AIDemo.umap
+[2018.01.05-05.24.23:611][199]LogSavePackage: Save=29.79ms
+[2018.01.05-05.24.23:611][199]LogSavePackage: Moving '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Saved/AIDemo_BuiltData253B62C8407FCAC30F176E9956150A95.tmp' to '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/FirstPersonBP/Maps/AIDemo_BuiltData.uasset'
+[2018.01.05-05.24.23:612][199]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/FirstPersonBP/Maps/AIDemo_BuiltData.uasset
+[2018.01.05-05.24.25:797][396]LogSavePackage: Save=17.26ms
+[2018.01.05-05.24.25:797][396]LogSavePackage: Moving '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Saved/BP_EnemyCharacter6ECA4D594B9A38ADEA37C795AEA58A92.tmp' to '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/EnemyCharacter/Blueprints/BP_EnemyCharacter.uasset'
+[2018.01.05-05.24.25:798][396]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/EnemyCharacter/Blueprints/BP_EnemyCharacter.uasset
+[2018.01.05-05.24.28:399][687]LogTemp: Repeating last play command: Selected Viewport
+[2018.01.05-05.24.28:425][687]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.05-05.24.28:425][687]PIE: New page: PIE session: AIDemo (Jan 4, 2018, 1:24:28 PM)
+[2018.01.05-05.24.28:425][687]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_AIDemo
+[2018.01.05-05.24.28:429][687]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004085s)
+[2018.01.05-05.24.28:430][687]LogAIModule: Creating AISystem for world AIDemo
+[2018.01.05-05.24.28:430][687]LogPlayLevel: PIE: World Init took: (0.000900s)
+[2018.01.05-05.24.28:430][687]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/AIDemo.AIDemo to /Game/FirstPersonBP/Maps/UEDPIE_0_AIDemo.AIDemo (0.005262s)
+[2018.01.05-05.24.28:455][687]LogInit: XAudio2 using 'Speakers (2- Logitech G35 Gaming Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.01.05-05.24.28:467][687]LogInit: FAudioDevice initialized.
+[2018.01.05-05.24.28:501][687]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.01.05-05.24.28:502][687]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_AIDemo.AIDemo up for play (max tick rate 0) at 2018.01.04-21.24.28
+[2018.01.05-05.24.28:503][687]LogWorld: Bringing up level for play took: 0.001548
+[2018.01.05-05.24.28:504][687]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/FirstPersonBP/Maps/UEDPIE_0_AIDemo.AIDemo:PersistentLevel.FirstPersonCharacter_C_0.Mesh2P'
+[2018.01.05-05.24.28:505][687]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_AIDemo -0.45
+[2018.01.05-05.26.06:986][753]LogSavePackage: Save=18.78ms
+[2018.01.05-05.26.06:986][753]LogSavePackage: Moving '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Saved/FindRandomLocation92C87BD5410C1991AA4F5C8BD767C8AA.tmp' to '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/EnemyCharacter/Blueprints/EnemyAI/FindRandomLocation.uasset'
+[2018.01.05-05.26.06:990][753]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/EnemyCharacter/Blueprints/EnemyAI/FindRandomLocation.uasset
+[2018.01.05-05.26.08:314][911]BlueprintLog: New page: Compile FindRandomLocation
+[2018.01.05-05.26.09:370][ 18]LogSavePackage: Save=19.19ms
+[2018.01.05-05.26.09:370][ 18]LogSavePackage: Moving '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Saved/FindRandomLocationAF3940294CF27AB5F160D785CC1238AF.tmp' to '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/EnemyCharacter/Blueprints/EnemyAI/FindRandomLocation.uasset'
+[2018.01.05-05.26.09:371][ 18]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/EnemyCharacter/Blueprints/EnemyAI/FindRandomLocation.uasset
+[2018.01.05-05.26.10:883][198]LogTemp: Repeating last play command: Selected Viewport
+[2018.01.05-05.26.10:909][198]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.05-05.26.10:909][198]PIE: New page: PIE session: AIDemo (Jan 4, 2018, 1:26:10 PM)
+[2018.01.05-05.26.10:909][198]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_AIDemo
+[2018.01.05-05.26.10:913][198]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004210s)
+[2018.01.05-05.26.10:914][198]LogAIModule: Creating AISystem for world AIDemo
+[2018.01.05-05.26.10:914][198]LogPlayLevel: PIE: World Init took: (0.000688s)
+[2018.01.05-05.26.10:914][198]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/AIDemo.AIDemo to /Game/FirstPersonBP/Maps/UEDPIE_0_AIDemo.AIDemo (0.005129s)
+[2018.01.05-05.26.10:938][198]LogInit: XAudio2 using 'Speakers (2- Logitech G35 Gaming Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.01.05-05.26.10:950][198]LogInit: FAudioDevice initialized.
+[2018.01.05-05.26.10:978][198]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.01.05-05.26.10:980][198]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_AIDemo.AIDemo up for play (max tick rate 0) at 2018.01.04-21.26.10
+[2018.01.05-05.26.10:980][198]LogWorld: Bringing up level for play took: 0.001494
+[2018.01.05-05.26.10:981][198]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/FirstPersonBP/Maps/UEDPIE_0_AIDemo.AIDemo:PersistentLevel.FirstPersonCharacter_C_0.Mesh2P'
+[2018.01.05-05.26.10:982][198]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_AIDemo 0.028
+[2018.01.05-05.26.11:002][198]LogBlueprintUserMessages: [FindRandomLocation_C_0] Found location 220,-120,118
+[2018.01.05-05.26.11:370][234]LogBlueprintUserMessages: [FindRandomLocation_C_0] Found location 220,-120,118
+[2018.01.05-05.26.11:695][273]LogBlueprintUserMessages: [FindRandomLocation_C_0] Found location 220,-120,118
+[2018.01.05-05.26.12:019][312]LogBlueprintUserMessages: [FindRandomLocation_C_0] Found location 220,-120,118
+[2018.01.05-05.26.12:345][351]LogBlueprintUserMessages: [FindRandomLocation_C_0] Found location 220,-120,118
+[2018.01.05-05.26.12:670][390]LogBlueprintUserMessages: [FindRandomLocation_C_0] Found location 220,-120,118
+[2018.01.05-05.26.12:995][429]LogBlueprintUserMessages: [FindRandomLocation_C_0] Found location 220,-120,118
+[2018.01.05-05.26.13:320][468]LogBlueprintUserMessages: [FindRandomLocation_C_0] Found location 220,-120,118
+[2018.01.05-05.26.13:645][507]LogBlueprintUserMessages: [FindRandomLocation_C_0] Found location 220,-120,118
+[2018.01.05-05.26.13:970][546]LogBlueprintUserMessages: [FindRandomLocation_C_0] Found location 220,-120,118
+[2018.01.05-05.26.14:295][585]LogBlueprintUserMessages: [FindRandomLocation_C_0] Found location 220,-120,118
+[2018.01.05-05.26.14:620][624]LogBlueprintUserMessages: [FindRandomLocation_C_0] Found location 220,-120,118
+[2018.01.05-05.26.14:945][663]LogBlueprintUserMessages: [FindRandomLocation_C_0] Found location 220,-120,118
+[2018.01.05-05.26.15:270][702]LogBlueprintUserMessages: [FindRandomLocation_C_0] Found location 220,-120,118
+[2018.01.05-05.26.15:595][741]LogBlueprintUserMessages: [FindRandomLocation_C_0] Found location 220,-120,118
+[2018.01.05-05.26.15:920][780]LogBlueprintUserMessages: [FindRandomLocation_C_0] Found location 220,-120,118
+[2018.01.05-05.26.31:702][637]LogTemp: Repeating last play command: Selected Viewport
+[2018.01.05-05.26.31:728][637]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.05-05.26.31:728][637]PIE: New page: PIE session: AIDemo (Jan 4, 2018, 1:26:31 PM)
+[2018.01.05-05.26.31:728][637]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_AIDemo
+[2018.01.05-05.26.31:732][637]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004054s)
+[2018.01.05-05.26.31:733][637]LogAIModule: Creating AISystem for world AIDemo
+[2018.01.05-05.26.31:733][637]LogPlayLevel: PIE: World Init took: (0.000626s)
+[2018.01.05-05.26.31:733][637]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/AIDemo.AIDemo to /Game/FirstPersonBP/Maps/UEDPIE_0_AIDemo.AIDemo (0.004934s)
+[2018.01.05-05.26.31:756][637]LogInit: XAudio2 using 'Speakers (2- Logitech G35 Gaming Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.01.05-05.26.31:767][637]LogInit: FAudioDevice initialized.
+[2018.01.05-05.26.31:801][637]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.01.05-05.26.31:802][637]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_AIDemo.AIDemo up for play (max tick rate 0) at 2018.01.04-21.26.31
+[2018.01.05-05.26.31:802][637]LogWorld: Bringing up level for play took: 0.001285
+[2018.01.05-05.26.31:803][637]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/FirstPersonBP/Maps/UEDPIE_0_AIDemo.AIDemo:PersistentLevel.FirstPersonCharacter_C_0.Mesh2P'
+[2018.01.05-05.26.31:804][637]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_AIDemo 0.85
+[2018.01.05-05.26.31:806][637]LogBlueprintUserMessages: [FindRandomLocation_C_0] Found location 220,-120,118
+[2018.01.05-05.26.32:152][676]LogBlueprintUserMessages: [FindRandomLocation_C_0] Found location 220,-120,118
+[2018.01.05-05.26.32:477][715]LogBlueprintUserMessages: [FindRandomLocation_C_0] Found location 220,-120,118
+[2018.01.05-05.26.32:802][754]LogBlueprintUserMessages: [FindRandomLocation_C_0] Found location 220,-120,118
+[2018.01.05-05.26.33:127][793]LogBlueprintUserMessages: [FindRandomLocation_C_0] Found location 220,-120,118
+[2018.01.05-05.26.33:452][832]LogBlueprintUserMessages: [FindRandomLocation_C_0] Found location 220,-120,118
+[2018.01.05-05.26.33:777][871]LogBlueprintUserMessages: [FindRandomLocation_C_0] Found location 220,-120,118
+[2018.01.05-05.26.34:102][910]LogBlueprintUserMessages: [FindRandomLocation_C_0] Found location 220,-120,118
+[2018.01.05-05.26.38:287][353]LogTemp: Repeating last play command: Selected Viewport
+[2018.01.05-05.26.38:313][353]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.05-05.26.38:313][353]PIE: New page: PIE session: AIDemo (Jan 4, 2018, 1:26:38 PM)
+[2018.01.05-05.26.38:313][353]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_AIDemo
+[2018.01.05-05.26.38:317][353]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003857s)
+[2018.01.05-05.26.38:317][353]LogAIModule: Creating AISystem for world AIDemo
+[2018.01.05-05.26.38:317][353]LogPlayLevel: PIE: World Init took: (0.000564s)
+[2018.01.05-05.26.38:317][353]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/AIDemo.AIDemo to /Game/FirstPersonBP/Maps/UEDPIE_0_AIDemo.AIDemo (0.004632s)
+[2018.01.05-05.26.38:342][353]LogInit: XAudio2 using 'Speakers (2- Logitech G35 Gaming Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.01.05-05.26.38:353][353]LogInit: FAudioDevice initialized.
+[2018.01.05-05.26.38:384][353]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.01.05-05.26.38:386][353]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_AIDemo.AIDemo up for play (max tick rate 0) at 2018.01.04-21.26.38
+[2018.01.05-05.26.38:386][353]LogWorld: Bringing up level for play took: 0.001306
+[2018.01.05-05.26.38:387][353]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/FirstPersonBP/Maps/UEDPIE_0_AIDemo.AIDemo:PersistentLevel.FirstPersonCharacter_C_0.Mesh2P'
+[2018.01.05-05.26.38:388][353]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_AIDemo -0.566
+[2018.01.05-05.26.38:397][353]LogBlueprintUserMessages: [FindRandomLocation_C_0] Found location 220,-120,118
+[2018.01.05-05.26.38:757][392]LogBlueprintUserMessages: [FindRandomLocation_C_0] Found location 220,-120,118
+[2018.01.05-05.26.39:081][431]LogBlueprintUserMessages: [FindRandomLocation_C_0] Found location 220,-120,118
+[2018.01.05-05.26.39:406][470]LogBlueprintUserMessages: [FindRandomLocation_C_0] Found location 220,-120,118
+[2018.01.05-05.26.39:731][509]LogBlueprintUserMessages: [FindRandomLocation_C_0] Found location 220,-120,118
+[2018.01.05-05.26.40:056][548]LogBlueprintUserMessages: [FindRandomLocation_C_0] Found location 220,-120,118
+[2018.01.05-05.26.40:382][587]LogBlueprintUserMessages: [FindRandomLocation_C_0] Found location 220,-120,118
+[2018.01.05-05.26.40:707][626]LogBlueprintUserMessages: [FindRandomLocation_C_0] Found location 220,-120,118
+[2018.01.05-05.26.41:032][665]LogBlueprintUserMessages: [FindRandomLocation_C_0] Found location 220,-120,118
+[2018.01.05-05.26.41:357][704]LogBlueprintUserMessages: [FindRandomLocation_C_0] Found location 220,-120,118
+[2018.01.05-05.26.41:682][743]LogBlueprintUserMessages: [FindRandomLocation_C_0] Found location 220,-120,118
+[2018.01.05-05.26.42:913][773]LogBlueprintUserMessages: [FindRandomLocation_C_0] Found location 220,-120,118
+[2018.01.05-05.26.44:245][777]LogBlueprintUserMessages: [FindRandomLocation_C_0] Found location 220,-120,118
+[2018.01.05-05.26.45:580][781]LogBlueprintUserMessages: [FindRandomLocation_C_0] Found location 220,-120,118
+[2018.01.05-05.26.46:912][785]LogBlueprintUserMessages: [FindRandomLocation_C_0] Found location 220,-120,118
+[2018.01.05-05.26.48:246][789]LogBlueprintUserMessages: [FindRandomLocation_C_0] Found location 220,-120,118
+[2018.01.05-05.26.49:579][793]LogBlueprintUserMessages: [FindRandomLocation_C_0] Found location 220,-120,118
+[2018.01.05-05.26.50:912][797]LogBlueprintUserMessages: [FindRandomLocation_C_0] Found location 220,-120,118
+[2018.01.05-05.26.52:245][801]LogBlueprintUserMessages: [FindRandomLocation_C_0] Found location 220,-120,118
+[2018.01.05-05.26.53:579][805]LogBlueprintUserMessages: [FindRandomLocation_C_0] Found location 220,-120,118
+[2018.01.05-05.26.54:912][809]LogBlueprintUserMessages: [FindRandomLocation_C_0] Found location 220,-120,118
+[2018.01.05-05.26.56:245][813]LogBlueprintUserMessages: [FindRandomLocation_C_0] Found location 220,-120,118
+[2018.01.05-05.26.57:576][817]LogBlueprintUserMessages: [FindRandomLocation_C_0] Found location 220,-120,118
+[2018.01.05-05.26.57:903][856]LogBlueprintUserMessages: [FindRandomLocation_C_0] Found location 220,-120,118
+[2018.01.05-05.26.58:232][893]LogBlueprintUserMessages: [FindRandomLocation_C_0] Found location 220,-120,118
+[2018.01.05-05.29.49:706][417]Cmd: DELETE
+[2018.01.05-05.29.49:706][417]Cmd: ACTOR DELETE
+[2018.01.05-05.29.49:707][417]LogEditorActor: Deleted Actor: PointLight
+[2018.01.05-05.29.49:728][417]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2018.01.05-05.29.50:857][542]MapCheck: New page: Map Check
+[2018.01.05-05.29.50:881][542]Cmd: MAP REBUILD ALLVISIBLE
+[2018.01.05-05.29.50:881][542]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.01.05-05.29.51:064][542]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2018.01.05-05.29.51:070][542]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_2, compiling. 
+[2018.01.05-05.29.51:075][542]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MI_GHV_Jacket, compiling. 
+[2018.01.05-05.29.51:081][542]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MI_GHV_Vest, compiling. 
+[2018.01.05-05.29.51:089][542]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Glass, compiling. 
+[2018.01.05-05.29.51:093][542]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Face, compiling. 
+[2018.01.05-05.29.51:873][542]TextureStreamingBuild: Display: Compiling optional shaders took 0.814 seconds.
+[2018.01.05-05.29.51:879][542]LogLevel: Display: Export Material TexCoord Scales took 0.006 seconds.
+[2018.01.05-05.29.51:884][542]TextureStreamingBuild: Display: Build Texture Streaming took 0.004 seconds.
+[2018.01.05-05.29.51:901][542]LightingResults: New page: Lighting Build - Jan 4, 2018, 1:29:51 PM
+[2018.01.05-05.29.51:927][542]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.01.05-05.29.51:956][542]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.01.05-05.29.51:964][542]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.01.05-05.29.52:472][542]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.01.05-05.29.52:472][542]LogSwarmInterface: [TryOpenConnection] Local Process ID is 3180
+[2018.01.05-05.29.55:009][542]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2018.01.05-05.29.55:009][542]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.01.05-05.29.55:009][542]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.01.05-05.29.55:009][542]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.01.05-05.29.55:009][542]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.01.05-05.29.55:009][542]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.01.05-05.29.55:148][542]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2018.01.05-05.29.55:148][542]MapCheck: New page: AIDemo - Jan 4, 2018, 1:29:55 PM
+[2018.01.05-05.29.55:223][542]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 74.114ms to complete.
+[2018.01.05-05.29.55:245][542]LogEditorBuildUtils: Build time 0:04
+[2018.01.05-05.29.56:878][589]Job is a success!
+[2018.01.05-05.29.56:984][590]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.007s
+[2018.01.05-05.29.56:984][590]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2018.01.05-05.29.56:984][590]LogVolumetricLightmapImport:      BrickData 115x5x5 = 0.1Mb
+[2018.01.05-05.29.56:984][590]LogVolumetricLightmapImport:      Bricks at Level
+[2018.01.05-05.29.56:985][590]LogVolumetricLightmapImport:          0: 4.3% covering 100.0% of volume
+[2018.01.05-05.29.56:985][590]LogVolumetricLightmapImport:          1: 8.7% covering 3.1% of volume
+[2018.01.05-05.29.56:985][590]LogVolumetricLightmapImport:          2: 87.0% covering 0.5% of volume
+[2018.01.05-05.29.57:192][590]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2018.01.05-05.29.57:192][590]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2018.01.05-05.29.57:192][590]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2018.01.05-05.29.57:192][590]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2018.01.05-05.29.57:192][590]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 32X32)
+[2018.01.05-05.29.57:192][590]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 128X512)
+[2018.01.05-05.29.57:265][590]Lightmass on DESKTOP-PQPAGDU: 1.10 sec total, 177 ms importing, 16 ms setup, 159 ms photons, 731 ms processing, 0 ms extra exporting [7/7 mappings]. Threads: 2.89 sec total, 543 ms processing.
+[2018.01.05-05.29.57:349][590]LogStaticLightingSystem: Illumination: 5.40 sec (136 ms encoding lightmaps, 27 ms encoding shadowmaps)
+[2018.01.05-05.29.57:349][590]LogStaticLightingSystem: Lightmap texture memory:  2.0 MB (0.0 MB streaming, 2.0 MB non-streaming), 4 textures
+[2018.01.05-05.29.57:349][590]LogStaticLightingSystem: Shadowmap texture memory: 0.1 MB (0.0 MB streaming, 0.1 MB non-streaming), 2 textures
+[2018.01.05-05.30.02:015][590]DumpUnbuiltLightIteractions
+[2018.01.05-05.30.02:015][590]Lights with unbuilt interactions: 0
+[2018.01.05-05.30.02:015][590]
+[2018.01.05-05.30.02:015][590]Primitives with unbuilt interactions: 0
+[2018.01.05-05.30.02:021][591]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.01.05-05.30.02:021][591]MapCheck: New page: AIDemo - Jan 4, 2018, 1:30:02 PM
+[2018.01.05-05.30.02:093][591]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 71.76ms to complete.
+[2018.01.05-05.30.05:026][881]LogTemp: Repeating last play command: Selected Viewport
+[2018.01.05-05.30.05:052][881]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.05-05.30.05:052][881]PIE: New page: PIE session: AIDemo (Jan 4, 2018, 1:30:05 PM)
+[2018.01.05-05.30.05:052][881]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_AIDemo
+[2018.01.05-05.30.05:055][881]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002800s)
+[2018.01.05-05.30.05:055][881]LogAIModule: Creating AISystem for world AIDemo
+[2018.01.05-05.30.05:056][881]LogPlayLevel: PIE: World Init took: (0.000590s)
+[2018.01.05-05.30.05:056][881]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/AIDemo.AIDemo to /Game/FirstPersonBP/Maps/UEDPIE_0_AIDemo.AIDemo (0.003622s)
+[2018.01.05-05.30.05:082][881]LogInit: XAudio2 using 'Speakers (2- Logitech G35 Gaming Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.01.05-05.30.05:094][881]LogInit: FAudioDevice initialized.
+[2018.01.05-05.30.05:128][881]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.01.05-05.30.05:129][881]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_AIDemo.AIDemo up for play (max tick rate 0) at 2018.01.04-21.30.05
+[2018.01.05-05.30.05:130][881]LogWorld: Bringing up level for play took: 0.001252
+[2018.01.05-05.30.05:131][881]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/FirstPersonBP/Maps/UEDPIE_0_AIDemo.AIDemo:PersistentLevel.FirstPersonCharacter_C_0.Mesh2P'
+[2018.01.05-05.30.05:132][881]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_AIDemo 0.178
+[2018.01.05-05.30.05:134][881]LogBlueprintUserMessages: [FindRandomLocation_C_0] Found location 220,-120,118
+[2018.01.05-05.30.05:564][920]LogBlueprintUserMessages: [FindRandomLocation_C_0] Found location 220,-120,118
+[2018.01.05-05.30.05:889][959]LogBlueprintUserMessages: [FindRandomLocation_C_0] Found location 220,-120,118
+[2018.01.05-05.30.06:214][998]LogBlueprintUserMessages: [FindRandomLocation_C_0] Found location 220,-120,118
+[2018.01.05-05.30.06:539][ 37]LogBlueprintUserMessages: [FindRandomLocation_C_0] Found location 220,-120,118
+[2018.01.05-05.30.06:864][ 76]LogBlueprintUserMessages: [FindRandomLocation_C_0] Found location 220,-120,118
+[2018.01.05-05.30.07:189][115]LogBlueprintUserMessages: [FindRandomLocation_C_0] Found location 220,-120,118
+[2018.01.05-05.30.07:514][154]LogBlueprintUserMessages: [FindRandomLocation_C_0] Found location 220,-120,118
+[2018.01.05-05.30.07:839][193]LogBlueprintUserMessages: [FindRandomLocation_C_0] Found location 220,-120,118
+[2018.01.05-05.30.08:164][232]LogBlueprintUserMessages: [FindRandomLocation_C_0] Found location 220,-120,118
+[2018.01.05-05.31.00:509][309]BlueprintLog: New page: Compile FindRandomLocation
+[2018.01.05-05.31.01:697][318]LogSavePackage: Save=20.51ms
+[2018.01.05-05.31.01:697][318]LogSavePackage: Moving '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Saved/FindRandomLocationC254350542F5168405980BB03880C797.tmp' to '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/EnemyCharacter/Blueprints/EnemyAI/FindRandomLocation.uasset'
+[2018.01.05-05.31.01:699][318]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/EnemyCharacter/Blueprints/EnemyAI/FindRandomLocation.uasset
+[2018.01.05-05.31.03:441][369]LogSavePackage: Save=121.76ms
+[2018.01.05-05.31.03:441][369]LogSavePackage: Moving '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Saved/AIDemoAA0A82AD42791CE0C90AD2993AEEBF0E.tmp' to '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/FirstPersonBP/Maps/AIDemo.umap'
+[2018.01.05-05.31.03:444][369]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/FirstPersonBP/Maps/AIDemo.umap
+[2018.01.05-05.31.03:517][369]LogSavePackage: Save=29.94ms
+[2018.01.05-05.31.03:517][369]LogSavePackage: Moving '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Saved/AIDemo_BuiltDataA0AD1A10408218752EAAD7865B126A61.tmp' to '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/FirstPersonBP/Maps/AIDemo_BuiltData.uasset'
+[2018.01.05-05.31.03:519][369]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/FirstPersonBP/Maps/AIDemo_BuiltData.uasset
+[2018.01.05-05.31.04:019][375]LogTemp: Repeating last play command: Selected Viewport
+[2018.01.05-05.31.04:044][375]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.05-05.31.04:044][375]PIE: New page: PIE session: AIDemo (Jan 4, 2018, 1:31:04 PM)
+[2018.01.05-05.31.04:045][375]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_AIDemo
+[2018.01.05-05.31.04:060][375]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015455s)
+[2018.01.05-05.31.04:060][375]LogAIModule: Creating AISystem for world AIDemo
+[2018.01.05-05.31.04:061][375]LogPlayLevel: PIE: World Init took: (0.000600s)
+[2018.01.05-05.31.04:061][375]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/AIDemo.AIDemo to /Game/FirstPersonBP/Maps/UEDPIE_0_AIDemo.AIDemo (0.016279s)
+[2018.01.05-05.31.04:084][375]LogInit: XAudio2 using 'Speakers (2- Logitech G35 Gaming Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.01.05-05.31.04:095][375]LogInit: FAudioDevice initialized.
+[2018.01.05-05.31.04:177][375]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.01.05-05.31.04:178][375]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_AIDemo.AIDemo up for play (max tick rate 0) at 2018.01.04-21.31.04
+[2018.01.05-05.31.04:179][375]LogWorld: Bringing up level for play took: 0.001333
+[2018.01.05-05.31.04:180][375]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/FirstPersonBP/Maps/UEDPIE_0_AIDemo.AIDemo:PersistentLevel.FirstPersonCharacter_C_0.Mesh2P'
+[2018.01.05-05.31.04:181][375]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_AIDemo -0.774
+[2018.01.05-05.31.04:183][375]LogBlueprintUserMessages: [FindRandomLocation_C_0] Found location 220,-120,118
+[2018.01.05-05.31.04:518][403]LogBlueprintUserMessages: [FindRandomLocation_C_0] Found location 220,-120,118
+[2018.01.05-05.31.04:843][442]LogBlueprintUserMessages: [FindRandomLocation_C_0] Found location 220,-120,118
+[2018.01.05-05.31.05:168][481]LogBlueprintUserMessages: [FindRandomLocation_C_0] Found location 220,-120,118
+[2018.01.05-05.31.05:493][520]LogBlueprintUserMessages: [FindRandomLocation_C_0] Found location 220,-120,118
+[2018.01.05-05.31.05:818][559]LogBlueprintUserMessages: [FindRandomLocation_C_0] Found location 220,-120,118
+[2018.01.05-05.31.06:143][598]LogBlueprintUserMessages: [FindRandomLocation_C_0] Found location 220,-120,118
+[2018.01.05-05.31.06:468][637]LogBlueprintUserMessages: [FindRandomLocation_C_0] Found location 220,-120,118
+[2018.01.05-05.31.06:793][676]LogBlueprintUserMessages: [FindRandomLocation_C_0] Found location 220,-120,118
+[2018.01.05-05.31.07:118][715]LogBlueprintUserMessages: [FindRandomLocation_C_0] Found location 220,-120,118
+[2018.01.05-05.31.07:443][754]LogBlueprintUserMessages: [FindRandomLocation_C_0] Found location 220,-120,118
+[2018.01.05-05.31.07:768][793]LogBlueprintUserMessages: [FindRandomLocation_C_0] Found location 220,-120,118
+[2018.01.05-05.31.08:093][832]LogBlueprintUserMessages: [FindRandomLocation_C_0] Found location 220,-120,118
+[2018.01.05-05.34.48:417][320]BlueprintLog: New page: Compile FindRandomLocation
+[2018.01.05-05.34.49:707][392]LogSavePackage: Save=14.90ms
+[2018.01.05-05.34.49:707][392]LogSavePackage: Moving '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Saved/FindRandomLocation339947804F619128DB6C37B6BFBA3C6D.tmp' to '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/EnemyCharacter/Blueprints/EnemyAI/FindRandomLocation.uasset'
+[2018.01.05-05.34.49:710][392]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/EnemyCharacter/Blueprints/EnemyAI/FindRandomLocation.uasset
+[2018.01.05-05.34.51:079][481]LogTemp: Repeating last play command: Selected Viewport
+[2018.01.05-05.34.51:105][481]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.05-05.34.51:105][481]PIE: New page: PIE session: AIDemo (Jan 4, 2018, 1:34:51 PM)
+[2018.01.05-05.34.51:105][481]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_AIDemo
+[2018.01.05-05.34.51:109][481]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004035s)
+[2018.01.05-05.34.51:110][481]LogAIModule: Creating AISystem for world AIDemo
+[2018.01.05-05.34.51:110][481]LogPlayLevel: PIE: World Init took: (0.000640s)
+[2018.01.05-05.34.51:110][481]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/AIDemo.AIDemo to /Game/FirstPersonBP/Maps/UEDPIE_0_AIDemo.AIDemo (0.004903s)
+[2018.01.05-05.34.51:134][481]LogInit: XAudio2 using 'Speakers (2- Logitech G35 Gaming Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.01.05-05.34.51:145][481]LogInit: FAudioDevice initialized.
+[2018.01.05-05.34.51:173][481]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.01.05-05.34.51:175][481]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_AIDemo.AIDemo up for play (max tick rate 0) at 2018.01.04-21.34.51
+[2018.01.05-05.34.51:175][481]LogWorld: Bringing up level for play took: 0.001368
+[2018.01.05-05.34.51:176][481]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/FirstPersonBP/Maps/UEDPIE_0_AIDemo.AIDemo:PersistentLevel.FirstPersonCharacter_C_0.Mesh2P'
+[2018.01.05-05.34.51:177][481]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_AIDemo 0.223
+[2018.01.05-05.34.52:040][576]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=184.784 Y=-95.870 Z=143.091] for [FirstPersonProjectile_C]
+[2018.01.05-05.34.52:131][587]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=183.197 Y=-94.958 Z=140.663] for [FirstPersonProjectile_C]
+[2018.01.05-05.34.52:231][599]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=179.250 Y=-102.497 Z=145.172] for [FirstPersonProjectile_C]
+[2018.01.05-05.34.52:331][611]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=180.379 Y=-100.241 Z=142.334] for [FirstPersonProjectile_C]
+[2018.01.05-05.34.52:431][623]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=180.031 Y=-101.698 Z=149.381] for [FirstPersonProjectile_C]
+[2018.01.05-05.34.52:640][648]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=181.925 Y=-101.330 Z=143.649] for [FirstPersonProjectile_C]
+[2018.01.05-05.34.52:731][659]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=176.734 Y=-104.826 Z=138.067] for [FirstPersonProjectile_C]
+[2018.01.05-05.34.52:831][671]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=183.641 Y=-92.323 Z=135.143] for [FirstPersonProjectile_C]
+[2018.01.05-05.34.52:931][683]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=182.423 Y=-94.366 Z=134.356] for [FirstPersonProjectile_C]
+[2018.01.05-05.34.53:031][695]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=180.021 Y=-99.639 Z=137.488] for [FirstPersonProjectile_C]
+[2018.01.05-05.34.53:282][725]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=178.131 Y=-106.040 Z=138.006] for [FirstPersonProjectile_C]
+[2018.01.05-05.34.53:373][736]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=184.413 Y=-92.263 Z=139.427] for [FirstPersonProjectile_C]
+[2018.01.05-05.34.53:473][748]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=180.876 Y=-99.783 Z=144.584] for [FirstPersonProjectile_C]
+[2018.01.05-05.34.53:573][760]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=181.112 Y=-99.423 Z=144.776] for [FirstPersonProjectile_C]
+[2018.01.05-05.34.53:673][772]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=181.821 Y=-95.403 Z=134.211] for [FirstPersonProjectile_C]
+[2018.01.05-05.34.53:773][784]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=178.992 Y=-100.453 Z=134.944] for [FirstPersonProjectile_C]
+[2018.01.05-05.35.38:451][487]LogSavePackage: Save=24.44ms
+[2018.01.05-05.35.38:451][487]LogSavePackage: Moving '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Saved/BP_EnemyCharacterCDCC9F894A25C58E967CC2906D6A5B3A.tmp' to '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/EnemyCharacter/Blueprints/BP_EnemyCharacter.uasset'
+[2018.01.05-05.35.38:455][487]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/EnemyCharacter/Blueprints/BP_EnemyCharacter.uasset
+[2018.01.05-05.35.41:882][894]BlueprintLog: New page: Compile BP_EnemyCharacter
+[2018.01.05-05.35.45:551][252]LogTemp: Repeating last play command: Selected Viewport
+[2018.01.05-05.35.45:581][252]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.05-05.35.45:581][252]PIE: New page: PIE session: AIDemo (Jan 4, 2018, 1:35:45 PM)
+[2018.01.05-05.35.45:581][252]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_AIDemo
+[2018.01.05-05.35.45:585][252]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004042s)
+[2018.01.05-05.35.45:586][252]LogAIModule: Creating AISystem for world AIDemo
+[2018.01.05-05.35.45:586][252]LogPlayLevel: PIE: World Init took: (0.000664s)
+[2018.01.05-05.35.45:586][252]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/AIDemo.AIDemo to /Game/FirstPersonBP/Maps/UEDPIE_0_AIDemo.AIDemo (0.004937s)
+[2018.01.05-05.35.45:609][252]LogInit: XAudio2 using 'Speakers (2- Logitech G35 Gaming Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.01.05-05.35.45:621][252]LogInit: FAudioDevice initialized.
+[2018.01.05-05.35.45:648][252]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.01.05-05.35.45:649][252]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_AIDemo.AIDemo up for play (max tick rate 0) at 2018.01.04-21.35.45
+[2018.01.05-05.35.45:650][252]LogWorld: Bringing up level for play took: 0.001242
+[2018.01.05-05.35.45:651][252]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/FirstPersonBP/Maps/UEDPIE_0_AIDemo.AIDemo:PersistentLevel.FirstPersonCharacter_C_0.Mesh2P'
+[2018.01.05-05.35.45:657][252]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_AIDemo 0.702
+[2018.01.05-05.35.48:680][601]LogEditorViewport: Clicking on Actor (LMB): BP_EnemyCharacter_C (BP_EnemyCharacter)
+[2018.01.05-05.35.53:106][918]Cmd: TRANSACTION UNDO
+[2018.01.05-05.35.53:106][918]LogEditorTransaction: Undo Set Location
+[2018.01.05-05.35.58:954][252]LogSavePackage: Save=25.81ms
+[2018.01.05-05.35.58:954][252]LogSavePackage: Moving '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Saved/BP_EnemyCharacterE977082648A2871281F32DB651560EFA.tmp' to '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/EnemyCharacter/Blueprints/BP_EnemyCharacter.uasset'
+[2018.01.05-05.35.58:956][252]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/EnemyCharacter/Blueprints/BP_EnemyCharacter.uasset
+[2018.01.05-05.36.00:219][372]BlueprintLog: New page: Compile BP_EnemyCharacter
+[2018.01.05-05.36.01:152][394]LogSavePackage: Save=24.74ms
+[2018.01.05-05.36.01:152][394]LogSavePackage: Moving '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Saved/BP_EnemyCharacter8348228B4E27D54F8E0C1EA3DB2D9963.tmp' to '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/EnemyCharacter/Blueprints/BP_EnemyCharacter.uasset'
+[2018.01.05-05.36.01:153][394]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/EnemyCharacter/Blueprints/BP_EnemyCharacter.uasset
+[2018.01.05-05.36.02:381][483]LogSavePackage: Save=103.01ms
+[2018.01.05-05.36.02:381][483]LogSavePackage: Moving '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Saved/AIDemo15652E6240A56699FFF10EBF72B14468.tmp' to '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/FirstPersonBP/Maps/AIDemo.umap'
+[2018.01.05-05.36.02:383][483]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/FirstPersonBP/Maps/AIDemo.umap
+[2018.01.05-05.36.02:450][483]LogSavePackage: Save=29.63ms
+[2018.01.05-05.36.02:450][483]LogSavePackage: Moving '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Saved/AIDemo_BuiltDataC0FA3C9E4704C20A365201A5F03B3516.tmp' to '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/FirstPersonBP/Maps/AIDemo_BuiltData.uasset'
+[2018.01.05-05.36.02:451][483]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/FirstPersonBP/Maps/AIDemo_BuiltData.uasset
+[2018.01.05-05.36.03:110][520]LogTemp: Repeating last play command: Selected Viewport
+[2018.01.05-05.36.03:138][520]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.05-05.36.03:138][520]PIE: New page: PIE session: AIDemo (Jan 4, 2018, 1:36:03 PM)
+[2018.01.05-05.36.03:138][520]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_AIDemo
+[2018.01.05-05.36.03:142][520]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003810s)
+[2018.01.05-05.36.03:143][520]LogAIModule: Creating AISystem for world AIDemo
+[2018.01.05-05.36.03:143][520]LogPlayLevel: PIE: World Init took: (0.000566s)
+[2018.01.05-05.36.03:143][520]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/AIDemo.AIDemo to /Game/FirstPersonBP/Maps/UEDPIE_0_AIDemo.AIDemo (0.004676s)
+[2018.01.05-05.36.03:167][520]LogInit: XAudio2 using 'Speakers (2- Logitech G35 Gaming Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.01.05-05.36.03:178][520]LogInit: FAudioDevice initialized.
+[2018.01.05-05.36.03:208][520]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.01.05-05.36.03:209][520]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_AIDemo.AIDemo up for play (max tick rate 0) at 2018.01.04-21.36.03
+[2018.01.05-05.36.03:210][520]LogWorld: Bringing up level for play took: 0.001312
+[2018.01.05-05.36.03:211][520]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/FirstPersonBP/Maps/UEDPIE_0_AIDemo.AIDemo:PersistentLevel.FirstPersonCharacter_C_0.Mesh2P'
+[2018.01.05-05.36.03:212][520]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_AIDemo 0.257
+[2018.01.05-05.37.01:521][879]LogWindows: Error: === Critical error: ===
+[2018.01.05-05.37.01:521][879]LogWindows: Error: 
+[2018.01.05-05.37.01:521][879]LogWindows: Error: Fatal error!
+[2018.01.05-05.37.01:521][879]LogWindows: Error: 
+[2018.01.05-05.37.01:521][879]LogWindows: Error: Unhandled Exception: EXCEPTION_ACCESS_VIOLATION reading address 0xffffffff
+[2018.01.05-05.37.01:521][879]LogWindows: Error: 
+[2018.01.05-05.37.01:521][879]LogWindows: Error: [Callstack] 0x00000000A3A7B143 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.01.05-05.37.01:521][879]LogWindows: Error: [Callstack] 0x000000009C2F8D43 UE4Editor-Kismet.dll!UnknownFunction []
+[2018.01.05-05.37.01:521][879]LogWindows: Error: [Callstack] 0x000000009C2B7A3C UE4Editor-Kismet.dll!UnknownFunction []
+[2018.01.05-05.37.01:521][879]LogWindows: Error: [Callstack] 0x000000009C2BA51C UE4Editor-Kismet.dll!UnknownFunction []
+[2018.01.05-05.37.01:521][879]LogWindows: Error: [Callstack] 0x00000000A39288D7 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.01.05-05.37.01:521][879]LogWindows: Error: [Callstack] 0x00000000A39E6888 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.01.05-05.37.01:521][879]LogWindows: Error: [Callstack] 0x00000000A3A87923 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.01.05-05.37.01:521][879]LogWindows: Error: [Callstack] 0x00000000A3A9BC6F UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.01.05-05.37.01:521][879]LogWindows: Error: [Callstack] 0x00000000A39D1182 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.01.05-05.37.01:521][879]LogWindows: Error: [Callstack] 0x000000009D991AB0 UE4Editor-BlueprintGraph.dll!UnknownFunction []
+[2018.01.05-05.37.01:521][879]LogWindows: Error: [Callstack] 0x000000009D90D4ED UE4Editor-BlueprintGraph.dll!UnknownFunction []
+[2018.01.05-05.37.01:521][879]LogWindows: Error: [Callstack] 0x000000009D9720AB UE4Editor-BlueprintGraph.dll!UnknownFunction []
+[2018.01.05-05.37.01:521][879]LogWindows: Error: [Callstack] 0x000000009C0B809E UE4Editor-Kismet.dll!UnknownFunction []
+[2018.01.05-05.37.01:521][879]LogWindows: Error: [Callstack] 0x000000009C0B7B52 UE4Editor-Kismet.dll!UnknownFunction []
+[2018.01.05-05.37.01:521][879]LogWindows: Error: [Callstack] 0x000000009C2F5DBE UE4Editor-Kismet.dll!UnknownFunction []
+[2018.01.05-05.37.01:521][879]LogWindows: Error: [Callstack] 0x000000009C2B7C97 UE4Editor-Kismet.dll!UnknownFunction []
+[2018.01.05-05.37.01:521][879]LogWindows: Error: [Callstack] 0x000000009C9B955B UE4Editor-GraphEditor.dll!UnknownFunction []
+[2018.01.05-05.37.01:521][879]LogWindows: Error: [Callstack] 0x000000009CA45B87 UE4Editor-GraphEditor.dll!UnknownFunction []
+[2018.01.05-05.37.01:521][879]LogWindows: Error: [Callstack] 0x000000009C9F18DE UE4Editor-GraphEditor.dll!UnknownFunction []
+[2018.01.05-05.37.01:521][879]LogWindows: Error: [Callstack] 0x000000009C848352 UE4Editor-GraphEditor.dll!UnknownFunction []
+[2018.01.05-05.37.01:521][879]LogWindows: Error: [Callstack] 0x000000009C84A5A4 UE4Editor-GraphEditor.dll!UnknownFunction []
+[2018.01.05-05.37.01:521][879]LogWindows: Error: [Callstack] 0x000000009C97ABAA UE4Editor-GraphEditor.dll!UnknownFunction []
+[2018.01.05-05.37.01:521][879]LogWindows: Error: [Callstack] 0x00000000A0022B65 UE4Editor-Slate.dll!UnknownFunction []
+[2018.01.05-05.37.01:521][879]LogWindows: Error: [Callstack] 0x00000000A0049BF9 UE4Editor-Slate.dll!UnknownFunction []
+[2018.01.05-05.37.01:521][879]LogWindows: Error: [Callstack] 0x000000009FE663A1 UE4Editor-Slate.dll!UnknownFunction []
+[2018.01.05-05.37.01:521][879]LogWindows: Error: [Callstack] 0x000000009FE3700E UE4Editor-Slate.dll!UnknownFunction []
+[2018.01.05-05.37.01:521][879]LogWindows: Error: [Callstack] 0x000000009FE38C16 UE4Editor-Slate.dll!UnknownFunction []
+[2018.01.05-05.37.01:521][879]LogWindows: Error: [Callstack] 0x000000009FEB988C UE4Editor-Slate.dll!UnknownFunction []
+[2018.01.05-05.37.01:521][879]LogWindows: Error: [Callstack] 0x000000009FEABEE8 UE4Editor-Slate.dll!UnknownFunction []
+[2018.01.05-05.37.01:521][879]LogWindows: Error: [Callstack] 0x00000000C637E28A UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.01.05-05.37.01:521][879]LogWindows: Error: [Callstack] 0x00000000C6371A48 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.01.05-05.37.01:521][879]LogWindows: Error: [Callstack] 0x00000000C63803EC UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.01.05-05.37.01:521][879]LogWindows: Error: [Callstack] 0x00000000C636D5A9 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.01.05-05.37.01:521][879]LogWindows: Error: [Callstack] 0x00000000EDF2BC50 USER32.dll!UnknownFunction []
+[2018.01.05-05.37.01:521][879]LogWindows: Error: [Callstack] 0x00000000EDF2B5CF USER32.dll!UnknownFunction []
+[2018.01.05-05.37.01:521][879]LogWindows: Error: [Callstack] 0x00000000C6381516 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.01.05-05.37.01:521][879]LogWindows: Error: [Callstack] 0x0000000046EC50C8 UE4Editor.exe!UnknownFunction []
+[2018.01.05-05.37.01:521][879]LogWindows: Error: [Callstack] 0x0000000046ED5430 UE4Editor.exe!UnknownFunction []
+[2018.01.05-05.37.01:521][879]LogWindows: Error: [Callstack] 0x0000000046ED54AA UE4Editor.exe!UnknownFunction []
+[2018.01.05-05.37.01:521][879]LogWindows: Error: [Callstack] 0x0000000046EE2379 UE4Editor.exe!UnknownFunction []
+[2018.01.05-05.37.01:521][879]LogWindows: Error: [Callstack] 0x0000000046EE3D57 UE4Editor.exe!UnknownFunction []
+[2018.01.05-05.37.01:521][879]LogWindows: Error: [Callstack] 0x00000000F0502774 KERNEL32.DLL!UnknownFunction []
+[2018.01.05-05.37.01:521][879]LogWindows: Error: [Callstack] 0x00000000F08B0D51 ntdll.dll!UnknownFunction []
+[2018.01.05-05.37.01:521][879]LogWindows: Error: [Callstack] 0x00000000F08B0D51 ntdll.dll!UnknownFunction []
+[2018.01.05-05.37.01:521][879]LogWindows: Error: 
+[2018.01.05-05.37.01:534][879]LogExit: Executing StaticShutdownAfterError
+[2018.01.05-05.37.01:538][879]LogWindows: FPlatformMisc::RequestExit(1)
+[2018.01.05-05.37.01:563][879]Log file closed, 01/04/18 21:37:01
