@@ -32,8 +32,11 @@ void UPlayerHealthComponent::TickComponent(float DeltaTime, ELevelTick TickType,
 
 	// ...
 	timeSinceDamage += DeltaTime;
-	if(health != MaxHealth && timeSinceDamage > TimeUntilRegen){
+	if(health < MaxHealth && timeSinceDamage > TimeUntilRegen){
 		health += RegenRate * DeltaTime;
+		if(health > MaxHealth){
+			health = MaxHealth;
+		}
 		OnHealthChanged.Broadcast(health);
 	}
 
