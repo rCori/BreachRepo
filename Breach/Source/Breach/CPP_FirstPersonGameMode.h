@@ -17,6 +17,7 @@ DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams(FSetWaypoint, FString, waypointTag,
 /**
  * 
  */
+
 UCLASS()
 class BREACH_API ACPP_FirstPersonGameMode : public AGameModeBase
 {
@@ -24,13 +25,34 @@ class BREACH_API ACPP_FirstPersonGameMode : public AGameModeBase
 	
 public:
 
+	ACPP_FirstPersonGameMode(const FObjectInitializer & ObjectInitializer);
+
 	UFUNCTION(BlueprintCallable)
 	void CreateWaypoint(AActor *actor, FString tag, FVector waypointOffset);
 	
-	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "UI")
+	UFUNCTION(BlueprintCallable)
+	void RemoveWaypoint(FString tag);
+
+	UFUNCTION(BlueprintCallable)
+	void PauseGame();
+
+	UFUNCTION(BlueprintCallable)
+	void UnpauseGame();
+
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "UI")
 	TSubclassOf<UUserWidget> WidgetTemplate;
- 
+
 	UPROPERTY()
 	UUserWidget* WidgetInstance;
+
+	UPROPERTY(BlueprintReadWrite, Category = "UI")
+	TMap<FString, UUserWidget*> WaypointWidgets;
+
+
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "UI")
+	TSubclassOf<UUserWidget> PauseTemplate;
+
+	UPROPERTY()
+	UUserWidget* PauseMenu;
 
 };
