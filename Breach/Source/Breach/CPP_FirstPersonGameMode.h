@@ -55,4 +55,13 @@ public:
 	UPROPERTY()
 	UUserWidget* PauseMenu;
 
+	//These properties are multicast event dispatchers.
+	//We want the capability to bind to this event so we have BlueprintAssignable
+	//We want the capability to call this event so we have BlueprintCallable
+	UPROPERTY(BlueprintAssignable,BlueprintCallable)
+	FChangeOnScreenMessage ChangeOnScreenMessage;
+
+	UPROPERTY(BlueprintAssignable,BlueprintCallable)
+	FSetWaypoint SetWaypoint;
+
 };
