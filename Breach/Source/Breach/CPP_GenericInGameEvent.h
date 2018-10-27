@@ -6,7 +6,7 @@
 #include "CPP_GenericInGameEvent.generated.h"
 
 // This class does not need to be modified.
-UINTERFACE(BlueprintType)
+UINTERFACE(Blueprintable, MinimalAPI)
 class UCPP_GenericInGameEvent : public UInterface
 {
 	GENERATED_BODY()

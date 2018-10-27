@@ -41,6 +41,12 @@ public:
 	UPROPERTY(BlueprintReadWrite,EditAnywhere,Category="Health")
 	float RegenRate;
 
+	UPROPERTY()
+	float timeSinceDamage;
+
+	UPROPERTY()
+	float health;
+
 protected:
 	// Called when the game starts
 	virtual void BeginPlay() override;
@@ -50,10 +56,6 @@ public:
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
 private:
-    UPROPERTY()
-	float timeSinceDamage;
-
-	UPROPERTY()
-	float health;
+    
 	
 };

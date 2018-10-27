@@ -27,6 +27,7 @@ public:
 
 	ACPP_FirstPersonGameMode(const FObjectInitializer & ObjectInitializer);
 
+
 	UFUNCTION(BlueprintCallable)
 	void CreateWaypoint(AActor *actor, FString tag, FVector waypointOffset);
 	
