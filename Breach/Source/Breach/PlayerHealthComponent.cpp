@@ -19,6 +19,7 @@ void UPlayerHealthComponent::BeginPlay()
 {
 	Super::BeginPlay();
 	health = MaxHealth;
+	timeSinceDamage = 0.0f;
 
 	// ...
 	
@@ -39,7 +40,6 @@ void UPlayerHealthComponent::TickComponent(float DeltaTime, ELevelTick TickType,
 		}
 		OnHealthChanged.Broadcast(health);
 	}
-
 }
 
 void UPlayerHealthComponent::TakeDamage(float damageAmount)
@@ -47,9 +47,9 @@ void UPlayerHealthComponent::TakeDamage(float damageAmount)
 	health -= damageAmount;
 	OnHealthChanged.Broadcast(health);
 	if(health <= 0.0f){
-		timeSinceDamage = 0.0f;
 		OnPlayerDied.Broadcast();
 	}
+	timeSinceDamage = 0.0f;
 }
 
 float UPlayerHealthComponent::GetHealth()

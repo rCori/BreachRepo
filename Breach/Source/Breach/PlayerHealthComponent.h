@@ -41,10 +41,10 @@ public:
 	UPROPERTY(BlueprintReadWrite,EditAnywhere,Category="Health")
 	float RegenRate;
 
-	UPROPERTY()
+	UPROPERTY(BlueprintReadWrite,EditAnywhere,Category="Health")
 	float timeSinceDamage;
 
-	UPROPERTY()
+	UPROPERTY(BlueprintReadWrite,EditAnywhere,Category="Health")
 	float health;
 
 protected:

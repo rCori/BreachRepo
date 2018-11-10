@@ -9,57 +9,19 @@
 
 
 ACPP_FirstPersonGameMode::ACPP_FirstPersonGameMode(const FObjectInitializer & ObjectInitializer){
-	UE_LOG(LogTemp, Log, TEXT("ACCP_FirstPersonGameMode: Consturctor"));
-	//WaypointWidgets = TMap<FString, UUserWidget*>();
-	//Inventory widget setup
-    //PauseMenu = CreateWidget<UUserWidget>(GetGameInstance(), PauseTemplate);
+
 }
 
 void ACPP_FirstPersonGameMode::CreateWaypoint(AActor *actor, FString tag, FVector waypointOffset){
-	/*
-	if(WaypointWidgets == nullptr){
-		UE_LOG(LogTemp, Log, TEXT("ACPP_FirstPersonGameMode: WaypointWidgets is being initialized in CreateWaypoint"));
-		WaypointWidgets = TMap<FString, UUserWidget*>();
-	}
-	*/
-	//Inventory widget setup
-	
-	UE_LOG(LogTemp, Log, TEXT("ACPP_FirstPersonGameMode: Trying CreateWaypoint"));
-	if(GetWorld()== nullptr){
-		UE_LOG(LogTemp, Log, TEXT("ACPP_FirstPersonGameMode: GetWorld returns nullptr"));
-	}
     WidgetInstance = CreateWidget<UUserWidget>(GetWorld(), WidgetTemplate);
-	UE_LOG(LogTemp, Log, TEXT("ACPP_FirstPersonGameMode: CreateWaypoint Widget created"));
-	if(WidgetInstance == nullptr){
-		UE_LOG(LogTemp, Log, TEXT("ACPP_FirstPersonGameMode: WidgetInstance is nullptr"));
-	}
-	
-	UE_LOG(LogTemp, Log, TEXT("ACPP_FirstPersonGameMode: CreateWaypoint Widget Added to Viewport"));
 	UCPP_WaypointWidget* waypointWidget = Cast<UCPP_WaypointWidget>(WidgetInstance);
-	if(waypointWidget == nullptr){
-		UE_LOG(LogTemp, Log, TEXT("ACPP_FirstPersonGameMode: waypointWidget casts nullptr"));
-	}
-	UE_LOG(LogTemp, Log, TEXT("ACPP_FirstPersonGameMode: CreateWaypoint cast succeeded"));
 	waypointWidget->AttachActor = actor;
-	UE_LOG(LogTemp, Log, TEXT("ACPP_FirstPersonGameMode: AttachActor"));
 	waypointWidget->LocationOffset = waypointOffset;
-	UE_LOG(LogTemp, Log, TEXT("ACPP_FirstPersonGameMode: LocationOffset"));
 	WaypointWidgets.Add(tag,waypointWidget);
-	UE_LOG(LogTemp, Log, TEXT("ACPP_FirstPersonGameMode: Add to WaypointWidgets"));
-
-	//APlayerController* playerController = UGameplayStatics::GetPlayerController(GetWorld(), 0);
 	WidgetInstance->AddToViewport();
-	UE_LOG(LogTemp, Log, TEXT("ACPP_FirstPersonGameMode: After Adding to Viewport"));
-	
 }
 
 void ACPP_FirstPersonGameMode::RemoveWaypoint(FString tag){
-	/*
-	if(WaypointWidgets == nullptr){
-		UE_LOG(LogTemp, Log, TEXT("ACPP_FirstPersonGameMode: WaypointWidgets is being initialized in RemoveWaypoint"));
-		WaypointWidgets = new TMap<FString, UUserWidget*>();
-	}
-	*/
 	
 	//Check if the tag we are requesting to remove actually exists
 	if(WaypointWidgets.Contains(tag)){
