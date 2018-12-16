@@ -1,0 +1,11 @@
+{
+	"InteractionDialog":{
+		"MyInteractionTest":{
+			"DisplayText":[
+				"This is my test dialog",
+				"Test2",
+				"Test3"
+			]
+		}
+	}
+}

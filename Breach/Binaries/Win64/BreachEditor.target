@@ -16,15 +16,15 @@
 	},
 	"BuildProducts": [
 		{
-			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-Breach-7033.dll",
+			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-Breach-9941.dll",
 			"Type": "DynamicLibrary"
 		},
 		{
-			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-Breach-7033.pdb",
+			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-Breach-9941.pdb",
 			"Type": "SymbolFile"
 		},
 		{
-			"Path": "$(ProjectDir)/Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-Breach-7033.lib",
+			"Path": "$(ProjectDir)/Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-Breach-9941.lib",
 			"Type": "ImportLibrary"
 		},
 		{

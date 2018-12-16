@@ -3,12 +3,59 @@
 
 #include "CPP_FirstPersonGameMode.h"
 #include "CPP_WaypointWidget.h"
+#include "GameFramework/HUD.h"
+#include "UObject/ConstructorHelpers.h"
 #include "Kismet/GameplayStatics.h"
 #include "Engine/World.h"
 
 
+/*
+ACPP_FirstPersonGameMode::ACPP_FirstPersonGameMode(const FObjectInitializer & ObjectInitializer)
+	: Super(){
+ 
+     // set default pawn class to our Blueprinted character
+     static ConstructorHelpers::FClassFinder<APawn> PlayerPawnBPClass(TEXT("/Game/BlueprintSource/FirstPersonCharacter"));
+     if (PlayerPawnBPClass.Class != NULL)
+     {
+         DefaultPawnClass = PlayerPawnBPClass.Class;
+     }
 
-ACPP_FirstPersonGameMode::ACPP_FirstPersonGameMode(const FObjectInitializer & ObjectInitializer){
+	 // set default HUD class class to our Blueprinted character
+     static ConstructorHelpers::FClassFinder<AHUD> HudClassFinder(TEXT("/Game/BlueprintSource/FirstPersonCharacter"));
+	 if(HudClassFinder.Class != NULL){
+		 HUDClass = HudClassFinder.Class;
+	 }
+
+}
+*/
+
+
+ACPP_FirstPersonGameMode::ACPP_FirstPersonGameMode()
+{
+	
+	 // set default pawn class to our Blueprinted character
+     static ConstructorHelpers::FClassFinder<APawn> PlayerPawnBPClass(TEXT("/Game/BlueprintSource/FirstPersonCharacter"));
+     if (PlayerPawnBPClass.Class != NULL)
+     {
+         DefaultPawnClass = PlayerPawnBPClass.Class;
+     }
+
+	 
+	 // set default HUD class class to our Blueprinted character
+     static ConstructorHelpers::FClassFinder<AHUD> HudClassFinder(TEXT("/Game/BlueprintSource/FirstPersonHUD"));
+	 if(HudClassFinder.Class != NULL){
+		 HUDClass = HudClassFinder.Class;
+	 }
+
+	static ConstructorHelpers::FClassFinder<UUserWidget> WaypointWidget(TEXT("/Game/BlueprintSource/UI/WaypointWidget"));
+	if(WaypointWidget.Class != NULL){
+		 WidgetTemplate = WaypointWidget.Class;
+	 }
+
+	static ConstructorHelpers::FClassFinder<UUserWidget> PauseWidget(TEXT("/Game/BlueprintSource/UI/PauseWidget"));
+	if(PauseWidget.Class != NULL){
+		 PauseTemplate = PauseWidget.Class;
+	 }
 
 }
 

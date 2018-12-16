@@ -24,4 +24,10 @@ public:
 	UPROPERTY(BlueprintReadWrite)
 	FVector LocationOffset;
 
+	// Optionally override the Blueprint "Event Construct" event
+	virtual void NativeConstruct() override;
+
+	// Optionally override the tick event
+	virtual void NativeTick(const FGeometry& MyGeometry, float InDeltaTime) override;
+
 };

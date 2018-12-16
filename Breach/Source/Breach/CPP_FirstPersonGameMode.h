@@ -25,7 +25,7 @@ class BREACH_API ACPP_FirstPersonGameMode : public AGameModeBase
 	
 public:
 
-	ACPP_FirstPersonGameMode(const FObjectInitializer & ObjectInitializer);
+	ACPP_FirstPersonGameMode();
 
 
 	UFUNCTION(BlueprintCallable)
