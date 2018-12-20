@@ -1,4 +1,4 @@
-﻿Log file open, 12/16/18 11:08:05
+﻿Log file open, 12/19/18 22:40:11
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -7,12 +7,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: Breach
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-889105403) SRandInit(-889105403).
+LogInit: Display: RandInit(518424372) SRandInit(518424372).
 LogInit: Read version file with build ID '3709383'
 LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
 LogInit: Registered custom module enumerator with build ID '3709383'
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.203212
+LogStats: Stats thread started at 0.278911
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -75,7 +75,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogModuleManager: Display: Found up-to-date module file ../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Binaries/Win64/UE4Editor-Breach-9971.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Binaries/Win64/UE4Editor-Breach-Win64-DebugGame.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3709383).
@@ -188,939 +188,370 @@ LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 
 LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 12
 LogInit: Compiled (64-bit): Jan 12 2018 02:04:55
 LogInit: Compiled with Visual C++: 19.00.24215.01
-LogInit: Build Configuration: Development
+LogInit: Build Configuration: DebugGame
 LogInit: Branch Name: ++UE4+Release-4.18
-LogInit: Command line:  
+LogInit: Command line:  -skipcompile -debug
 LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.12.16-19.08.09:583][  0]LogInit: Selected Device Profile: [Windows]
-[2018.12.16-19.08.09:583][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.12.16-19.08.09:596][  0]LogInit: Computer: DESKTOP-PQPAGDU
-[2018.12.16-19.08.09:596][  0]LogInit: User: Ryanc
-[2018.12.16-19.08.09:596][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.12.16-19.08.09:596][  0]LogInit: High frequency timer resolution =3.417968 MHz
-[2018.12.16-19.08.09:596][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2018.12.16-19.08.09:596][  0]LogMemory: Platform Memory Stats for Windows
-[2018.12.16-19.08.09:596][  0]LogMemory: Process Physical Memory: 273.66 MB used, 273.66 MB peak
-[2018.12.16-19.08.09:596][  0]LogMemory: Process Virtual Memory: 279.76 MB used, 279.76 MB peak
-[2018.12.16-19.08.09:596][  0]LogMemory: Physical Memory: 5873.43 MB used,  10453.26 MB free, 16326.68 MB total
-[2018.12.16-19.08.09:597][  0]LogMemory: Virtual Memory: 4789.66 MB used,  10453.26 MB free, 134217728.00 MB total
-[2018.12.16-19.08.09:912][  0]LogInit: Using OS detected language (en-US).
-[2018.12.16-19.08.09:912][  0]LogInit: Using OS detected locale (en-US).
-[2018.12.16-19.08.09:916][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.12.16-19.08.10:293][  0]LogInit: Setting process to per monitor DPI aware
-[2018.12.16-19.08.10:577][  0]LogD3D11RHI: D3D11 adapters:
-[2018.12.16-19.08.10:638][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
-[2018.12.16-19.08.10:638][  0]LogD3D11RHI:       8088/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.12.16-19.08.10:640][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.12.16-19.08.10:640][  0]LogD3D11RHI:       0/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.12.16-19.08.10:640][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.12.16-19.08.10:649][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.12.16-19.08.10:649][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
-[2018.12.16-19.08.10:649][  0]LogWindows: EnumDisplayDevices:
-[2018.12.16-19.08.10:650][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
-[2018.12.16-19.08.10:650][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2018.12.16-19.08.10:650][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2018.12.16-19.08.10:650][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2018.12.16-19.08.10:650][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.12.16-19.08.10:651][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
-[2018.12.16-19.08.10:651][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.12.16-19.08.10:651][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.12.16-19.08.10:651][  0]LogRHI: Texture pool is 5661 MB (70% of 8088 MB)
-[2018.12.16-19.08.10:694][  0]LogD3D11RHI: Async texture creation enabled
-[2018.12.16-19.08.10:733][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2018.12.16-19.08.10:781][  0]LogShaderCompilers: Guid format shader working directory is -26 characters bigger than the processId version (../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Intermediate/Shaders/WorkingDirectory/332/).
-[2018.12.16-19.08.10:781][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Ryanc/AppData/Local/Temp/UnrealShaderWorkingDir/457397914260492766D0F7836D9C8018/'.
-[2018.12.16-19.08.10:781][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.12.16-19.08.11:851][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.12.16-19.08.11:948][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.12.16-19.08.12:050][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.12.16-19.08.12:157][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.12.16-19.08.12:264][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.12.16-19.08.12:367][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.12.16-19.08.12:466][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.12.16-19.08.12:563][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.12.16-19.08.12:688][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.12.16-19.08.12:792][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.12.16-19.08.12:895][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.12.16-19.08.12:994][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.12.16-19.08.13:089][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.12.16-19.08.13:187][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.12.16-19.08.13:379][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.12.16-19.08.13:379][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.12.16-19.08.13:478][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.12.16-19.08.13:569][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.12.16-19.08.13:737][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.12.16-19.08.13:790][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.12.16-19.08.13:912][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.12.16-19.08.14:027][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.12.16-19.08.14:140][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.12.16-19.08.14:241][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.12.16-19.08.14:241][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.12.16-19.08.15:272][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.12.16-19.08.15:375][  0]LogDerivedDataCache: Loaded boot cache 0.10s 81MB C:/Users/Ryanc/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.12.16-19.08.15:375][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Ryanc/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
-[2018.12.16-19.08.15:375][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.12.16-19.08.15:375][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.12.16-19.08.15:375][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.12.16-19.08.15:375][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.12.16-19.08.15:390][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.12.16-19.08.15:402][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Ryanc/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.12.16-19.08.15:412][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.12.16-19.08.15:412][  0]LogSlate: Using Freetype 2.6.0
-[2018.12.16-19.08.15:413][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.12.16-19.08.15:413][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.12.16-19.08.15:818][  0]LogInit: Selected Device Profile: [Windows]
-[2018.12.16-19.08.16:412][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.12.16-19.08.16:498][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.12.16-19.08.16:499][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.12.16-19.08.16:499][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.12.16-19.08.16:499][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.12.16-19.08.16:499][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.12.16-19.08.16:551][  0]LogNetVersion: Breach , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2924493875)
-[2018.12.16-19.08.16:786][  0]LogAssetRegistry: FAssetRegistry took 0.0264 seconds to start up
-[2018.12.16-19.08.17:441][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.066676 seconds
-[2018.12.16-19.08.17:446][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
-[2018.12.16-19.08.17:446][  0]LogUObjectAllocator: 7363696 out of 0 bytes used by permanent object pool.
-[2018.12.16-19.08.17:446][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.12.16-19.08.17:561][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2018.12.16-19.08.22:165][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.12.16-19.08.22:256][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.12.16-19.08.24:586][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2018.12.16-19.08.25:445][  0]SourceControl: Source control is disabled
-[2018.12.16-19.08.25:445][  0]SourceControl: Source control is disabled
-[2018.12.16-19.08.25:573][  0]SourceControl: Source control is disabled
-[2018.12.16-19.08.25:698][  0]SourceControl: Source control is disabled
-[2018.12.16-19.08.27:606][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.12.16-19.08.28:249][  0]LogOcInput: OculusInput pre-init called
-[2018.12.16-19.08.28:827][  0]LogEngine: Initializing Engine...
-[2018.12.16-19.08.28:829][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.12.16-19.08.29:040][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.12.16-19.08.29:040][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.12.16-19.08.29:324][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.12.16-19.08.29:357][  0]LogInit: XAudio2 using 'Speakers (2- Logitech G35 Gaming Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
-[2018.12.16-19.08.29:386][  0]LogInit: FAudioDevice initialized.
-[2018.12.16-19.08.29:619][  0]LogDerivedDataCache: Saved boot cache 0.23s 81MB C:/Users/Ryanc/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.12.16-19.08.29:642][  0]LogInit: Texture streaming: Enabled
-[2018.12.16-19.08.29:863][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.12.16-19.08.30:148][  0]LogInit: Transaction tracking system initialized
-[2018.12.16-19.08.30:841][  0]BlueprintLog: New page: Editor Load
-[2018.12.16-19.08.32:893][  0]LocalizationService: Localization service is disabled
-[2018.12.16-19.08.34:003][  0]LogLinker: Warning: Can't find file '/Game/TwinStickBP/TwinStickOverview'
-[2018.12.16-19.08.34:003][  0]LogLinker: Warning: Can't find file '/Game/TwinStickBP/TwinStickOverview'
-[2018.12.16-19.08.34:003][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/TwinStickBP/TwinStickOverview.TwinStickOverview_C'
-[2018.12.16-19.08.34:448][  0]LogConsoleResponse: Display: 
-[2018.12.16-19.08.34:690][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.12.16-19.08.34:690][  0]LogCook: Display: Mobile HDR setting 1
-[2018.12.16-19.08.34:690][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.12.16-19.08.35:067][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/' took 0.04s
-[2018.12.16-19.08.37:417][  0]SourceControl: Source control is disabled
-[2018.12.16-19.08.37:417][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/Maps/Level_1Map_1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.12.16-19.08.37:418][  0]LightingResults: New page: Lighting Build
-[2018.12.16-19.08.37:505][  0]MapCheck: New page: Map Check
-[2018.12.16-19.08.37:505][  0]LightingResults: New page: Lighting Build
-[2018.12.16-19.08.38:936][  0]LogAIModule: Creating AISystem for world Level_1Map_1
-[2018.12.16-19.08.38:955][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.12.16-19.08.38:974][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.12.16-19.08.39:137][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 162.917ms to complete.
-[2018.12.16-19.08.39:137][  0]LogFileHelpers: Loading map 'Level_1Map_1' took 1.720
-[2018.12.16-19.08.39:296][  0]LogCollectionManager: Loaded 0 collections in 0.003742 seconds
-[2018.12.16-19.08.39:435][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Saved/Collections/' took 0.01s
-[2018.12.16-19.08.39:435][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/Developers/Ryanc/Collections/' took 0.01s
-[2018.12.16-19.08.39:435][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/Collections/' took 0.01s
-[2018.12.16-19.08.39:435][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.12.16-19.08.39:449][  0]LogContentBrowser: Native class hierarchy populated in 0.0137 seconds. Added 2373 classes and 521 folders.
-[2018.12.16-19.08.39:620][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0013 seconds. Added 0 classes and 0 folders.
-[2018.12.16-19.08.39:693][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0013 seconds. Added 0 classes and 0 folders.
-[2018.12.16-19.08.39:795][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0012 seconds. Added 1 classes and 2 folders.
-[2018.12.16-19.08.39:900][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0013 seconds. Added 2 classes and 3 folders.
-[2018.12.16-19.08.40:153][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0019 seconds. Added 1 classes and 2 folders.
-[2018.12.16-19.08.40:153][  0]LogLoad: (Engine Initialization) Total time: 36.44 seconds
-[2018.12.16-19.08.40:153][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.12.16-19.08.40:153][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2018.12.16-19.08.40:153][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2018.12.16-19.08.40:515][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.12.16-19.08.40:517][  0]LogSlate: Took 0.000310 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.12.16-19.08.40:518][  0]LogSlate: Took 0.000204 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.12.16-19.08.40:524][  0]LogSlate: Took 0.000611 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.12.16-19.08.40:641][  0]LogSlate: Took 0.000329 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.12.16-19.08.40:889][  2]LogRenderer: Reallocating scene render targets to support 656x356 Format 10 NumSamples 1 (Frame:1).
-[2018.12.16-19.08.41:166][  2]LogAssetRegistry: Asset discovery search completed in 24.4031 seconds
-[2018.12.16-19.08.41:169][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2018.12.16-19.08.41:169][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000084 seconds (updated 0 objects)
-[2018.12.16-19.08.41:257][  3]LogSlate: Took 0.000951 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.12.16-19.08.41:627][  3]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0016 seconds. Added 116 classes and 0 folders.
-[2018.12.16-19.08.43:180][  3]LogActor: Warning: BP_InteractArea_C /Engine/Transient.World_0:PersistentLevel.BP_InteractArea_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2018.12.16-19.08.43:197][  3]LogSlate: Took 0.000189 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.12.16-19.08.43:198][  3]LogSlate: Took 0.000186 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2018.12.16-19.10.12:601][520]LogConsoleManager: Warning: Performance warning: Console object named 'r.DebugSafeZone.Mode' shows many (500) FindConsoleObject() calls (consider caching e.g. using static)
-[2018.12.16-19.10.13:280][596]LogSlate: Took 0.000217 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2018.12.16-19.10.26:616][158]LogBlueprint: Warning: Reparenting blueprint WidgetBlueprint /Game/BlueprintSource/UI/BP_InteractionDialogWidget.BP_InteractionDialogWidget from UserWidget to CPP_InteractionDialogWidget...
-[2018.12.16-19.10.26:624][158]BlueprintLog: New page: Compile BP_InteractionDialogWidget
-[2018.12.16-19.10.27:994][318]BlueprintLog: New page: Compile BP_InteractionDialogWidget
-[2018.12.16-19.10.28:636][385]LogSavePackage: Save=17.31ms
-[2018.12.16-19.10.28:636][385]LogSavePackage: Moving '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Saved/BP_InteractionDialogWidget2364D9DD46AAAE3EBFACE5BB0493E355.tmp' to '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/BlueprintSource/UI/BP_InteractionDialogWidget.uasset'
-[2018.12.16-19.10.28:640][385]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/BlueprintSource/UI/BP_InteractionDialogWidget.uasset
-[2018.12.16-19.10.28:988][421]LogRenderer: Reallocating scene render targets to support 988x576 Format 10 NumSamples 1 (Frame:2).
-[2018.12.16-19.10.35:537][177]LogAIModule: Creating AISystem for world InteractionTest
-[2018.12.16-19.10.35:563][177]Cmd: MAP LOAD FILE="../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/Maps/InteractionTest.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.12.16-19.10.35:563][177]LightingResults: New page: Lighting Build
-[2018.12.16-19.10.35:564][177]LoadErrors: New page: Loading map: InteractionTest.umap
-[2018.12.16-19.10.35:565][177]MapCheck: New page: Map Check
-[2018.12.16-19.10.35:565][177]LightingResults: New page: Lighting Build
-[2018.12.16-19.10.35:673][177]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.12.16-19.10.35:748][177]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.12.16-19.10.35:900][177]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 151.46ms to complete.
-[2018.12.16-19.10.35:900][177]LogFileHelpers: Loading map 'InteractionTest' took 0.338
-[2018.12.16-19.10.37:407][349]LogTemp: Repeating last play command: Selected Viewport
-[2018.12.16-19.10.37:528][349]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.12.16-19.10.37:528][349]PIE: New page: PIE session: InteractionTest (Dec 16, 2018, 3:10:37 AM)
-[2018.12.16-19.10.37:531][349]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_InteractionTest
-[2018.12.16-19.10.37:536][349]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004140s)
-[2018.12.16-19.10.37:536][349]LogAIModule: Creating AISystem for world InteractionTest
-[2018.12.16-19.10.37:536][349]LogPlayLevel: PIE: World Init took: (0.000553s)
-[2018.12.16-19.10.37:536][349]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/InteractionTest.InteractionTest to /Game/Maps/UEDPIE_0_InteractionTest.InteractionTest (0.004989s)
-[2018.12.16-19.10.37:579][349]LogInit: XAudio2 using 'Speakers (2- Logitech G35 Gaming Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
-[2018.12.16-19.10.37:599][349]LogInit: FAudioDevice initialized.
-[2018.12.16-19.10.37:647][349]LogLoad: Game class is 'CPP_FirstPersonGameMode'
-[2018.12.16-19.10.37:648][349]LogWorld: Bringing World /Game/Maps/UEDPIE_0_InteractionTest.InteractionTest up for play (max tick rate 0) at 2018.12.16-11.10.37
-[2018.12.16-19.10.37:649][349]LogWorld: Bringing up level for play took: 0.001745
-[2018.12.16-19.10.37:737][349]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0013 seconds. Added 11 classes and 0 folders.
-[2018.12.16-19.10.37:738][349]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/UEDPIE_0_InteractionTest.InteractionTest:PersistentLevel.FirstPersonCharacter_C_0.Mesh2P'
-[2018.12.16-19.10.37:740][349]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_InteractionTest -0.167
-[2018.12.16-19.11.13:500][569]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_9:PersistentLevel.FirstPersonCharacter_C_1.Mesh2P'
-[2018.12.16-19.11.15:292][753]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_9:PersistentLevel.FirstPersonCharacter_C_1.Mesh2P'
-[2018.12.16-19.11.15:293][753]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_9:PersistentLevel.FirstPersonCharacter_C_1.Mesh2P'
-[2018.12.16-19.11.15:326][754]LogRenderer: Reallocating scene render targets to support 1020x696 Format 10 NumSamples 1 (Frame:1).
-[2018.12.16-19.11.29:745][413]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_9:PersistentLevel.FirstPersonCharacter_C_1.Mesh2P'
-[2018.12.16-19.11.29:755][413]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_9:PersistentLevel.FirstPersonCharacter_C_1.Mesh2P'
-[2018.12.16-19.11.29:756][413]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_9:PersistentLevel.FirstPersonCharacter_C_1.Mesh2P'
-[2018.12.16-19.11.29:761][413]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_9:PersistentLevel.FirstPersonCharacter_C_1.Mesh2P'
-[2018.12.16-19.11.29:762][413]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_9:PersistentLevel.FirstPersonCharacter_C_1.Mesh2P'
-[2018.12.16-19.11.30:756][533]BlueprintLog: New page: Compile FirstPersonCharacter
-[2018.12.16-19.11.31:061][533]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_9:PersistentLevel.FirstPersonCharacter_C_1.Mesh2P'
-[2018.12.16-19.11.31:179][533]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_9:PersistentLevel.FirstPersonCharacter_C_1.Mesh2P'
-[2018.12.16-19.11.31:180][533]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_9:PersistentLevel.FirstPersonCharacter_C_1.Mesh2P'
-[2018.12.16-19.11.31:214][533]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_9:PersistentLevel.FirstPersonCharacter_C_1.Mesh2P'
-[2018.12.16-19.11.31:215][533]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_9:PersistentLevel.FirstPersonCharacter_C_1.Mesh2P'
-[2018.12.16-19.11.32:137][612]LogSavePackage: Save=190.86ms
-[2018.12.16-19.11.32:138][612]LogSavePackage: Moving '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Saved/FirstPersonCharacterF3CEBC6645701318A26ACEBC1E8E2EC1.tmp' to '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/BlueprintSource/FirstPersonCharacter.uasset'
-[2018.12.16-19.11.32:141][612]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/BlueprintSource/FirstPersonCharacter.uasset
-[2018.12.16-19.11.33:487][773]LogTemp: Repeating last play command: Selected Viewport
-[2018.12.16-19.11.33:524][773]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.12.16-19.11.33:525][773]PIE: New page: PIE session: InteractionTest (Dec 16, 2018, 3:11:33 AM)
-[2018.12.16-19.11.33:525][773]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_InteractionTest
-[2018.12.16-19.11.33:528][773]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002823s)
-[2018.12.16-19.11.33:528][773]LogAIModule: Creating AISystem for world InteractionTest
-[2018.12.16-19.11.33:529][773]LogPlayLevel: PIE: World Init took: (0.000578s)
-[2018.12.16-19.11.33:529][773]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/InteractionTest.InteractionTest to /Game/Maps/UEDPIE_0_InteractionTest.InteractionTest (0.003678s)
-[2018.12.16-19.11.33:573][773]LogInit: XAudio2 using 'Speakers (2- Logitech G35 Gaming Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
-[2018.12.16-19.11.33:592][773]LogInit: FAudioDevice initialized.
-[2018.12.16-19.11.33:628][773]LogLoad: Game class is 'CPP_FirstPersonGameMode'
-[2018.12.16-19.11.33:630][773]LogWorld: Bringing World /Game/Maps/UEDPIE_0_InteractionTest.InteractionTest up for play (max tick rate 0) at 2018.12.16-11.11.33
-[2018.12.16-19.11.33:630][773]LogWorld: Bringing up level for play took: 0.001297
-[2018.12.16-19.11.33:631][773]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/UEDPIE_0_InteractionTest.InteractionTest:PersistentLevel.FirstPersonCharacter_C_0.Mesh2P'
-[2018.12.16-19.11.33:632][773]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_InteractionTest -0.275
-[2018.12.16-19.11.46:883][341]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_9:PersistentLevel.FirstPersonCharacter_C_1.Mesh2P'
-[2018.12.16-19.11.46:886][341]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_9:PersistentLevel.FirstPersonCharacter_C_1.Mesh2P'
-[2018.12.16-19.11.46:887][341]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_9:PersistentLevel.FirstPersonCharacter_C_1.Mesh2P'
-[2018.12.16-19.11.46:893][341]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_9:PersistentLevel.FirstPersonCharacter_C_1.Mesh2P'
-[2018.12.16-19.11.46:894][341]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_9:PersistentLevel.FirstPersonCharacter_C_1.Mesh2P'
-[2018.12.16-19.11.47:405][376]LogSavePackage: Save=189.73ms
-[2018.12.16-19.11.47:405][376]LogSavePackage: Moving '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Saved/FirstPersonCharacter097DCCD448B3DE57AB150D8F3D9ED26B.tmp' to '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/BlueprintSource/FirstPersonCharacter.uasset'
-[2018.12.16-19.11.47:409][376]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/BlueprintSource/FirstPersonCharacter.uasset
-[2018.12.16-19.11.48:276][479]BlueprintLog: New page: Compile FirstPersonCharacter
-[2018.12.16-19.11.48:468][479]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_9:PersistentLevel.FirstPersonCharacter_C_1.Mesh2P'
-[2018.12.16-19.11.48:677][479]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_9:PersistentLevel.FirstPersonCharacter_C_1.Mesh2P'
-[2018.12.16-19.11.48:678][479]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_9:PersistentLevel.FirstPersonCharacter_C_1.Mesh2P'
-[2018.12.16-19.11.48:714][479]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_9:PersistentLevel.FirstPersonCharacter_C_1.Mesh2P'
-[2018.12.16-19.11.48:715][479]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_9:PersistentLevel.FirstPersonCharacter_C_1.Mesh2P'
-[2018.12.16-19.11.49:358][525]LogSavePackage: Save=189.07ms
-[2018.12.16-19.11.49:358][525]LogSavePackage: Moving '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Saved/FirstPersonCharacter7F040E6B4199C54A4881C8B125C683B0.tmp' to '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/BlueprintSource/FirstPersonCharacter.uasset'
-[2018.12.16-19.11.49:360][525]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/BlueprintSource/FirstPersonCharacter.uasset
-[2018.12.16-19.11.50:922][712]LogTemp: Repeating last play command: Selected Viewport
-[2018.12.16-19.11.50:959][712]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.12.16-19.11.50:959][712]PIE: New page: PIE session: InteractionTest (Dec 16, 2018, 3:11:50 AM)
-[2018.12.16-19.11.50:959][712]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_InteractionTest
-[2018.12.16-19.11.50:962][712]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003022s)
-[2018.12.16-19.11.50:963][712]LogAIModule: Creating AISystem for world InteractionTest
-[2018.12.16-19.11.50:963][712]LogPlayLevel: PIE: World Init took: (0.000623s)
-[2018.12.16-19.11.50:963][712]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/InteractionTest.InteractionTest to /Game/Maps/UEDPIE_0_InteractionTest.InteractionTest (0.003920s)
-[2018.12.16-19.11.51:006][712]LogInit: XAudio2 using 'Speakers (2- Logitech G35 Gaming Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
-[2018.12.16-19.11.51:027][712]LogInit: FAudioDevice initialized.
-[2018.12.16-19.11.51:061][712]LogLoad: Game class is 'CPP_FirstPersonGameMode'
-[2018.12.16-19.11.51:063][712]LogWorld: Bringing World /Game/Maps/UEDPIE_0_InteractionTest.InteractionTest up for play (max tick rate 0) at 2018.12.16-11.11.51
-[2018.12.16-19.11.51:063][712]LogWorld: Bringing up level for play took: 0.001351
-[2018.12.16-19.11.51:064][712]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/UEDPIE_0_InteractionTest.InteractionTest:PersistentLevel.FirstPersonCharacter_C_0.Mesh2P'
-[2018.12.16-19.11.51:066][712]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_InteractionTest -0.841
-[2018.12.16-19.28.13:522][842]LogHotReload: New module detected: UE4Editor-Breach-2542.dll
-[2018.12.16-19.28.14:537][846]LogHotReload: Starting Hot-Reload from IDE
-[2018.12.16-19.28.14:739][846]LogClass: Could not find existing class CPP_InteractionDialogWidget in package /Script/Breach for HotReload, assuming new class
-[2018.12.16-19.28.14:746][846]LogClass: InteractionState HotReload.
-[2018.12.16-19.28.14:756][846]LogHotReload: Re-instancing CPP_InteractionDialogWidget after hot-reload.
-[2018.12.16-19.28.14:868][846]LogHotReload: Re-instancing CPP_NewLevelLoad after hot-reload.
-[2018.12.16-19.28.14:968][846]LogContentBrowser: Native class hierarchy updated for 'Breach' in 0.0014 seconds. Added 10 classes and 2 folders.
-[2018.12.16-19.28.14:970][846]Display: HotReload successful (11 functions remapped  0 scriptstructs remapped)
-[2018.12.16-19.28.15:288][846]LogContentBrowser: Native class hierarchy populated in 0.0085 seconds. Added 2377 classes and 528 folders.
-[2018.12.16-19.28.15:295][846]Display: HotReload took  0.8s.
-[2018.12.16-19.28.18:935][  9]LogTemp: Repeating last play command: Selected Viewport
-[2018.12.16-19.28.18:978][  9]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.12.16-19.28.18:978][  9]PIE: New page: PIE session: InteractionTest (Dec 16, 2018, 3:28:18 AM)
-[2018.12.16-19.28.18:978][  9]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_InteractionTest
-[2018.12.16-19.28.19:009][  9]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030939s)
-[2018.12.16-19.28.19:010][  9]LogAIModule: Creating AISystem for world InteractionTest
-[2018.12.16-19.28.19:010][  9]LogPlayLevel: PIE: World Init took: (0.000784s)
-[2018.12.16-19.28.19:010][  9]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/InteractionTest.InteractionTest to /Game/Maps/UEDPIE_0_InteractionTest.InteractionTest (0.032023s)
-[2018.12.16-19.28.19:076][  9]LogInit: XAudio2 using 'Speakers (2- Logitech G35 Gaming Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
-[2018.12.16-19.28.19:097][  9]LogInit: FAudioDevice initialized.
-[2018.12.16-19.28.19:127][  9]LogLoad: Game class is 'CPP_FirstPersonGameMode'
-[2018.12.16-19.28.19:128][  9]LogWorld: Bringing World /Game/Maps/UEDPIE_0_InteractionTest.InteractionTest up for play (max tick rate 0) at 2018.12.16-11.28.19
-[2018.12.16-19.28.19:129][  9]LogWorld: Bringing up level for play took: 0.001479
-[2018.12.16-19.28.19:130][  9]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/UEDPIE_0_InteractionTest.InteractionTest:PersistentLevel.FirstPersonCharacter_C_0.Mesh2P'
-[2018.12.16-19.28.19:131][  9]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_InteractionTest -0.777
-[2018.12.16-19.28.20:966][224]LogSlate: Took 0.011091 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/DroidSansMono.ttf' (77K)
-[2018.12.16-19.29.09:732][780]LogHotReload: New module detected: UE4Editor-Breach-1152.dll
-[2018.12.16-19.29.10:753][784]LogHotReload: Starting Hot-Reload from IDE
-[2018.12.16-19.29.10:934][784]LogClass: InteractionState HotReload.
-[2018.12.16-19.29.10:938][784]LogContentBrowser: Native class hierarchy updated for 'Breach' in 0.0013 seconds. Added 10 classes and 2 folders.
-[2018.12.16-19.29.10:941][784]Display: HotReload successful (11 functions remapped  0 scriptstructs remapped)
-[2018.12.16-19.29.11:250][784]LogContentBrowser: Native class hierarchy populated in 0.0088 seconds. Added 2377 classes and 528 folders.
-[2018.12.16-19.29.11:257][784]Display: HotReload took  0.5s.
-[2018.12.16-19.29.16:516][138]LogVSAccessor: Warning: Couldn't access Visual Studio
-[2018.12.16-19.29.16:519][138]Candidate modules for hot reload:
-[2018.12.16-19.29.16:519][138]  Breach
-[2018.12.16-19.29.16:519][138]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe Breach -ModuleWithSuffix Breach 612 Win64 Development -editorrecompile -canskiplink "C:/Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Breach.uproject" ]
-[2018.12.16-19.29.16:584][138]Warning: Starting HotReload took  0.1s.
-[2018.12.16-19.29.25:677][225]CompilerResultsLog: New page: Compilation - Dec 16, 2018, 3:29:25 AM
-[2018.12.16-19.29.25:677][225]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
-[2018.12.16-19.29.25:677][225]CompilerResultsLog: Creating makefile for hot reloading Breach (modules to compile have changed)
-[2018.12.16-19.29.25:677][225]CompilerResultsLog: Compiling game modules for hot reload
-[2018.12.16-19.29.25:677][225]CompilerResultsLog: Target is up to date
-[2018.12.16-19.29.25:677][225]CompilerResultsLog: Total build time: 8.88 seconds (NoActionsToExecute executor: 0.00 seconds)
-[2018.12.16-19.29.25:677][225]LogMainFrame: MainFrame: Module compiling took 9.162 seconds
-[2018.12.16-19.29.25:949][225]LogContentBrowser: Native class hierarchy populated in 0.0085 seconds. Added 2377 classes and 528 folders.
-[2018.12.16-19.29.25:952][225]Display: HotReload took  9.4s.
-[2018.12.16-19.29.27:862][453]LogTemp: Repeating last play command: Selected Viewport
-[2018.12.16-19.29.27:900][453]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.12.16-19.29.27:900][453]PIE: New page: PIE session: InteractionTest (Dec 16, 2018, 3:29:27 AM)
-[2018.12.16-19.29.27:900][453]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_InteractionTest
-[2018.12.16-19.29.27:904][453]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003028s)
-[2018.12.16-19.29.27:904][453]LogAIModule: Creating AISystem for world InteractionTest
-[2018.12.16-19.29.27:905][453]LogPlayLevel: PIE: World Init took: (0.000732s)
-[2018.12.16-19.29.27:905][453]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/InteractionTest.InteractionTest to /Game/Maps/UEDPIE_0_InteractionTest.InteractionTest (0.004327s)
-[2018.12.16-19.29.27:995][453]LogInit: XAudio2 using 'Speakers (2- Logitech G35 Gaming Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
-[2018.12.16-19.29.28:013][453]LogInit: FAudioDevice initialized.
-[2018.12.16-19.29.28:049][453]LogLoad: Game class is 'CPP_FirstPersonGameMode'
-[2018.12.16-19.29.28:051][453]LogWorld: Bringing World /Game/Maps/UEDPIE_0_InteractionTest.InteractionTest up for play (max tick rate 0) at 2018.12.16-11.29.28
-[2018.12.16-19.29.28:051][453]LogWorld: Bringing up level for play took: 0.001459
-[2018.12.16-19.29.28:052][453]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/UEDPIE_0_InteractionTest.InteractionTest:PersistentLevel.FirstPersonCharacter_C_0.Mesh2P'
-[2018.12.16-19.29.28:054][453]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_InteractionTest 0.147
-[2018.12.16-19.30.44:188][677]BlueprintLog: New page: Compile BP_InteractionDialogWidget
-[2018.12.16-19.30.55:973][ 70]LogTemp: Repeating last play command: Selected Viewport
-[2018.12.16-19.30.56:033][ 70]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.12.16-19.30.56:034][ 70]PIE: New page: PIE session: InteractionTest (Dec 16, 2018, 3:30:56 AM)
-[2018.12.16-19.30.56:034][ 70]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_InteractionTest
-[2018.12.16-19.30.56:037][ 70]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003222s)
-[2018.12.16-19.30.56:038][ 70]LogAIModule: Creating AISystem for world InteractionTest
-[2018.12.16-19.30.56:039][ 70]LogPlayLevel: PIE: World Init took: (0.000902s)
-[2018.12.16-19.30.56:039][ 70]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/InteractionTest.InteractionTest to /Game/Maps/UEDPIE_0_InteractionTest.InteractionTest (0.004735s)
-[2018.12.16-19.30.56:083][ 70]LogInit: XAudio2 using 'Speakers (2- Logitech G35 Gaming Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
-[2018.12.16-19.30.56:103][ 70]LogInit: FAudioDevice initialized.
-[2018.12.16-19.30.56:137][ 70]LogLoad: Game class is 'CPP_FirstPersonGameMode'
-[2018.12.16-19.30.56:139][ 70]LogWorld: Bringing World /Game/Maps/UEDPIE_0_InteractionTest.InteractionTest up for play (max tick rate 0) at 2018.12.16-11.30.56
-[2018.12.16-19.30.56:140][ 70]LogWorld: Bringing up level for play took: 0.001579
-[2018.12.16-19.30.56:141][ 70]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/UEDPIE_0_InteractionTest.InteractionTest:PersistentLevel.FirstPersonCharacter_C_0.Mesh2P'
-[2018.12.16-19.30.56:142][ 70]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_InteractionTest 0.235
-[2018.12.16-19.31.24:361][667]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/InteractionTest' took 0.027
-[2018.12.16-19.31.24:363][667]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BlueprintSource/UI/BP_InteractionDialogWidget] ([1] browsable assets)...
-[2018.12.16-19.31.24:364][667]OBJ SavePackage: Finished generating thumbnails for package [/Game/BlueprintSource/UI/BP_InteractionDialogWidget]
-[2018.12.16-19.31.24:414][667]LogSavePackage: Save=17.74ms
-[2018.12.16-19.31.24:414][667]LogSavePackage: Moving '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Saved/BP_InteractionDialogWidget_Auto109D9336E486B3E2CBE1182A6D8F0C7E9.tmp' to '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Saved/Autosaves/Game/BlueprintSource/UI/BP_InteractionDialogWidget_Auto1.uasset'
-[2018.12.16-19.31.24:416][667]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Saved/Autosaves/Game/BlueprintSource/UI/BP_InteractionDialogWidget_Auto1.uasset
-[2018.12.16-19.31.24:416][667]LogFileHelpers: Auto-saving content packages took 0.054
-[2018.12.16-19.33.23:579][903]LogHotReload: New module detected: UE4Editor-Breach-9887.dll
-[2018.12.16-19.33.24:697][984]LogHotReload: Starting Hot-Reload from IDE
-[2018.12.16-19.33.24:697][984]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
-[2018.12.16-19.33.24:841][984]LogClass: InteractionState HotReload.
-[2018.12.16-19.33.24:845][984]LogContentBrowser: Native class hierarchy updated for 'Breach' in 0.0013 seconds. Added 10 classes and 2 folders.
-[2018.12.16-19.33.24:849][984]Display: HotReload successful (11 functions remapped  0 scriptstructs remapped)
-[2018.12.16-19.33.25:151][984]LogContentBrowser: Native class hierarchy populated in 0.0086 seconds. Added 2377 classes and 528 folders.
-[2018.12.16-19.33.25:158][984]Display: HotReload took  0.5s.
-[2018.12.16-19.33.32:554][871]LogTemp: Repeating last play command: Selected Viewport
-[2018.12.16-19.33.32:592][871]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.12.16-19.33.32:592][871]PIE: New page: PIE session: InteractionTest (Dec 16, 2018, 3:33:32 AM)
-[2018.12.16-19.33.32:592][871]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_InteractionTest
-[2018.12.16-19.33.32:596][871]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003250s)
-[2018.12.16-19.33.32:596][871]LogAIModule: Creating AISystem for world InteractionTest
-[2018.12.16-19.33.32:597][871]LogPlayLevel: PIE: World Init took: (0.000690s)
-[2018.12.16-19.33.32:597][871]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/InteractionTest.InteractionTest to /Game/Maps/UEDPIE_0_InteractionTest.InteractionTest (0.004426s)
-[2018.12.16-19.33.32:677][871]LogInit: XAudio2 using 'Speakers (2- Logitech G35 Gaming Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
-[2018.12.16-19.33.32:697][871]LogInit: FAudioDevice initialized.
-[2018.12.16-19.33.32:727][871]LogLoad: Game class is 'CPP_FirstPersonGameMode'
-[2018.12.16-19.33.32:729][871]LogWorld: Bringing World /Game/Maps/UEDPIE_0_InteractionTest.InteractionTest up for play (max tick rate 0) at 2018.12.16-11.33.32
-[2018.12.16-19.33.32:730][871]LogWorld: Bringing up level for play took: 0.001565
-[2018.12.16-19.33.32:731][871]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/UEDPIE_0_InteractionTest.InteractionTest:PersistentLevel.FirstPersonCharacter_C_0.Mesh2P'
-[2018.12.16-19.33.32:732][871]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_InteractionTest 0.825
-[2018.12.16-19.33.45:915][429]LogSavePackage: Save=13.67ms
-[2018.12.16-19.33.45:915][429]LogSavePackage: Moving '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Saved/BP_InteractionDialogWidget06C3AB2F4EAF4279906F46904F8C6CB5.tmp' to '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/BlueprintSource/UI/BP_InteractionDialogWidget.uasset'
-[2018.12.16-19.33.45:922][429]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/BlueprintSource/UI/BP_InteractionDialogWidget.uasset
-[2018.12.16-19.33.47:147][576]BlueprintLog: New page: Compile BP_InteractionDialogWidget
-[2018.12.16-19.33.48:068][679]LogSavePackage: Save=13.36ms
-[2018.12.16-19.33.48:069][679]LogSavePackage: Moving '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Saved/BP_InteractionDialogWidget493700BF4E24EC9A26405B9FE1F88D0B.tmp' to '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/BlueprintSource/UI/BP_InteractionDialogWidget.uasset'
-[2018.12.16-19.33.48:070][679]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/BlueprintSource/UI/BP_InteractionDialogWidget.uasset
-[2018.12.16-19.33.49:210][815]LogTemp: Repeating last play command: Selected Viewport
-[2018.12.16-19.33.49:247][815]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.12.16-19.33.49:247][815]PIE: New page: PIE session: InteractionTest (Dec 16, 2018, 3:33:49 AM)
-[2018.12.16-19.33.49:247][815]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_InteractionTest
-[2018.12.16-19.33.49:251][815]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003075s)
-[2018.12.16-19.33.49:251][815]LogAIModule: Creating AISystem for world InteractionTest
-[2018.12.16-19.33.49:251][815]LogPlayLevel: PIE: World Init took: (0.000627s)
-[2018.12.16-19.33.49:252][815]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/InteractionTest.InteractionTest to /Game/Maps/UEDPIE_0_InteractionTest.InteractionTest (0.004185s)
-[2018.12.16-19.33.49:298][815]LogInit: XAudio2 using 'Speakers (2- Logitech G35 Gaming Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
-[2018.12.16-19.33.49:318][815]LogInit: FAudioDevice initialized.
-[2018.12.16-19.33.49:351][815]LogLoad: Game class is 'CPP_FirstPersonGameMode'
-[2018.12.16-19.33.49:353][815]LogWorld: Bringing World /Game/Maps/UEDPIE_0_InteractionTest.InteractionTest up for play (max tick rate 0) at 2018.12.16-11.33.49
-[2018.12.16-19.33.49:353][815]LogWorld: Bringing up level for play took: 0.001464
-[2018.12.16-19.33.49:354][815]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/UEDPIE_0_InteractionTest.InteractionTest:PersistentLevel.FirstPersonCharacter_C_0.Mesh2P'
-[2018.12.16-19.33.49:356][815]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_InteractionTest -0.551
-[2018.12.16-19.34.26:023][535]LogHotReload: New module detected: UE4Editor-Breach-2750.dll
-[2018.12.16-19.34.26:720][538]LogHotReload: Starting Hot-Reload from IDE
-[2018.12.16-19.34.26:886][538]LogClass: InteractionState HotReload.
-[2018.12.16-19.34.26:890][538]LogContentBrowser: Native class hierarchy updated for 'Breach' in 0.0013 seconds. Added 10 classes and 2 folders.
-[2018.12.16-19.34.26:894][538]Display: HotReload successful (11 functions remapped  0 scriptstructs remapped)
-[2018.12.16-19.34.27:201][538]LogContentBrowser: Native class hierarchy populated in 0.0094 seconds. Added 2377 classes and 528 folders.
-[2018.12.16-19.34.27:208][538]Display: HotReload took  0.5s.
-[2018.12.16-19.34.30:719][686]LogTemp: Repeating last play command: Selected Viewport
-[2018.12.16-19.34.30:756][686]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.12.16-19.34.30:757][686]PIE: New page: PIE session: InteractionTest (Dec 16, 2018, 3:34:30 AM)
-[2018.12.16-19.34.30:757][686]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_InteractionTest
-[2018.12.16-19.34.30:760][686]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003016s)
-[2018.12.16-19.34.30:761][686]LogAIModule: Creating AISystem for world InteractionTest
-[2018.12.16-19.34.30:761][686]LogPlayLevel: PIE: World Init took: (0.000697s)
-[2018.12.16-19.34.30:761][686]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/InteractionTest.InteractionTest to /Game/Maps/UEDPIE_0_InteractionTest.InteractionTest (0.004231s)
-[2018.12.16-19.34.30:835][686]LogInit: XAudio2 using 'Speakers (2- Logitech G35 Gaming Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
-[2018.12.16-19.34.30:855][686]LogInit: FAudioDevice initialized.
-[2018.12.16-19.34.30:889][686]LogLoad: Game class is 'CPP_FirstPersonGameMode'
-[2018.12.16-19.34.30:890][686]LogWorld: Bringing World /Game/Maps/UEDPIE_0_InteractionTest.InteractionTest up for play (max tick rate 0) at 2018.12.16-11.34.30
-[2018.12.16-19.34.30:891][686]LogWorld: Bringing up level for play took: 0.001620
-[2018.12.16-19.34.30:892][686]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/UEDPIE_0_InteractionTest.InteractionTest:PersistentLevel.FirstPersonCharacter_C_0.Mesh2P'
-[2018.12.16-19.34.30:893][686]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_InteractionTest 0.986
-[2018.12.16-19.35.32:352][898]LogFactory: FactoryCreateFile: DataTable with ReimportDataTableFactory (0 1 ../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/JsonData/InteractionDialog.json)
-[2018.12.16-19.35.37:298][898]LogCSVImportFactory: Imported DataTable 'InteractionDialog' - 1 Problems
-[2018.12.16-19.35.37:298][898]LogCSVImportFactory: 0:Failed to parse the JSON data. Error: 
-[2018.12.16-19.35.45:820][453]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/JsonData/InteractionDialog" FILE="../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/JsonData/InteractionDialog.uasset" SILENT=true
-[2018.12.16-19.35.45:829][453]LogSavePackage: Save=5.50ms
-[2018.12.16-19.35.45:829][453]LogSavePackage: Moving '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Saved/InteractionDialogC83074414A8DD0BAA65191B30B413449.tmp' to '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/JsonData/InteractionDialog.uasset'
-[2018.12.16-19.35.45:832][453]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/JsonData/InteractionDialog.uasset
-[2018.12.16-19.35.50:183][972]LogTemp: Repeating last play command: Selected Viewport
-[2018.12.16-19.35.50:224][972]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.12.16-19.35.50:225][972]PIE: New page: PIE session: InteractionTest (Dec 16, 2018, 3:35:50 AM)
-[2018.12.16-19.35.50:225][972]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_InteractionTest
-[2018.12.16-19.35.50:228][972]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003062s)
-[2018.12.16-19.35.50:229][972]LogAIModule: Creating AISystem for world InteractionTest
-[2018.12.16-19.35.50:229][972]LogPlayLevel: PIE: World Init took: (0.000739s)
-[2018.12.16-19.35.50:229][972]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/InteractionTest.InteractionTest to /Game/Maps/UEDPIE_0_InteractionTest.InteractionTest (0.004303s)
-[2018.12.16-19.35.50:278][972]LogInit: XAudio2 using 'Speakers (2- Logitech G35 Gaming Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
-[2018.12.16-19.35.50:299][972]LogInit: FAudioDevice initialized.
-[2018.12.16-19.35.50:329][972]LogLoad: Game class is 'CPP_FirstPersonGameMode'
-[2018.12.16-19.35.50:331][972]LogWorld: Bringing World /Game/Maps/UEDPIE_0_InteractionTest.InteractionTest up for play (max tick rate 0) at 2018.12.16-11.35.50
-[2018.12.16-19.35.50:332][972]LogWorld: Bringing up level for play took: 0.001613
-[2018.12.16-19.35.50:333][972]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/UEDPIE_0_InteractionTest.InteractionTest:PersistentLevel.FirstPersonCharacter_C_0.Mesh2P'
-[2018.12.16-19.35.50:334][972]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_InteractionTest 0.427
-[2018.12.16-19.36.53:438][953]BlueprintLog: New page: Compile BP_InteractionDialogWidget
-[2018.12.16-19.36.59:261][644]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
-[2018.12.16-19.36.59:978][727]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
-[2018.12.16-19.37.00:432][780]LogEditorViewport: Clicking on Actor (LMB): BP_InteractArea_C (BP_InteractArea)
-[2018.12.16-19.37.06:899][544]LogEditorActor: Deleted Actor: BP_InteractArea_C
-[2018.12.16-19.37.06:921][544]LogEditorActor: Deleted 1 Actors (0.027 secs)
-[2018.12.16-19.37.12:151][160]LogSavePackage: Save=34.35ms
-[2018.12.16-19.37.12:151][160]LogSavePackage: Moving '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Saved/InteractionTest6C08DCD044B66EC5C6006AB4D28F5BAD.tmp' to '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/Maps/InteractionTest.umap'
-[2018.12.16-19.37.12:155][160]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/Maps/InteractionTest.umap
-[2018.12.16-19.37.12:247][160]LogSavePackage: Save=13.95ms
-[2018.12.16-19.37.12:247][160]LogSavePackage: Moving '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Saved/InteractionTest_BuiltData26B302C143FEB9D31BAA12986F580937.tmp' to '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/Maps/InteractionTest_BuiltData.uasset'
-[2018.12.16-19.37.12:249][160]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/Maps/InteractionTest_BuiltData.uasset
-[2018.12.16-19.37.21:205][224]LogActor: Warning: BP_InteractArea_C /Game/Maps/InteractionTest.InteractionTest:PersistentLevel.BP_InteractArea_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2018.12.16-19.37.22:180][337]LogActor: Warning: BP_InteractArea_C /Game/Maps/InteractionTest.InteractionTest:PersistentLevel.BP_InteractArea_C_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2018.12.16-19.37.24:915][655]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
-[2018.12.16-19.37.54:151][ 21]LogSavePackage: Save=34.66ms
-[2018.12.16-19.37.54:151][ 21]LogSavePackage: Moving '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Saved/InteractionTest97C503714349C588FACA48A62F5B48F2.tmp' to '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/Maps/InteractionTest.umap'
-[2018.12.16-19.37.54:155][ 21]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/Maps/InteractionTest.umap
-[2018.12.16-19.37.54:238][ 21]LogSavePackage: Save=11.99ms
-[2018.12.16-19.37.54:238][ 21]LogSavePackage: Moving '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Saved/InteractionTest_BuiltData831C279B458938DC6AC7D989D27CCA53.tmp' to '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/Maps/InteractionTest_BuiltData.uasset'
-[2018.12.16-19.37.54:240][ 21]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/Maps/InteractionTest_BuiltData.uasset
-[2018.12.16-19.37.55:144][118]LogSavePackage: Save=34.63ms
-[2018.12.16-19.37.55:144][118]LogSavePackage: Moving '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Saved/InteractionTest35BADF26492394F84F6E5CB6D726058B.tmp' to '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/Maps/InteractionTest.umap'
-[2018.12.16-19.37.55:146][118]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/Maps/InteractionTest.umap
-[2018.12.16-19.37.55:230][118]LogSavePackage: Save=11.72ms
-[2018.12.16-19.37.55:230][118]LogSavePackage: Moving '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Saved/InteractionTest_BuiltDataAAE644DD45E995DDDA69078AC3898159.tmp' to '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/Maps/InteractionTest_BuiltData.uasset'
-[2018.12.16-19.37.55:232][118]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/Maps/InteractionTest_BuiltData.uasset
-[2018.12.16-19.37.55:983][205]LogTemp: Repeating last play command: Selected Viewport
-[2018.12.16-19.37.56:020][205]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.12.16-19.37.56:021][205]PIE: New page: PIE session: InteractionTest (Dec 16, 2018, 3:37:56 AM)
-[2018.12.16-19.37.56:021][205]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_InteractionTest
-[2018.12.16-19.37.56:024][205]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003158s)
-[2018.12.16-19.37.56:025][205]LogAIModule: Creating AISystem for world InteractionTest
-[2018.12.16-19.37.56:025][205]LogPlayLevel: PIE: World Init took: (0.000679s)
-[2018.12.16-19.37.56:025][205]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/InteractionTest.InteractionTest to /Game/Maps/UEDPIE_0_InteractionTest.InteractionTest (0.004322s)
-[2018.12.16-19.37.56:072][205]LogInit: XAudio2 using 'Speakers (2- Logitech G35 Gaming Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
-[2018.12.16-19.37.56:092][205]LogInit: FAudioDevice initialized.
-[2018.12.16-19.37.56:126][205]LogLoad: Game class is 'CPP_FirstPersonGameMode'
-[2018.12.16-19.37.56:127][205]LogWorld: Bringing World /Game/Maps/UEDPIE_0_InteractionTest.InteractionTest up for play (max tick rate 0) at 2018.12.16-11.37.56
-[2018.12.16-19.37.56:128][205]LogWorld: Bringing up level for play took: 0.001559
-[2018.12.16-19.37.56:129][205]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/UEDPIE_0_InteractionTest.InteractionTest:PersistentLevel.FirstPersonCharacter_C_0.Mesh2P'
-[2018.12.16-19.37.56:130][205]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_InteractionTest 0.224
-[2018.12.16-19.38.31:072][373]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
-[2018.12.16-19.38.31:869][465]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
-[2018.12.16-19.38.32:565][547]LogEditorViewport: Clicking on Actor (LMB): BP_InteractArea_C (BP_InteractArea)
-[2018.12.16-19.39.01:538][306]LogSavePackage: Save=25.22ms
-[2018.12.16-19.39.01:538][306]LogSavePackage: Moving '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Saved/BP_InteractionDialogWidget027BC0E44D7582AE2546D8A833F343F7.tmp' to '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/BlueprintSource/UI/BP_InteractionDialogWidget.uasset'
-[2018.12.16-19.39.01:541][306]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/BlueprintSource/UI/BP_InteractionDialogWidget.uasset
-[2018.12.16-19.41.51:877][135]LogHotReload: New module detected: UE4Editor-Breach-9797.dll
-[2018.12.16-19.41.52:931][139]LogHotReload: Starting Hot-Reload from IDE
-[2018.12.16-19.41.53:196][139]LogClass: InteractionState HotReload.
-[2018.12.16-19.41.53:200][139]LogContentBrowser: Native class hierarchy updated for 'Breach' in 0.0013 seconds. Added 10 classes and 2 folders.
-[2018.12.16-19.41.53:203][139]Display: HotReload successful (11 functions remapped  0 scriptstructs remapped)
-[2018.12.16-19.41.53:517][139]LogContentBrowser: Native class hierarchy populated in 0.0092 seconds. Added 2377 classes and 528 folders.
-[2018.12.16-19.41.53:524][139]Display: HotReload took  0.6s.
-[2018.12.16-19.41.57:006][243]LogTemp: Repeating last play command: Selected Viewport
-[2018.12.16-19.41.57:043][243]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.12.16-19.41.57:044][243]PIE: New page: PIE session: InteractionTest (Dec 16, 2018, 3:41:57 AM)
-[2018.12.16-19.41.57:044][243]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_InteractionTest
-[2018.12.16-19.41.57:047][243]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003178s)
-[2018.12.16-19.41.57:048][243]LogAIModule: Creating AISystem for world InteractionTest
-[2018.12.16-19.41.57:048][243]LogPlayLevel: PIE: World Init took: (0.000759s)
-[2018.12.16-19.41.57:049][243]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/InteractionTest.InteractionTest to /Game/Maps/UEDPIE_0_InteractionTest.InteractionTest (0.004463s)
-[2018.12.16-19.41.57:128][243]LogInit: XAudio2 using 'Speakers (2- Logitech G35 Gaming Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
-[2018.12.16-19.41.57:148][243]LogInit: FAudioDevice initialized.
-[2018.12.16-19.41.57:182][243]LogLoad: Game class is 'CPP_FirstPersonGameMode'
-[2018.12.16-19.41.57:183][243]LogWorld: Bringing World /Game/Maps/UEDPIE_0_InteractionTest.InteractionTest up for play (max tick rate 0) at 2018.12.16-11.41.57
-[2018.12.16-19.41.57:184][243]LogWorld: Bringing up level for play took: 0.001687
-[2018.12.16-19.41.57:185][243]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/UEDPIE_0_InteractionTest.InteractionTest:PersistentLevel.FirstPersonCharacter_C_0.Mesh2P'
-[2018.12.16-19.41.57:187][243]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_InteractionTest -0.721
-[2018.12.16-19.42.12:906][720]MapCheck: New page: Map Check
-[2018.12.16-19.42.12:928][720]Cmd: MAP REBUILD ALLVISIBLE
-[2018.12.16-19.42.12:928][720]LogEditorServer: Rebuildmap Clear paths rebuilt
-[2018.12.16-19.42.13:333][720]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
-[2018.12.16-19.42.13:367][720]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy DefaultMaterial, compiling. 
-[2018.12.16-19.42.13:372][720]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_2, compiling. 
-[2018.12.16-19.42.13:377][720]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MrHorse_Material, compiling. 
-[2018.12.16-19.42.15:539][720]TextureStreamingBuild: Display: Compiling optional shaders took 2.221 seconds.
-[2018.12.16-19.42.15:567][720]LogLevel: Display: Export Material TexCoord Scales took 0.027 seconds.
-[2018.12.16-19.42.15:584][720]TextureStreamingBuild: Display: Build Texture Streaming took 0.017 seconds.
-[2018.12.16-19.42.15:634][720]LightingResults: New page: Lighting Build - Dec 16, 2018, 3:42:15 AM
-[2018.12.16-19.42.15:727][720]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
-[2018.12.16-19.42.15:853][720]LogSwarmInterface: [OpenConnection] Connecting to agent ...
-[2018.12.16-19.42.15:888][720]LogSwarmInterface: [TryOpenConnection] Testing the Agent
-[2018.12.16-19.42.17:536][720]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
-[2018.12.16-19.42.17:536][720]LogSwarmInterface: [TryOpenConnection] Local Process ID is 332
-[2018.12.16-19.42.27:449][720]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
-[2018.12.16-19.42.27:450][720]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
-[2018.12.16-19.42.27:450][720]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
-[2018.12.16-19.42.27:450][720]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
-[2018.12.16-19.42.27:450][720]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
-[2018.12.16-19.42.27:450][720]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
-[2018.12.16-19.42.27:831][720]Cmd: MAP CHECK DONTDISPLAYDIALOG
-[2018.12.16-19.42.27:832][720]MapCheck: New page: InteractionTest - Dec 16, 2018, 3:42:27 AM
-[2018.12.16-19.42.28:022][720]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 190.031ms to complete.
-[2018.12.16-19.42.28:045][720]LogEditorBuildUtils: Build time 0:15
-[2018.12.16-19.42.30:822][858]Job is a success!
-[2018.12.16-19.42.30:925][859]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.012s
-[2018.12.16-19.42.30:925][859]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
-[2018.12.16-19.42.30:925][859]LogVolumetricLightmapImport:      BrickData 50x5x5 = 0.0Mb
-[2018.12.16-19.42.30:925][859]LogVolumetricLightmapImport:      Bricks at Level
-[2018.12.16-19.42.30:925][859]LogVolumetricLightmapImport:          0: 10.0% covering 100.0% of volume
-[2018.12.16-19.42.30:925][859]LogVolumetricLightmapImport:          1: 10.0% covering 1.6% of volume
-[2018.12.16-19.42.30:925][859]LogVolumetricLightmapImport:          2: 80.0% covering 0.2% of volume
-[2018.12.16-19.42.31:052][859]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 256X256)
-[2018.12.16-19.42.31:052][859]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 256X256)
-[2018.12.16-19.42.31:053][859]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
-[2018.12.16-19.42.31:053][859]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
-[2018.12.16-19.42.31:053][859]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 256X128)
-[2018.12.16-19.42.31:053][859]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 32X32)
-[2018.12.16-19.42.31:144][859]Lightmass on DESKTOP-PQPAGDU: 1.28 sec total, 302 ms importing, 21 ms setup, 178 ms photons, 531 ms processing, 0 ms extra exporting [3/3 mappings]. Threads: 2.08 sec total, 393 ms processing.
-[2018.12.16-19.42.31:201][859]LogStaticLightingSystem: Illumination: 15.5 sec (19 ms encoding lightmaps, 32 ms encoding shadowmaps)
-[2018.12.16-19.42.31:201][859]LogStaticLightingSystem: Lightmap texture memory:  0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 4 textures
-[2018.12.16-19.42.31:202][859]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
-[2018.12.16-19.42.36:403][859]DumpUnbuiltLightIteractions
-[2018.12.16-19.42.36:403][859]Lights with unbuilt interactions: 0
-[2018.12.16-19.42.36:403][859]
-[2018.12.16-19.42.36:403][859]Primitives with unbuilt interactions: 0
-[2018.12.16-19.42.36:464][860]Cmd: MAP CHECK NOTIFYRESULTS
-[2018.12.16-19.42.36:464][860]MapCheck: New page: InteractionTest - Dec 16, 2018, 3:42:36 AM
-[2018.12.16-19.42.36:618][860]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 153.91ms to complete.
-[2018.12.16-19.43.12:236][115]LogVSAccessor: Warning: Couldn't access Visual Studio
-[2018.12.16-19.43.12:240][115]Candidate modules for hot reload:
-[2018.12.16-19.43.12:240][115]  Breach
-[2018.12.16-19.43.12:240][115]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe Breach -ModuleWithSuffix Breach 6250 Win64 Development -editorrecompile -canskiplink "C:/Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Breach.uproject" ]
-[2018.12.16-19.43.12:256][115]Warning: Starting HotReload took  0.0s.
-[2018.12.16-19.43.20:936][490]CompilerResultsLog: New page: Compilation - Dec 16, 2018, 3:43:20 AM
-[2018.12.16-19.43.20:936][490]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
-[2018.12.16-19.43.20:936][490]CompilerResultsLog: Creating makefile for hot reloading Breach (modules to compile have changed)
-[2018.12.16-19.43.20:936][490]CompilerResultsLog: Compiling game modules for hot reload
-[2018.12.16-19.43.20:936][490]CompilerResultsLog: Target is up to date
-[2018.12.16-19.43.20:936][490]CompilerResultsLog: Total build time: 8.26 seconds (NoActionsToExecute executor: 0.00 seconds)
-[2018.12.16-19.43.20:936][490]LogMainFrame: MainFrame: Module compiling took 8.701 seconds
-[2018.12.16-19.43.21:194][490]LogContentBrowser: Native class hierarchy populated in 0.0097 seconds. Added 2377 classes and 528 folders.
-[2018.12.16-19.43.21:198][490]Display: HotReload took  9.0s.
-[2018.12.16-19.43.30:797][737]LogTemp: Repeating last play command: Selected Viewport
-[2018.12.16-19.43.30:836][737]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.12.16-19.43.30:836][737]PIE: New page: PIE session: InteractionTest (Dec 16, 2018, 3:43:30 AM)
-[2018.12.16-19.43.30:836][737]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_InteractionTest
-[2018.12.16-19.43.30:839][737]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002320s)
-[2018.12.16-19.43.30:840][737]LogAIModule: Creating AISystem for world InteractionTest
-[2018.12.16-19.43.30:840][737]LogPlayLevel: PIE: World Init took: (0.000931s)
-[2018.12.16-19.43.30:840][737]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/InteractionTest.InteractionTest to /Game/Maps/UEDPIE_0_InteractionTest.InteractionTest (0.003730s)
-[2018.12.16-19.43.30:917][737]LogInit: XAudio2 using 'Speakers (2- Logitech G35 Gaming Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
-[2018.12.16-19.43.30:938][737]LogInit: FAudioDevice initialized.
-[2018.12.16-19.43.30:971][737]LogLoad: Game class is 'CPP_FirstPersonGameMode'
-[2018.12.16-19.43.30:972][737]LogWorld: Bringing World /Game/Maps/UEDPIE_0_InteractionTest.InteractionTest up for play (max tick rate 0) at 2018.12.16-11.43.30
-[2018.12.16-19.43.30:973][737]LogWorld: Bringing up level for play took: 0.001715
-[2018.12.16-19.43.30:974][737]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/UEDPIE_0_InteractionTest.InteractionTest:PersistentLevel.FirstPersonCharacter_C_0.Mesh2P'
-[2018.12.16-19.43.30:976][737]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_InteractionTest 1.068
-[2018.12.16-19.43.59:049][311]LogHotReload: New module detected: UE4Editor-Breach-9941.dll
-[2018.12.16-19.44.00:064][315]LogHotReload: Starting Hot-Reload from IDE
-[2018.12.16-19.44.00:253][315]LogClass: InteractionState HotReload.
-[2018.12.16-19.44.00:258][315]LogContentBrowser: Native class hierarchy updated for 'Breach' in 0.0013 seconds. Added 10 classes and 2 folders.
-[2018.12.16-19.44.00:261][315]Display: HotReload successful (11 functions remapped  0 scriptstructs remapped)
-[2018.12.16-19.44.00:561][315]LogContentBrowser: Native class hierarchy populated in 0.0099 seconds. Added 2377 classes and 528 folders.
-[2018.12.16-19.44.00:568][315]Display: HotReload took  0.5s.
-[2018.12.16-19.44.06:376][464]LogTemp: Repeating last play command: Selected Viewport
-[2018.12.16-19.44.06:413][464]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.12.16-19.44.06:414][464]PIE: New page: PIE session: InteractionTest (Dec 16, 2018, 3:44:06 AM)
-[2018.12.16-19.44.06:414][464]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_InteractionTest
-[2018.12.16-19.44.06:416][464]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001697s)
-[2018.12.16-19.44.06:416][464]LogAIModule: Creating AISystem for world InteractionTest
-[2018.12.16-19.44.06:417][464]LogPlayLevel: PIE: World Init took: (0.000703s)
-[2018.12.16-19.44.06:417][464]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/InteractionTest.InteractionTest to /Game/Maps/UEDPIE_0_InteractionTest.InteractionTest (0.002897s)
-[2018.12.16-19.44.06:494][464]LogInit: XAudio2 using 'Speakers (2- Logitech G35 Gaming Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
-[2018.12.16-19.44.06:513][464]LogInit: FAudioDevice initialized.
-[2018.12.16-19.44.06:546][464]LogLoad: Game class is 'CPP_FirstPersonGameMode'
-[2018.12.16-19.44.06:548][464]LogWorld: Bringing World /Game/Maps/UEDPIE_0_InteractionTest.InteractionTest up for play (max tick rate 0) at 2018.12.16-11.44.06
-[2018.12.16-19.44.06:548][464]LogWorld: Bringing up level for play took: 0.001870
-[2018.12.16-19.44.06:549][464]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/UEDPIE_0_InteractionTest.InteractionTest:PersistentLevel.FirstPersonCharacter_C_0.Mesh2P'
-[2018.12.16-19.44.06:551][464]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_InteractionTest 0.644
-[2018.12.16-19.44.08:535][691]LogTemp: UCPP_InteractionDialogWidget NativeConstruct
-[2018.12.16-19.44.08:536][691]LogTemp: Json String:
-[2018.12.16-19.44.08:536][691]LogTemp: {
-	"InteractionDialog":{
-		"MyInteractionTest":{
-			"DisplayText":[
-				"This is my test dialog",
-				"Test2",
-				"Test3"
-			]
-		}
-	}
-}
-[2018.12.16-19.44.47:319][581]LogSavePackage: Save=101.13ms
-[2018.12.16-19.44.47:319][581]LogSavePackage: Moving '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Saved/InteractionTest869BA8414E8390141773B88E47ECCC28.tmp' to '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/Maps/InteractionTest.umap'
-[2018.12.16-19.44.47:323][581]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/Maps/InteractionTest.umap
-[2018.12.16-19.44.47:411][581]LogSavePackage: Save=11.83ms
-[2018.12.16-19.44.47:411][581]LogSavePackage: Moving '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Saved/InteractionTest_BuiltData9C5DDE474F948FE52275E680ED1E1AC6.tmp' to '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/Maps/InteractionTest_BuiltData.uasset'
-[2018.12.16-19.44.47:415][581]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/Maps/InteractionTest_BuiltData.uasset
-[2018.12.16-19.44.50:093][881]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2018.12.16-19.44.50:258][881]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.12.16-19.44.50:533][882]Cmd: QUIT_EDITOR
-[2018.12.16-19.44.51:281][882]LogExit: Preparing to exit.
-[2018.12.16-19.44.51:962][882]LogDirectoryWatcher: A directory notification for 'C:/Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/' was aborted.
-[2018.12.16-19.44.52:101][882]LogExit: Editor shut down
-[2018.12.16-19.44.52:145][882]LogExit: Transaction tracking system shut down
-[2018.12.16-19.44.52:408][882]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2018.12.16-19.44.52:408][882]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/' was aborted.
-[2018.12.16-19.44.52:408][882]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2018.12.16-19.44.52:408][882]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Media/MediaCompositing/Content/' was aborted.
-[2018.12.16-19.44.52:408][882]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/AppleARKit/Content/' was aborted.
-[2018.12.16-19.44.52:408][882]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
-[2018.12.16-19.44.52:408][882]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
-[2018.12.16-19.44.52:615][882]LogExit: Object subsystem successfully closed.
-[2018.12.16-19.44.52:646][882]LogD3D11RHI: Shutdown
-[2018.12.16-19.44.52:646][882]LogD3D11RHI: CleanupD3DDevice
-[2018.12.16-19.44.52:652][882]LogD3D11RHI: ~FD3D11DynamicRHI
-[2018.12.16-19.44.52:680][882]LogModuleManager: Shutting down and abandoning module Breach (568)
-[2018.12.16-19.44.52:680][882]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (567)
-[2018.12.16-19.44.52:680][882]LogModuleManager: Shutting down and abandoning module DataTableEditor (564)
-[2018.12.16-19.44.52:680][882]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (558)
-[2018.12.16-19.44.52:680][882]LogModuleManager: Shutting down and abandoning module SequencerWidgets (556)
-[2018.12.16-19.44.52:680][882]LogModuleManager: Shutting down and abandoning module BlueprintGraph (554)
-[2018.12.16-19.44.52:680][882]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (552)
-[2018.12.16-19.44.52:680][882]LogModuleManager: Shutting down and abandoning module DesktopPlatform (550)
-[2018.12.16-19.44.52:680][882]LogModuleManager: Shutting down and abandoning module WorldBrowser (548)
-[2018.12.16-19.44.52:680][882]LogModuleManager: Shutting down and abandoning module SceneOutliner (546)
-[2018.12.16-19.44.52:680][882]LogModuleManager: Shutting down and abandoning module AddContentDialog (544)
-[2018.12.16-19.44.52:680][882]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.18/FeaturePacks/' was aborted.
-[2018.12.16-19.44.52:685][882]LogModuleManager: Shutting down and abandoning module WidgetCarousel (543)
-[2018.12.16-19.44.52:685][882]LogModuleManager: Shutting down and abandoning module EditorWidgets (540)
-[2018.12.16-19.44.52:685][882]LogModuleManager: Shutting down and abandoning module CollectionManager (538)
-[2018.12.16-19.44.52:685][882]LogDirectoryWatcher: A directory notification for 'C:/Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/Collections/' was aborted.
-[2018.12.16-19.44.52:686][882]LogDirectoryWatcher: A directory notification for 'C:/Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/Developers/Ryanc/Collections/' was aborted.
-[2018.12.16-19.44.52:686][882]LogDirectoryWatcher: A directory notification for 'C:/Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Saved/Collections/' was aborted.
-[2018.12.16-19.44.52:686][882]LogModuleManager: Shutting down and abandoning module StatsViewer (536)
-[2018.12.16-19.44.52:686][882]LogModuleManager: Shutting down and abandoning module FoliageEdit (534)
-[2018.12.16-19.44.52:686][882]LogModuleManager: Shutting down and abandoning module LandscapeEditor (532)
-[2018.12.16-19.44.52:686][882]LogModuleManager: Shutting down and abandoning module MeshPaintMode (530)
-[2018.12.16-19.44.52:686][882]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (528)
-[2018.12.16-19.44.52:686][882]LogModuleManager: Shutting down and abandoning module ActorPickerMode (526)
-[2018.12.16-19.44.52:686][882]LogModuleManager: Shutting down and abandoning module GeometryMode (524)
-[2018.12.16-19.44.52:686][882]LogModuleManager: Shutting down and abandoning module TextureAlignMode (522)
-[2018.12.16-19.44.52:686][882]LogModuleManager: Shutting down and abandoning module BspMode (520)
-[2018.12.16-19.44.52:686][882]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (518)
-[2018.12.16-19.44.52:686][882]LogModuleManager: Shutting down and abandoning module HardwareSurvey (516)
-[2018.12.16-19.44.52:686][882]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (514)
-[2018.12.16-19.44.52:686][882]LogModuleManager: Shutting down and abandoning module AutomationWorker (512)
-[2018.12.16-19.44.52:686][882]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (510)
-[2018.12.16-19.44.52:686][882]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (508)
-[2018.12.16-19.44.52:686][882]LogModuleManager: Shutting down and abandoning module PlacementMode (507)
-[2018.12.16-19.44.52:686][882]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (504)
-[2018.12.16-19.44.52:686][882]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (502)
-[2018.12.16-19.44.52:686][882]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (500)
-[2018.12.16-19.44.52:686][882]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (498)
-[2018.12.16-19.44.52:686][882]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (496)
-[2018.12.16-19.44.52:686][882]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (494)
-[2018.12.16-19.44.52:686][882]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (492)
-[2018.12.16-19.44.52:686][882]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (490)
-[2018.12.16-19.44.52:686][882]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (488)
-[2018.12.16-19.44.52:686][882]LogModuleManager: Shutting down and abandoning module CharacterAI (486)
-[2018.12.16-19.44.52:686][882]LogModuleManager: Shutting down and abandoning module AudioCapture (484)
-[2018.12.16-19.44.52:686][882]LogModuleManager: Shutting down and abandoning module SequenceRecorder (483)
-[2018.12.16-19.44.52:686][882]LogModuleManager: Shutting down and abandoning module SmartSnapping (480)
-[2018.12.16-19.44.52:686][882]LogModuleManager: Shutting down and abandoning module SessionServices (478)
-[2018.12.16-19.44.52:687][882]LogModuleManager: Shutting down and abandoning module ViewportSnapping (476)
-[2018.12.16-19.44.52:687][882]LogModuleManager: Shutting down and abandoning module ViewportInteraction (474)
-[2018.12.16-19.44.52:687][882]LogModuleManager: Shutting down and abandoning module ClothPainter (472)
-[2018.12.16-19.44.52:687][882]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (471)
-[2018.12.16-19.44.52:687][882]LogModuleManager: Shutting down and abandoning module LogVisualizer (468)
-[2018.12.16-19.44.52:687][882]LogModuleManager: Shutting down and abandoning module IntroTutorials (466)
-[2018.12.16-19.44.52:687][882]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (465)
-[2018.12.16-19.44.52:687][882]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (462)
-[2018.12.16-19.44.52:687][882]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (460)
-[2018.12.16-19.44.52:687][882]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (458)
-[2018.12.16-19.44.52:687][882]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (457)
-[2018.12.16-19.44.53:358][882]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (454)
-[2018.12.16-19.44.53:359][882]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (452)
-[2018.12.16-19.44.53:360][882]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (450)
-[2018.12.16-19.44.53:360][882]LogModuleManager: Shutting down and abandoning module InputBindingEditor (448)
-[2018.12.16-19.44.53:360][882]LogModuleManager: Shutting down and abandoning module MergeActors (446)
-[2018.12.16-19.44.53:360][882]LogModuleManager: Shutting down and abandoning module SizeMap (444)
-[2018.12.16-19.44.53:360][882]LogModuleManager: Shutting down and abandoning module TreeMap (442)
-[2018.12.16-19.44.53:360][882]LogModuleManager: Shutting down and abandoning module ReferenceViewer (440)
-[2018.12.16-19.44.53:360][882]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (438)
-[2018.12.16-19.44.53:360][882]LogModuleManager: Shutting down and abandoning module LocalizationService (437)
-[2018.12.16-19.44.53:360][882]LogModuleManager: Shutting down and abandoning module HardwareTargeting (434)
-[2018.12.16-19.44.53:360][882]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (432)
-[2018.12.16-19.44.53:360][882]LogModuleManager: Shutting down and abandoning module UndoHistory (430)
-[2018.12.16-19.44.53:360][882]LogModuleManager: Shutting down and abandoning module XmlParser (428)
-[2018.12.16-19.44.53:360][882]LogModuleManager: Shutting down and abandoning module Blutility (426)
-[2018.12.16-19.44.53:360][882]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (424)
-[2018.12.16-19.44.53:360][882]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (423)
-[2018.12.16-19.44.53:361][882]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (420)
-[2018.12.16-19.44.53:361][882]LogModuleManager: Shutting down and abandoning module SettingsEditor (418)
-[2018.12.16-19.44.53:361][882]LogModuleManager: Shutting down and abandoning module ProjectLauncher (416)
-[2018.12.16-19.44.53:361][882]LogModuleManager: Shutting down and abandoning module SessionFrontend (414)
-[2018.12.16-19.44.53:361][882]LogModuleManager: Shutting down and abandoning module ProfilerClient (412)
-[2018.12.16-19.44.53:361][882]LogModuleManager: Shutting down and abandoning module DeviceManager (410)
-[2018.12.16-19.44.53:361][882]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (409)
-[2018.12.16-19.44.53:432][882]LogModuleManager: Shutting down and abandoning module AutomationController (406)
-[2018.12.16-19.44.53:432][882]LogModuleManager: Shutting down and abandoning module AutomationWindow (404)
-[2018.12.16-19.44.53:432][882]LogModuleManager: Shutting down and abandoning module Layers (402)
-[2018.12.16-19.44.53:432][882]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (400)
-[2018.12.16-19.44.53:432][882]LogModuleManager: Shutting down and abandoning module DetailCustomizations (398)
-[2018.12.16-19.44.53:432][882]LogModuleManager: Shutting down and abandoning module PackagesDialog (396)
-[2018.12.16-19.44.53:432][882]LogModuleManager: Shutting down and abandoning module Persona (394)
-[2018.12.16-19.44.53:432][882]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (393)
-[2018.12.16-19.44.53:432][882]LogModuleManager: Shutting down and abandoning module AnimGraph (391)
-[2018.12.16-19.44.53:432][882]LogModuleManager: Shutting down and abandoning module Kismet (388)
-[2018.12.16-19.44.53:446][882]LogModuleManager: Shutting down and abandoning module ClassViewer (386)
-[2018.12.16-19.44.53:447][882]LogModuleManager: Shutting down and abandoning module Toolbox (384)
-[2018.12.16-19.44.53:447][882]LogModuleManager: Shutting down and abandoning module ModuleUI (382)
-[2018.12.16-19.44.53:447][882]LogModuleManager: Shutting down and abandoning module MovieSceneTools (380)
-[2018.12.16-19.44.53:447][882]LogModuleManager: Shutting down and abandoning module OutputLog (378)
-[2018.12.16-19.44.53:447][882]LogModuleManager: Shutting down and abandoning module GammaUI (376)
-[2018.12.16-19.44.53:447][882]LogModuleManager: Shutting down and abandoning module Documentation (374)
-[2018.12.16-19.44.53:448][882]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (372)
-[2018.12.16-19.44.53:448][882]LogModuleManager: Shutting down and abandoning module MovieScene (370)
-[2018.12.16-19.44.53:448][882]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (368)
-[2018.12.16-19.44.53:448][882]LogModuleManager: Shutting down and abandoning module LauncherPlatform (366)
-[2018.12.16-19.44.53:448][882]LogModuleManager: Shutting down and abandoning module AnalyticsET (364)
-[2018.12.16-19.44.53:448][882]LogModuleManager: Shutting down and abandoning module PortalServices (362)
-[2018.12.16-19.44.53:448][882]LogModuleManager: Shutting down and abandoning module PortalRpc (360)
-[2018.12.16-19.44.53:448][882]LogModuleManager: Shutting down and abandoning module MessagingRpc (358)
-[2018.12.16-19.44.53:448][882]LogModuleManager: Shutting down and abandoning module AIModule (356)
-[2018.12.16-19.44.53:448][882]LogModuleManager: Shutting down and abandoning module GameplayDebugger (355)
-[2018.12.16-19.44.53:448][882]LogModuleManager: Shutting down and abandoning module AITestSuite (353)
-[2018.12.16-19.44.53:448][882]LogModuleManager: Shutting down and abandoning module ProfilerService (350)
-[2018.12.16-19.44.53:510][882]LogModuleManager: Shutting down and abandoning module TaskGraph (348)
-[2018.12.16-19.44.53:510][882]LogModuleManager: Shutting down and abandoning module SteamVRController (346)
-[2018.12.16-19.44.53:510][882]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (344)
-[2018.12.16-19.44.53:511][882]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (342)
-[2018.12.16-19.44.53:511][882]LogModuleManager: Shutting down and abandoning module OculusInput (340)
-[2018.12.16-19.44.53:511][882]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (338)
-[2018.12.16-19.44.53:511][882]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (336)
-[2018.12.16-19.44.53:511][882]LogModuleManager: Shutting down and abandoning module CableComponent (334)
-[2018.12.16-19.44.53:511][882]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (332)
-[2018.12.16-19.44.53:511][882]LogModuleManager: Shutting down and abandoning module AndroidPermission (330)
-[2018.12.16-19.44.53:511][882]LogModuleManager: Shutting down and abandoning module ActorSequence (326)
-[2018.12.16-19.44.53:511][882]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (324)
-[2018.12.16-19.44.53:511][882]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (322)
-[2018.12.16-19.44.53:511][882]LogModuleManager: Shutting down and abandoning module MediaCompositing (320)
-[2018.12.16-19.44.53:511][882]LogModuleManager: Shutting down and abandoning module HTML5Networking (318)
-[2018.12.16-19.44.53:511][882]LogModuleManager: Shutting down and abandoning module AlembicImporter (316)
-[2018.12.16-19.44.53:511][882]LogModuleManager: Shutting down and abandoning module AlembicLibrary (315)
-[2018.12.16-19.44.53:511][882]LogModuleManager: Shutting down and abandoning module GeometryCache (314)
-[2018.12.16-19.44.53:511][882]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (313)
-[2018.12.16-19.44.53:511][882]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (308)
-[2018.12.16-19.44.53:511][882]LogModuleManager: Shutting down and abandoning module PluginBrowser (306)
-[2018.12.16-19.44.53:511][882]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (304)
-[2018.12.16-19.44.53:511][882]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (302)
-[2018.12.16-19.44.53:511][882]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (300)
-[2018.12.16-19.44.53:511][882]LogModuleManager: Shutting down and abandoning module UObjectPlugin (298)
-[2018.12.16-19.44.53:511][882]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (296)
-[2018.12.16-19.44.53:511][882]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (294)
-[2018.12.16-19.44.53:512][882]LogModuleManager: Shutting down and abandoning module GitSourceControl (292)
-[2018.12.16-19.44.53:512][882]LogModuleManager: Shutting down and abandoning module SourceControl (291)
-[2018.12.16-19.44.53:512][882]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (288)
-[2018.12.16-19.44.53:512][882]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (286)
-[2018.12.16-19.44.53:512][882]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (284)
-[2018.12.16-19.44.53:512][882]LogModuleManager: Shutting down and abandoning module Paper2DEditor (282)
-[2018.12.16-19.44.53:512][882]LogModuleManager: Shutting down and abandoning module MeshPaint (281)
-[2018.12.16-19.44.53:512][882]LogModuleManager: Shutting down and abandoning module LevelEditor (279)
-[2018.12.16-19.44.53:514][882]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (278)
-[2018.12.16-19.44.53:514][882]LogModuleManager: Shutting down and abandoning module MainFrame (276)
-[2018.12.16-19.44.53:514][882]LogModuleManager: Shutting down and abandoning module HotReload (275)
-[2018.12.16-19.44.53:514][882]LogDirectoryWatcher: A directory notification for 'C:/Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Binaries/Win64' was aborted.
-[2018.12.16-19.44.53:514][882]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (268)
-[2018.12.16-19.44.53:514][882]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (266)
-[2018.12.16-19.44.53:514][882]LogModuleManager: Shutting down and abandoning module PhysXVehicles (264)
-[2018.12.16-19.44.53:514][882]LogModuleManager: Shutting down and abandoning module OculusEditor (262)
-[2018.12.16-19.44.53:514][882]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (260)
-[2018.12.16-19.44.53:514][882]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (258)
-[2018.12.16-19.44.53:515][882]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (256)
-[2018.12.16-19.44.53:515][882]LogModuleManager: Shutting down and abandoning module UdpMessaging (254)
-[2018.12.16-19.44.53:616][882]LogModuleManager: Shutting down and abandoning module TcpMessaging (252)
-[2018.12.16-19.44.53:717][882]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (250)
-[2018.12.16-19.44.53:717][882]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (248)
-[2018.12.16-19.44.53:717][882]LogModuleManager: Shutting down and abandoning module FacialAnimation (246)
-[2018.12.16-19.44.53:717][882]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (244)
-[2018.12.16-19.44.53:717][882]LogModuleManager: Shutting down and abandoning module GraphEditor (243)
-[2018.12.16-19.44.53:717][882]LogModuleManager: Shutting down and abandoning module ContentBrowser (241)
-[2018.12.16-19.44.53:718][882]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (238)
-[2018.12.16-19.44.53:718][882]LogModuleManager: Shutting down and abandoning module Paper2D (236)
-[2018.12.16-19.44.53:718][882]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (234)
-[2018.12.16-19.44.53:718][882]LogModuleManager: Shutting down and abandoning module WmfMedia (232)
-[2018.12.16-19.44.53:722][882]LogModuleManager: Shutting down and abandoning module ImgMedia (230)
-[2018.12.16-19.44.53:722][882]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
-[2018.12.16-19.44.53:722][882]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
-[2018.12.16-19.44.53:722][882]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
-[2018.12.16-19.44.53:722][882]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
-[2018.12.16-19.44.53:722][882]LogModuleManager: Shutting down and abandoning module Media (221)
-[2018.12.16-19.44.53:728][882]LogModuleManager: Shutting down and abandoning module Overlay (218)
-[2018.12.16-19.44.53:728][882]LogModuleManager: Shutting down and abandoning module OverlayEditor (217)
-[2018.12.16-19.44.53:728][882]LogModuleManager: Shutting down and abandoning module VREditor (214)
-[2018.12.16-19.44.53:728][882]LogModuleManager: Shutting down and abandoning module StringTableEditor (212)
-[2018.12.16-19.44.53:728][882]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (210)
-[2018.12.16-19.44.53:728][882]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (208)
-[2018.12.16-19.44.53:728][882]LogModuleManager: Shutting down and abandoning module FunctionalTesting (206)
-[2018.12.16-19.44.53:728][882]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (204)
-[2018.12.16-19.44.53:729][882]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (203)
-[2018.12.16-19.44.53:729][882]LogModuleManager: Shutting down and abandoning module UMG (200)
-[2018.12.16-19.44.53:729][882]LogModuleManager: Shutting down and abandoning module UMGEditor (199)
-[2018.12.16-19.44.53:729][882]LogModuleManager: Shutting down and abandoning module Sequencer (198)
-[2018.12.16-19.44.53:729][882]LogModuleManager: Shutting down and abandoning module MessageLog (195)
-[2018.12.16-19.44.53:729][882]LogModuleManager: Shutting down and abandoning module SlateReflector (190)
-[2018.12.16-19.44.53:729][882]LogModuleManager: Shutting down and abandoning module Slate (188)
-[2018.12.16-19.44.53:729][882]LogModuleManager: Shutting down and abandoning module EditorStyle (186)
-[2018.12.16-19.44.53:732][882]LogModuleManager: Shutting down and abandoning module MRMesh (184)
-[2018.12.16-19.44.53:732][882]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
-[2018.12.16-19.44.53:732][882]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
-[2018.12.16-19.44.53:732][882]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
-[2018.12.16-19.44.53:732][882]LogModuleManager: Shutting down and abandoning module Networking (176)
-[2018.12.16-19.44.53:732][882]LogModuleManager: Shutting down and abandoning module Core (172)
-[2018.12.16-19.44.53:732][882]LogModuleManager: Shutting down and abandoning module LevelSequence (168)
-[2018.12.16-19.44.53:732][882]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (166)
-[2018.12.16-19.44.53:739][882]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
-[2018.12.16-19.44.53:739][882]LogModuleManager: Shutting down and abandoning module MeshUtilities (162)
-[2018.12.16-19.44.53:739][882]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (161)
-[2018.12.16-19.44.53:739][882]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (160)
-[2018.12.16-19.44.53:739][882]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (159)
-[2018.12.16-19.44.53:739][882]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (157)
-[2018.12.16-19.44.53:739][882]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (155)
-[2018.12.16-19.44.53:739][882]LogModuleManager: Shutting down and abandoning module MaterialBaking (151)
-[2018.12.16-19.44.53:739][882]LogModuleManager: Shutting down and abandoning module DerivedDataCache (148)
-[2018.12.16-19.44.53:782][882]LogDerivedDataCache: Shutdown
-[2018.12.16-19.44.53:782][882]LogModuleManager: Shutting down and abandoning module TargetPlatform (146)
-[2018.12.16-19.44.53:783][882]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (145)
-[2018.12.16-19.44.53:783][882]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (143)
-[2018.12.16-19.44.53:783][882]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (141)
-[2018.12.16-19.44.53:783][882]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (139)
-[2018.12.16-19.44.53:783][882]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (137)
-[2018.12.16-19.44.53:783][882]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (135)
-[2018.12.16-19.44.53:783][882]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (133)
-[2018.12.16-19.44.53:783][882]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (131)
-[2018.12.16-19.44.53:783][882]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (129)
-[2018.12.16-19.44.53:783][882]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (127)
-[2018.12.16-19.44.53:783][882]LogModuleManager: Shutting down and abandoning module ImageWrapper (126)
-[2018.12.16-19.44.53:783][882]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (123)
-[2018.12.16-19.44.53:783][882]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (121)
-[2018.12.16-19.44.53:783][882]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (119)
-[2018.12.16-19.44.53:783][882]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (117)
-[2018.12.16-19.44.53:783][882]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (115)
-[2018.12.16-19.44.53:783][882]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (113)
-[2018.12.16-19.44.53:783][882]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (111)
-[2018.12.16-19.44.53:783][882]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (109)
-[2018.12.16-19.44.53:783][882]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (107)
-[2018.12.16-19.44.53:783][882]LogModuleManager: Shutting down and abandoning module Messaging (105)
-[2018.12.16-19.44.53:783][882]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (103)
-[2018.12.16-19.44.53:783][882]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (101)
-[2018.12.16-19.44.53:783][882]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (99)
-[2018.12.16-19.44.53:783][882]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (97)
-[2018.12.16-19.44.53:783][882]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (95)
-[2018.12.16-19.44.53:783][882]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (93)
-[2018.12.16-19.44.53:783][882]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (91)
-[2018.12.16-19.44.53:783][882]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (89)
-[2018.12.16-19.44.53:783][882]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (87)
-[2018.12.16-19.44.53:784][882]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (85)
-[2018.12.16-19.44.53:784][882]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (83)
-[2018.12.16-19.44.53:784][882]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (81)
-[2018.12.16-19.44.53:784][882]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (79)
-[2018.12.16-19.44.53:784][882]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (77)
-[2018.12.16-19.44.53:784][882]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (75)
-[2018.12.16-19.44.53:784][882]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (73)
-[2018.12.16-19.44.53:784][882]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (71)
-[2018.12.16-19.44.53:784][882]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (69)
-[2018.12.16-19.44.53:784][882]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (67)
-[2018.12.16-19.44.53:784][882]LogModuleManager: Shutting down and abandoning module InputCore (64)
-[2018.12.16-19.44.53:784][882]LogModuleManager: Shutting down and abandoning module Settings (62)
-[2018.12.16-19.44.53:784][882]LogModuleManager: Shutting down and abandoning module PhysXCooking (60)
-[2018.12.16-19.44.53:784][882]LogModuleManager: Shutting down and abandoning module SteamVR (58)
-[2018.12.16-19.44.53:784][882]LogModuleManager: Shutting down and abandoning module OculusHMD (56)
-[2018.12.16-19.44.53:784][882]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (54)
-[2018.12.16-19.44.53:784][882]LogModuleManager: Shutting down and abandoning module AppleARKit (52)
-[2018.12.16-19.44.53:784][882]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
-[2018.12.16-19.44.53:784][882]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
-[2018.12.16-19.44.53:784][882]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
-[2018.12.16-19.44.53:784][882]LogModuleManager: Shutting down and abandoning module XMPP (43)
-[2018.12.16-19.44.53:785][882]LogModuleManager: Shutting down and abandoning module HTTP (41)
-[2018.12.16-19.44.53:785][882]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2018.12.16-19.44.53:785][882]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B9A0AEA69-4FD2-9A74-9455-85A316058D01%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.18.3-3832480%2B%2B%2BUE4%2BRelease-4.18&UserID=ccf7dd34489de02701ff4fbb735dfda8%7C1c47cca3f81a4d49b4afc58710f55152%7C89d16c0c-a512-46c7-bff7-fefdf66a64da&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2018.12.16-19.44.53:787][882]LogModuleManager: Shutting down and abandoning module SSL (40)
-[2018.12.16-19.44.53:789][882]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2018.12.16-19.44.53:789][882]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2018.12.16-19.44.53:789][882]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2018.12.16-19.44.53:789][882]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2018.12.16-19.44.53:789][882]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2018.12.16-19.44.53:789][882]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2018.12.16-19.44.53:789][882]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2018.12.16-19.44.53:793][882]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2018.12.16-19.44.53:793][882]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2018.12.16-19.44.53:793][882]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2018.12.16-19.44.53:793][882]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2018.12.16-19.44.53:793][882]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2018.12.16-19.44.53:793][882]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2018.12.16-19.44.53:793][882]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2018.12.16-19.44.53:793][882]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2018.12.16-19.44.53:793][882]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2018.12.16-19.44.53:793][882]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2018.12.16-19.44.53:793][882]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2018.12.16-19.44.53:796][882]LogExit: Exiting.
-[2018.12.16-19.44.53:832][882]Log file closed, 12/16/18 11:44:53
+[2018.12.20-06.40.17:089][  0]LogInit: Selected Device Profile: [Windows]
+[2018.12.20-06.40.17:089][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.12.20-06.40.17:180][  0]LogInit: Computer: DESKTOP-PQPAGDU
+[2018.12.20-06.40.17:181][  0]LogInit: User: Ryanc
+[2018.12.20-06.40.17:182][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.12.20-06.40.17:182][  0]LogInit: High frequency timer resolution =3.417967 MHz
+[2018.12.20-06.40.17:184][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.12.20-06.40.17:184][  0]LogMemory: Platform Memory Stats for Windows
+[2018.12.20-06.40.17:185][  0]LogMemory: Process Physical Memory: 274.21 MB used, 274.21 MB peak
+[2018.12.20-06.40.17:185][  0]LogMemory: Process Virtual Memory: 279.70 MB used, 279.70 MB peak
+[2018.12.20-06.40.17:186][  0]LogMemory: Physical Memory: 6199.79 MB used,  10126.89 MB free, 16326.68 MB total
+[2018.12.20-06.40.17:186][  0]LogMemory: Virtual Memory: 4789.66 MB used,  10126.89 MB free, 134217728.00 MB total
+[2018.12.20-06.40.17:552][  0]LogInit: Using OS detected language (en-US).
+[2018.12.20-06.40.17:552][  0]LogInit: Using OS detected locale (en-US).
+[2018.12.20-06.40.17:681][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.12.20-06.40.18:146][  0]LogInit: Setting process to per monitor DPI aware
+[2018.12.20-06.40.23:986][  0]LogD3D11RHI: D3D11 adapters:
+[2018.12.20-06.40.24:107][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2018.12.20-06.40.24:107][  0]LogD3D11RHI:       8088/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.12.20-06.40.24:112][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.12.20-06.40.24:112][  0]LogD3D11RHI:       0/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.12.20-06.40.24:112][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.12.20-06.40.24:122][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.12.20-06.40.24:122][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2018.12.20-06.40.24:122][  0]LogWindows: EnumDisplayDevices:
+[2018.12.20-06.40.24:122][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2018.12.20-06.40.24:122][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.12.20-06.40.24:123][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.12.20-06.40.24:123][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.12.20-06.40.24:123][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.12.20-06.40.24:123][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2018.12.20-06.40.24:123][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.12.20-06.40.24:123][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.12.20-06.40.24:123][  0]LogRHI: Texture pool is 5661 MB (70% of 8088 MB)
+[2018.12.20-06.40.24:172][  0]LogD3D11RHI: Async texture creation enabled
+[2018.12.20-06.40.24:205][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.12.20-06.40.24:254][  0]LogShaderCompilers: Guid format shader working directory is -28 characters bigger than the processId version (../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Intermediate/Shaders/WorkingDirectory/14920/).
+[2018.12.20-06.40.24:254][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Ryanc/AppData/Local/Temp/UnrealShaderWorkingDir/B1085FEF4D32CA73F978C8A270E39C91/'.
+[2018.12.20-06.40.24:254][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.12.20-06.40.28:208][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.12.20-06.40.28:339][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.12.20-06.40.28:463][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.12.20-06.40.28:759][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.12.20-06.40.28:881][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.12.20-06.40.28:991][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.12.20-06.40.29:098][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.12.20-06.40.29:212][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.12.20-06.40.29:315][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.12.20-06.40.29:421][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.12.20-06.40.29:531][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.12.20-06.40.29:630][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.12.20-06.40.29:726][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.12.20-06.40.29:826][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.12.20-06.40.30:031][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.12.20-06.40.30:031][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.12.20-06.40.30:142][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.20-06.40.30:228][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.12.20-06.40.30:414][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.12.20-06.40.30:463][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.12.20-06.40.30:561][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.12.20-06.40.30:659][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.12.20-06.40.30:759][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.12.20-06.40.30:870][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.12.20-06.40.30:870][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.12.20-06.40.31:967][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.12.20-06.40.32:313][  0]LogDerivedDataCache: Loaded boot cache 0.35s 81MB C:/Users/Ryanc/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.12.20-06.40.32:313][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Ryanc/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.12.20-06.40.32:314][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.12.20-06.40.32:314][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.12.20-06.40.32:314][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.12.20-06.40.32:314][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.12.20-06.40.32:330][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.12.20-06.40.32:343][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Ryanc/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.12.20-06.40.32:354][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.12.20-06.40.32:355][  0]LogSlate: Using Freetype 2.6.0
+[2018.12.20-06.40.32:384][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.12.20-06.40.32:384][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.12.20-06.40.34:195][  0]LogInit: Selected Device Profile: [Windows]
+[2018.12.20-06.40.34:843][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.12.20-06.40.34:933][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.12.20-06.40.34:933][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.12.20-06.40.34:933][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.12.20-06.40.34:933][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.12.20-06.40.34:933][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.12.20-06.40.34:997][  0]LogNetVersion: Breach , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2924493875)
+[2018.12.20-06.40.35:241][  0]LogAssetRegistry: FAssetRegistry took 0.0280 seconds to start up
+[2018.12.20-06.40.35:929][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.075534 seconds
+[2018.12.20-06.40.35:934][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
+[2018.12.20-06.40.35:934][  0]LogUObjectAllocator: 7363704 out of 0 bytes used by permanent object pool.
+[2018.12.20-06.40.35:935][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.12.20-06.40.36:051][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.12.20-06.41.01:099][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.12.20-06.41.01:197][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.12.20-06.41.03:930][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.12.20-06.41.04:852][  0]SourceControl: Source control is disabled
+[2018.12.20-06.41.04:852][  0]SourceControl: Source control is disabled
+[2018.12.20-06.41.04:987][  0]SourceControl: Source control is disabled
+[2018.12.20-06.41.05:123][  0]SourceControl: Source control is disabled
+[2018.12.20-06.41.07:361][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.12.20-06.41.08:037][  0]LogOcInput: OculusInput pre-init called
+[2018.12.20-06.41.08:648][  0]LogEngine: Initializing Engine...
+[2018.12.20-06.41.08:651][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.12.20-06.41.08:863][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.12.20-06.41.08:863][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.12.20-06.41.09:140][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.12.20-06.41.09:171][  0]LogInit: XAudio2 using 'ASUS VH238 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.12.20-06.41.09:216][  0]LogInit: FAudioDevice initialized.
+[2018.12.20-06.41.09:419][  0]LogDerivedDataCache: Saved boot cache 0.20s 81MB C:/Users/Ryanc/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.12.20-06.41.09:441][  0]LogInit: Texture streaming: Enabled
+[2018.12.20-06.41.09:672][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.12.20-06.41.09:672][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Debugger, SessionId={75A29BCA-474F-61AF-5A09-F99175277EDE}
+[2018.12.20-06.41.09:946][  0]LogInit: Transaction tracking system initialized
+[2018.12.20-06.41.10:639][  0]BlueprintLog: New page: Editor Load
+[2018.12.20-06.41.12:685][  0]LocalizationService: Localization service is disabled
+[2018.12.20-06.41.13:852][  0]LogLinker: Warning: Can't find file '/Game/TwinStickBP/TwinStickOverview'
+[2018.12.20-06.41.13:852][  0]LogLinker: Warning: Can't find file '/Game/TwinStickBP/TwinStickOverview'
+[2018.12.20-06.41.13:852][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/TwinStickBP/TwinStickOverview.TwinStickOverview_C'
+[2018.12.20-06.41.14:358][  0]LogConsoleResponse: Display: 
+[2018.12.20-06.41.14:870][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.12.20-06.41.14:870][  0]LogCook: Display: Mobile HDR setting 1
+[2018.12.20-06.41.14:870][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.12.20-06.41.15:013][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/' took 0.04s
+[2018.12.20-06.41.17:854][  0]SourceControl: Source control is disabled
+[2018.12.20-06.41.17:854][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/Maps/Level_1Map_1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.12.20-06.41.17:855][  0]LightingResults: New page: Lighting Build
+[2018.12.20-06.41.17:939][  0]MapCheck: New page: Map Check
+[2018.12.20-06.41.17:939][  0]LightingResults: New page: Lighting Build
+[2018.12.20-06.41.20:462][  0]LogAIModule: Creating AISystem for world Level_1Map_1
+[2018.12.20-06.41.20:484][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.12.20-06.41.20:500][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.12.20-06.41.20:642][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 141.563ms to complete.
+[2018.12.20-06.41.20:643][  0]LogFileHelpers: Loading map 'Level_1Map_1' took 2.788
+[2018.12.20-06.41.20:822][  0]LogCollectionManager: Loaded 0 collections in 0.004122 seconds
+[2018.12.20-06.41.20:950][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Saved/Collections/' took 0.01s
+[2018.12.20-06.41.20:950][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/Developers/Ryanc/Collections/' took 0.01s
+[2018.12.20-06.41.20:950][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/Collections/' took 0.01s
+[2018.12.20-06.41.20:950][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.12.20-06.41.20:959][  0]LogContentBrowser: Native class hierarchy populated in 0.0090 seconds. Added 2373 classes and 521 folders.
+[2018.12.20-06.41.21:096][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0014 seconds. Added 0 classes and 0 folders.
+[2018.12.20-06.41.21:171][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0013 seconds. Added 0 classes and 0 folders.
+[2018.12.20-06.41.21:264][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0014 seconds. Added 1 classes and 2 folders.
+[2018.12.20-06.41.21:360][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0014 seconds. Added 2 classes and 3 folders.
+[2018.12.20-06.41.21:480][  0]LogSlate: Took 0.000207 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.12.20-06.41.21:482][  0]LogSlate: Took 0.000225 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.12.20-06.41.21:490][  0]LogSlate: Took 0.000253 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.12.20-06.41.21:490][  0]LogSlate: Took 0.000170 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2018.12.20-06.41.21:609][  0]LogRenderer: Reallocating scene render targets to support 988x560 Format 10 NumSamples 1 (Frame:1).
+[2018.12.20-06.41.21:873][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0014 seconds. Added 1 classes and 2 folders.
+[2018.12.20-06.41.21:874][  0]LogLoad: (Engine Initialization) Total time: 74.15 seconds
+[2018.12.20-06.41.21:874][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.12.20-06.41.21:874][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.12.20-06.41.21:874][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.12.20-06.41.21:911][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.12.20-06.41.21:981][  0]LogRenderer: Reallocating scene render targets to support 988x576 Format 10 NumSamples 1 (Frame:2).
+[2018.12.20-06.41.22:057][  1]LogAssetRegistry: Asset discovery search completed in 46.8402 seconds
+[2018.12.20-06.41.22:060][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.12.20-06.41.22:060][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000243 seconds (updated 0 objects)
+[2018.12.20-06.41.23:383][142]LogSlate: Took 0.000231 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.12.20-06.41.27:894][669]LogSlate: Took 0.000202 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.12.20-06.41.28:047][669]LogAIModule: Creating AISystem for world InteractionTest
+[2018.12.20-06.41.28:066][669]Cmd: MAP LOAD FILE="../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/Maps/InteractionTest.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.12.20-06.41.28:066][669]LightingResults: New page: Lighting Build
+[2018.12.20-06.41.28:067][669]LoadErrors: New page: Loading map: InteractionTest.umap
+[2018.12.20-06.41.28:069][669]MapCheck: New page: Map Check
+[2018.12.20-06.41.28:069][669]LightingResults: New page: Lighting Build
+[2018.12.20-06.41.28:162][669]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.12.20-06.41.28:232][669]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.12.20-06.41.28:381][669]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 149.229ms to complete.
+[2018.12.20-06.41.28:382][669]LogFileHelpers: Loading map 'InteractionTest' took 0.317
+[2018.12.20-06.41.29:669][814]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.20-06.41.29:790][814]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.20-06.41.29:791][814]PIE: New page: PIE session: InteractionTest (Dec 19, 2018, 2:41:29 PM)
+[2018.12.20-06.41.29:794][814]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_InteractionTest
+[2018.12.20-06.41.29:798][814]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003753s)
+[2018.12.20-06.41.29:798][814]LogAIModule: Creating AISystem for world InteractionTest
+[2018.12.20-06.41.29:799][814]LogPlayLevel: PIE: World Init took: (0.000801s)
+[2018.12.20-06.41.29:799][814]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/InteractionTest.InteractionTest to /Game/Maps/UEDPIE_0_InteractionTest.InteractionTest (0.005360s)
+[2018.12.20-06.41.29:829][814]LogInit: XAudio2 using 'ASUS VH238 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.12.20-06.41.29:841][814]LogInit: FAudioDevice initialized.
+[2018.12.20-06.41.29:893][814]LogLoad: Game class is 'CPP_FirstPersonGameMode'
+[2018.12.20-06.41.29:895][814]LogWorld: Bringing World /Game/Maps/UEDPIE_0_InteractionTest.InteractionTest up for play (max tick rate 0) at 2018.12.19-22.41.29
+[2018.12.20-06.41.29:896][814]LogWorld: Bringing up level for play took: 0.002107
+[2018.12.20-06.41.29:982][814]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0014 seconds. Added 11 classes and 0 folders.
+[2018.12.20-06.41.29:983][814]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/UEDPIE_0_InteractionTest.InteractionTest:PersistentLevel.FirstPersonCharacter_C_0.Mesh2P'
+[2018.12.20-06.41.29:985][814]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_InteractionTest 0.808
+[2018.12.20-06.41.49:548][983]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.20-06.41.49:581][983]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.20-06.41.49:581][983]PIE: New page: PIE session: InteractionTest (Dec 19, 2018, 2:41:49 PM)
+[2018.12.20-06.41.49:582][983]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_InteractionTest
+[2018.12.20-06.41.49:585][983]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003193s)
+[2018.12.20-06.41.49:586][983]LogAIModule: Creating AISystem for world InteractionTest
+[2018.12.20-06.41.49:586][983]LogPlayLevel: PIE: World Init took: (0.000851s)
+[2018.12.20-06.41.49:587][983]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/InteractionTest.InteractionTest to /Game/Maps/UEDPIE_0_InteractionTest.InteractionTest (0.004817s)
+[2018.12.20-06.41.49:616][983]LogInit: XAudio2 using 'ASUS VH238 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.12.20-06.41.49:627][983]LogInit: FAudioDevice initialized.
+[2018.12.20-06.41.49:662][983]LogLoad: Game class is 'CPP_FirstPersonGameMode'
+[2018.12.20-06.41.49:664][983]LogWorld: Bringing World /Game/Maps/UEDPIE_0_InteractionTest.InteractionTest up for play (max tick rate 0) at 2018.12.19-22.41.49
+[2018.12.20-06.41.49:665][983]LogWorld: Bringing up level for play took: 0.001747
+[2018.12.20-06.41.49:666][983]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/UEDPIE_0_InteractionTest.InteractionTest:PersistentLevel.FirstPersonCharacter_C_0.Mesh2P'
+[2018.12.20-06.41.49:668][983]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_InteractionTest 0.491
+[2018.12.20-06.42.36:657][160]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.20-06.42.36:689][160]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.20-06.42.36:690][160]PIE: New page: PIE session: InteractionTest (Dec 19, 2018, 2:42:36 PM)
+[2018.12.20-06.42.36:690][160]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_InteractionTest
+[2018.12.20-06.42.36:694][160]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003074s)
+[2018.12.20-06.42.36:694][160]LogAIModule: Creating AISystem for world InteractionTest
+[2018.12.20-06.42.36:695][160]LogPlayLevel: PIE: World Init took: (0.000936s)
+[2018.12.20-06.42.36:695][160]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/InteractionTest.InteractionTest to /Game/Maps/UEDPIE_0_InteractionTest.InteractionTest (0.004828s)
+[2018.12.20-06.42.36:724][160]LogInit: XAudio2 using 'ASUS VH238 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.12.20-06.42.36:736][160]LogInit: FAudioDevice initialized.
+[2018.12.20-06.42.36:775][160]LogLoad: Game class is 'CPP_FirstPersonGameMode'
+[2018.12.20-06.42.36:777][160]LogWorld: Bringing World /Game/Maps/UEDPIE_0_InteractionTest.InteractionTest up for play (max tick rate 0) at 2018.12.19-22.42.36
+[2018.12.20-06.42.36:778][160]LogWorld: Bringing up level for play took: 0.001722
+[2018.12.20-06.42.36:779][160]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/UEDPIE_0_InteractionTest.InteractionTest:PersistentLevel.FirstPersonCharacter_C_0.Mesh2P'
+[2018.12.20-06.42.36:781][160]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_InteractionTest -0.395
+[2018.12.20-06.42.42:995][891]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2018.12.20-06.42.43:000][891]Candidate modules for hot reload:
+[2018.12.20-06.42.43:000][891]  Breach
+[2018.12.20-06.42.43:000][891]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe Breach -ModuleWithSuffix Breach 6904 Win64 DebugGame -editorrecompile -canskiplink "C:/Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Breach.uproject" ]
+[2018.12.20-06.42.43:002][891]Warning: Starting HotReload took  0.0s.
+[2018.12.20-06.42.48:632][557]CompilerResultsLog: New page: Compilation - Dec 19, 2018, 2:42:48 PM
+[2018.12.20-06.42.48:633][557]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.12.20-06.42.48:633][557]CompilerResultsLog: Compiling game modules for hot reload
+[2018.12.20-06.42.48:633][557]CompilerResultsLog: Performing 3 actions (4 in parallel)
+[2018.12.20-06.42.48:634][557]CompilerResultsLog: CPP_InteractionDialogWidget.cpp
+[2018.12.20-06.42.48:634][557]CompilerResultsLog: [2/3] Link UE4Editor-Breach-6904-Win64-DebugGame.dll
+[2018.12.20-06.42.48:634][557]CompilerResultsLog: [3/3] Link UE4Editor-Breach-6904-Win64-DebugGame.lib
+[2018.12.20-06.42.48:634][557]CompilerResultsLog:    Creating library C:\Users\Ryanc\Documents\Unreal Projects\BreachRepo\Breach\Intermediate\Build\Win64\UE4Editor\DebugGame\UE4Editor-Breach-6904-Win64-DebugGame.lib and object C:\Users\Ryanc\Documents\Unreal Projects\BreachRepo\Breach\Intermediate\Build\Win64\UE4Editor\DebugGame\UE4Editor-Breach-6904-Win64-DebugGame.exp
+[2018.12.20-06.42.48:635][557]CompilerResultsLog:    Creating library C:\Users\Ryanc\Documents\Unreal Projects\BreachRepo\Breach\Intermediate\Build\Win64\UE4Editor\DebugGame\UE4Editor-Breach-6904-Win64-DebugGame.suppressed.lib and object C:\Users\Ryanc\Documents\Unreal Projects\BreachRepo\Breach\Intermediate\Build\Win64\UE4Editor\DebugGame\UE4Editor-Breach-6904-Win64-DebugGame.suppressed.exp
+[2018.12.20-06.42.48:635][557]CompilerResultsLog: Total build time: 5.43 seconds (Local executor: 3.35 seconds)
+[2018.12.20-06.42.48:636][557]LogMainFrame: MainFrame: Module compiling took 5.639 seconds
+[2018.12.20-06.42.48:763][557]LogClass: InteractionState HotReload.
+[2018.12.20-06.42.48:765][557]LogHotReload: Re-instancing CPP_NewLevelLoad after hot-reload.
+[2018.12.20-06.42.48:829][557]LogContentBrowser: Native class hierarchy updated for 'Breach' in 0.0014 seconds. Added 10 classes and 2 folders.
+[2018.12.20-06.42.48:831][557]Display: HotReload successful (14 functions remapped  0 scriptstructs remapped)
+[2018.12.20-06.42.48:912][557]LogContentBrowser: Native class hierarchy populated in 0.0090 seconds. Added 2377 classes and 528 folders.
+[2018.12.20-06.42.48:915][557]Display: HotReload took  5.9s.
+[2018.12.20-06.42.50:604][758]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.20-06.42.50:636][758]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.20-06.42.50:637][758]PIE: New page: PIE session: InteractionTest (Dec 19, 2018, 2:42:50 PM)
+[2018.12.20-06.42.50:637][758]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_InteractionTest
+[2018.12.20-06.42.50:641][758]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003578s)
+[2018.12.20-06.42.50:642][758]LogAIModule: Creating AISystem for world InteractionTest
+[2018.12.20-06.42.50:643][758]LogPlayLevel: PIE: World Init took: (0.001349s)
+[2018.12.20-06.42.50:644][758]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/InteractionTest.InteractionTest to /Game/Maps/UEDPIE_0_InteractionTest.InteractionTest (0.006302s)
+[2018.12.20-06.42.50:673][758]LogInit: XAudio2 using 'ASUS VH238 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.12.20-06.42.50:684][758]LogInit: FAudioDevice initialized.
+[2018.12.20-06.42.50:721][758]LogLoad: Game class is 'CPP_FirstPersonGameMode'
+[2018.12.20-06.42.50:723][758]LogWorld: Bringing World /Game/Maps/UEDPIE_0_InteractionTest.InteractionTest up for play (max tick rate 0) at 2018.12.19-22.42.50
+[2018.12.20-06.42.50:724][758]LogWorld: Bringing up level for play took: 0.001694
+[2018.12.20-06.42.50:725][758]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/UEDPIE_0_InteractionTest.InteractionTest:PersistentLevel.FirstPersonCharacter_C_0.Mesh2P'
+[2018.12.20-06.42.50:727][758]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_InteractionTest -0.45
+[2018.12.20-06.43.28:811][187]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2018.12.20-06.43.28:814][187]Candidate modules for hot reload:
+[2018.12.20-06.43.28:815][187]  Breach
+[2018.12.20-06.43.28:815][187]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe Breach -ModuleWithSuffix Breach 2558 Win64 DebugGame -editorrecompile -canskiplink "C:/Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Breach.uproject" ]
+[2018.12.20-06.43.28:817][187]Warning: Starting HotReload took  0.0s.
+[2018.12.20-06.43.34:650][879]CompilerResultsLog: New page: Compilation - Dec 19, 2018, 2:43:34 PM
+[2018.12.20-06.43.34:650][879]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.12.20-06.43.34:651][879]CompilerResultsLog: Compiling game modules for hot reload
+[2018.12.20-06.43.34:651][879]CompilerResultsLog: Performing 3 actions (4 in parallel)
+[2018.12.20-06.43.34:652][879]CompilerResultsLog: InteractArea.cpp
+[2018.12.20-06.43.34:652][879]CompilerResultsLog: [2/3] Link UE4Editor-Breach-2558-Win64-DebugGame.dll
+[2018.12.20-06.43.34:652][879]CompilerResultsLog: [3/3] Link UE4Editor-Breach-2558-Win64-DebugGame.lib
+[2018.12.20-06.43.34:652][879]CompilerResultsLog:    Creating library C:\Users\Ryanc\Documents\Unreal Projects\BreachRepo\Breach\Intermediate\Build\Win64\UE4Editor\DebugGame\UE4Editor-Breach-2558-Win64-DebugGame.lib and object C:\Users\Ryanc\Documents\Unreal Projects\BreachRepo\Breach\Intermediate\Build\Win64\UE4Editor\DebugGame\UE4Editor-Breach-2558-Win64-DebugGame.exp
+[2018.12.20-06.43.34:653][879]CompilerResultsLog:    Creating library C:\Users\Ryanc\Documents\Unreal Projects\BreachRepo\Breach\Intermediate\Build\Win64\UE4Editor\DebugGame\UE4Editor-Breach-2558-Win64-DebugGame.suppressed.lib and object C:\Users\Ryanc\Documents\Unreal Projects\BreachRepo\Breach\Intermediate\Build\Win64\UE4Editor\DebugGame\UE4Editor-Breach-2558-Win64-DebugGame.suppressed.exp
+[2018.12.20-06.43.34:653][879]CompilerResultsLog: Total build time: 5.60 seconds (Local executor: 3.66 seconds)
+[2018.12.20-06.43.34:653][879]LogMainFrame: MainFrame: Module compiling took 5.843 seconds
+[2018.12.20-06.43.34:776][879]LogClass: InteractionState HotReload.
+[2018.12.20-06.43.34:780][879]LogContentBrowser: Native class hierarchy updated for 'Breach' in 0.0013 seconds. Added 10 classes and 2 folders.
+[2018.12.20-06.43.34:782][879]Display: HotReload successful (14 functions remapped  0 scriptstructs remapped)
+[2018.12.20-06.43.34:828][879]LogContentBrowser: Native class hierarchy populated in 0.0087 seconds. Added 2377 classes and 528 folders.
+[2018.12.20-06.43.34:830][879]Display: HotReload took  6.0s.
+[2018.12.20-06.43.43:128][872]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.20-06.43.43:161][872]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.20-06.43.43:162][872]PIE: New page: PIE session: InteractionTest (Dec 19, 2018, 2:43:43 PM)
+[2018.12.20-06.43.43:162][872]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_InteractionTest
+[2018.12.20-06.43.43:166][872]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002958s)
+[2018.12.20-06.43.43:166][872]LogAIModule: Creating AISystem for world InteractionTest
+[2018.12.20-06.43.43:167][872]LogPlayLevel: PIE: World Init took: (0.001139s)
+[2018.12.20-06.43.43:167][872]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/InteractionTest.InteractionTest to /Game/Maps/UEDPIE_0_InteractionTest.InteractionTest (0.004919s)
+[2018.12.20-06.43.43:197][872]LogInit: XAudio2 using 'ASUS VH238 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.12.20-06.43.43:208][872]LogInit: FAudioDevice initialized.
+[2018.12.20-06.43.43:243][872]LogLoad: Game class is 'CPP_FirstPersonGameMode'
+[2018.12.20-06.43.43:245][872]LogWorld: Bringing World /Game/Maps/UEDPIE_0_InteractionTest.InteractionTest up for play (max tick rate 0) at 2018.12.19-22.43.43
+[2018.12.20-06.43.43:246][872]LogWorld: Bringing up level for play took: 0.001872
+[2018.12.20-06.43.43:247][872]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/UEDPIE_0_InteractionTest.InteractionTest:PersistentLevel.FirstPersonCharacter_C_0.Mesh2P'
+[2018.12.20-06.43.43:249][872]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_InteractionTest 0.072
+[2018.12.20-06.44.42:220][528]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2018.12.20-06.44.42:224][528]Candidate modules for hot reload:
+[2018.12.20-06.44.42:224][528]  Breach
+[2018.12.20-06.44.42:225][528]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe Breach -ModuleWithSuffix Breach 7993 Win64 DebugGame -editorrecompile -canskiplink "C:/Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Breach.uproject" ]
+[2018.12.20-06.44.42:226][528]Warning: Starting HotReload took  0.0s.
+[2018.12.20-06.44.47:793][185]CompilerResultsLog: New page: Compilation - Dec 19, 2018, 2:44:47 PM
+[2018.12.20-06.44.47:793][185]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.12.20-06.44.47:794][185]CompilerResultsLog: Compiling game modules for hot reload
+[2018.12.20-06.44.47:794][185]CompilerResultsLog: Performing 3 actions (4 in parallel)
+[2018.12.20-06.44.47:794][185]CompilerResultsLog: CPP_InteractionDialogWidget.cpp
+[2018.12.20-06.44.47:794][185]CompilerResultsLog: [2/3] Link UE4Editor-Breach-7993-Win64-DebugGame.dll
+[2018.12.20-06.44.47:795][185]CompilerResultsLog: [3/3] Link UE4Editor-Breach-7993-Win64-DebugGame.lib
+[2018.12.20-06.44.47:795][185]CompilerResultsLog:    Creating library C:\Users\Ryanc\Documents\Unreal Projects\BreachRepo\Breach\Intermediate\Build\Win64\UE4Editor\DebugGame\UE4Editor-Breach-7993-Win64-DebugGame.lib and object C:\Users\Ryanc\Documents\Unreal Projects\BreachRepo\Breach\Intermediate\Build\Win64\UE4Editor\DebugGame\UE4Editor-Breach-7993-Win64-DebugGame.exp
+[2018.12.20-06.44.47:795][185]CompilerResultsLog:    Creating library C:\Users\Ryanc\Documents\Unreal Projects\BreachRepo\Breach\Intermediate\Build\Win64\UE4Editor\DebugGame\UE4Editor-Breach-7993-Win64-DebugGame.suppressed.lib and object C:\Users\Ryanc\Documents\Unreal Projects\BreachRepo\Breach\Intermediate\Build\Win64\UE4Editor\DebugGame\UE4Editor-Breach-7993-Win64-DebugGame.suppressed.exp
+[2018.12.20-06.44.47:796][185]CompilerResultsLog: Total build time: 5.34 seconds (Local executor: 3.36 seconds)
+[2018.12.20-06.44.47:796][185]LogMainFrame: MainFrame: Module compiling took 5.576 seconds
+[2018.12.20-06.44.47:915][185]LogClass: InteractionState HotReload.
+[2018.12.20-06.44.47:920][185]LogContentBrowser: Native class hierarchy updated for 'Breach' in 0.0015 seconds. Added 10 classes and 2 folders.
+[2018.12.20-06.44.47:922][185]Display: HotReload successful (14 functions remapped  0 scriptstructs remapped)
+[2018.12.20-06.44.47:969][185]LogContentBrowser: Native class hierarchy populated in 0.0096 seconds. Added 2377 classes and 528 folders.
+[2018.12.20-06.44.47:971][185]Display: HotReload took  5.8s.
+[2018.12.20-06.44.48:844][288]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.20-06.44.48:876][288]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.20-06.44.48:876][288]PIE: New page: PIE session: InteractionTest (Dec 19, 2018, 2:44:48 PM)
+[2018.12.20-06.44.48:877][288]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_InteractionTest
+[2018.12.20-06.44.48:880][288]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003005s)
+[2018.12.20-06.44.48:881][288]LogAIModule: Creating AISystem for world InteractionTest
+[2018.12.20-06.44.48:881][288]LogPlayLevel: PIE: World Init took: (0.001012s)
+[2018.12.20-06.44.48:881][288]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/InteractionTest.InteractionTest to /Game/Maps/UEDPIE_0_InteractionTest.InteractionTest (0.004797s)
+[2018.12.20-06.44.48:911][288]LogInit: XAudio2 using 'ASUS VH238 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.12.20-06.44.48:922][288]LogInit: FAudioDevice initialized.
+[2018.12.20-06.44.48:955][288]LogLoad: Game class is 'CPP_FirstPersonGameMode'
+[2018.12.20-06.44.48:957][288]LogWorld: Bringing World /Game/Maps/UEDPIE_0_InteractionTest.InteractionTest up for play (max tick rate 0) at 2018.12.19-22.44.48
+[2018.12.20-06.44.48:958][288]LogWorld: Bringing up level for play took: 0.001781
+[2018.12.20-06.44.48:959][288]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/UEDPIE_0_InteractionTest.InteractionTest:PersistentLevel.FirstPersonCharacter_C_0.Mesh2P'
+[2018.12.20-06.44.48:961][288]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_InteractionTest -0.216
+[2018.12.20-06.45.29:731][123]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2018.12.20-06.45.29:734][123]Candidate modules for hot reload:
+[2018.12.20-06.45.29:735][123]  Breach
+[2018.12.20-06.45.29:735][123]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe Breach -ModuleWithSuffix Breach 1955 Win64 DebugGame -editorrecompile -canskiplink "C:/Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Breach.uproject" ]
+[2018.12.20-06.45.29:737][123]Warning: Starting HotReload took  0.0s.
+[2018.12.20-06.45.35:289][782]CompilerResultsLog: New page: Compilation - Dec 19, 2018, 2:45:35 PM
+[2018.12.20-06.45.35:289][782]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.12.20-06.45.35:289][782]CompilerResultsLog: Compiling game modules for hot reload
+[2018.12.20-06.45.35:290][782]CompilerResultsLog: Performing 3 actions (4 in parallel)
+[2018.12.20-06.45.35:290][782]CompilerResultsLog: InteractArea.cpp
+[2018.12.20-06.45.35:290][782]CompilerResultsLog: [2/3] Link UE4Editor-Breach-1955-Win64-DebugGame.dll
+[2018.12.20-06.45.35:290][782]CompilerResultsLog: [3/3] Link UE4Editor-Breach-1955-Win64-DebugGame.lib
+[2018.12.20-06.45.35:290][782]CompilerResultsLog:    Creating library C:\Users\Ryanc\Documents\Unreal Projects\BreachRepo\Breach\Intermediate\Build\Win64\UE4Editor\DebugGame\UE4Editor-Breach-1955-Win64-DebugGame.lib and object C:\Users\Ryanc\Documents\Unreal Projects\BreachRepo\Breach\Intermediate\Build\Win64\UE4Editor\DebugGame\UE4Editor-Breach-1955-Win64-DebugGame.exp
+[2018.12.20-06.45.35:291][782]CompilerResultsLog:    Creating library C:\Users\Ryanc\Documents\Unreal Projects\BreachRepo\Breach\Intermediate\Build\Win64\UE4Editor\DebugGame\UE4Editor-Breach-1955-Win64-DebugGame.suppressed.lib and object C:\Users\Ryanc\Documents\Unreal Projects\BreachRepo\Breach\Intermediate\Build\Win64\UE4Editor\DebugGame\UE4Editor-Breach-1955-Win64-DebugGame.suppressed.exp
+[2018.12.20-06.45.35:291][782]CompilerResultsLog: Total build time: 5.35 seconds (Local executor: 3.35 seconds)
+[2018.12.20-06.45.35:291][782]LogMainFrame: MainFrame: Module compiling took 5.561 seconds
+[2018.12.20-06.45.35:422][782]LogClass: InteractionState HotReload.
+[2018.12.20-06.45.35:426][782]LogContentBrowser: Native class hierarchy updated for 'Breach' in 0.0014 seconds. Added 10 classes and 2 folders.
+[2018.12.20-06.45.35:428][782]Display: HotReload successful (14 functions remapped  0 scriptstructs remapped)
+[2018.12.20-06.45.35:475][782]LogContentBrowser: Native class hierarchy populated in 0.0091 seconds. Added 2377 classes and 528 folders.
+[2018.12.20-06.45.35:477][782]Display: HotReload took  5.8s.
+[2018.12.20-06.45.36:298][879]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.20-06.45.36:332][879]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.20-06.45.36:332][879]PIE: New page: PIE session: InteractionTest (Dec 19, 2018, 2:45:36 PM)
+[2018.12.20-06.45.36:332][879]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_InteractionTest
+[2018.12.20-06.45.36:336][879]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003091s)
+[2018.12.20-06.45.36:336][879]LogAIModule: Creating AISystem for world InteractionTest
+[2018.12.20-06.45.36:337][879]LogPlayLevel: PIE: World Init took: (0.000851s)
+[2018.12.20-06.45.36:337][879]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/InteractionTest.InteractionTest to /Game/Maps/UEDPIE_0_InteractionTest.InteractionTest (0.004626s)
+[2018.12.20-06.45.36:365][879]LogInit: XAudio2 using 'ASUS VH238 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.12.20-06.45.36:375][879]LogInit: FAudioDevice initialized.
+[2018.12.20-06.45.36:414][879]LogLoad: Game class is 'CPP_FirstPersonGameMode'
+[2018.12.20-06.45.36:415][879]LogWorld: Bringing World /Game/Maps/UEDPIE_0_InteractionTest.InteractionTest up for play (max tick rate 0) at 2018.12.19-22.45.36
+[2018.12.20-06.45.36:416][879]LogWorld: Bringing up level for play took: 0.001678
+[2018.12.20-06.45.36:417][879]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/UEDPIE_0_InteractionTest.InteractionTest:PersistentLevel.FirstPersonCharacter_C_0.Mesh2P'
+[2018.12.20-06.45.36:419][879]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_InteractionTest -0.758

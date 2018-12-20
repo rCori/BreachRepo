@@ -3,6 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "CPP_InteractionDialogWidget.h"
 #include "GameFramework/Actor.h"
 #include "InteractArea.generated.h"
 
@@ -49,17 +50,23 @@ public:
 	UPROPERTY(BlueprintReadWrite, EditAnywhere)
 	UBoxComponent* BoxComponent;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "BlueprintsToAssign")
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "BlueprintsToAssign")
 	TSubclassOf<AActor> PlayerClass;
 
 	UPROPERTY(BlueprintAssignable,BlueprintCallable)
 	FIsInRangeInteract IsInRangeInteract;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "BlueprintsToAssign")
-	TSubclassOf<UUserWidget> InteractionDialogWidget;
+	TSubclassOf<UCPP_InteractionDialogWidget> InteractionDialogWidget;
+
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "JSONInfo")
+	FString jsonFile;
+
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "JSONInfo")
+	FString jsonDialogNode;
 
 	UPROPERTY()
-	UUserWidget* InteractionDialog;
+	UCPP_InteractionDialogWidget* InteractionDialog;
 
 private:
 	InteractionState interactionState;

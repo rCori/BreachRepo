@@ -15,10 +15,25 @@ class BREACH_API UCPP_InteractionDialogWidget : public UUserWidget
 	GENERATED_BODY()
 	
 public:
-	UPROPERTY(EditAnywhere,BlueprintReadWrite)
+
+	UFUNCTION(BlueprintCallable)
+	void InitializeDialogSet(FString dialogJsonFile, FString dialogKey);
+
+	UFUNCTION()
+	void AdvanceDialog();
+
+	UFUNCTION()
+	bool DialogIsFinished();
+
+	UPROPERTY(VisibleAnywhere,BlueprintReadOnly)
 	TArray<FString> DisplayStrings;
 	
+	UPROPERTY(VisibleAnywhere,BlueprintReadOnly)
+	uint8 currPosition;
 	
+	UPROPERTY(VisibleAnywhere,BlueprintReadOnly)
+	FString currDisplay;
+
 	// Optionally override the Blueprint "Event Construct" event
 	virtual void NativeConstruct() override;
 

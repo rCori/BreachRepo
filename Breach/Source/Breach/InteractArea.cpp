@@ -1,6 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "InteractArea.h"
+#include "CPP_InteractionDialogWidget.h"
 #include "Components/BoxComponent.h"
 #include "GameFramework/HUD.h"
 #include "Runtime/UMG/Public/Blueprint/UserWidget.h"
@@ -57,15 +58,22 @@ void AInteractArea::DoInteraction(){
 	switch(interactionState){
 		case InteractionState::begin:
 			if(InteractionDialog == nullptr){
-				InteractionDialog = CreateWidget<UUserWidget>(GetGameInstance(), InteractionDialogWidget);
+				InteractionDialog = CreateWidget<UCPP_InteractionDialogWidget>(GetGameInstance(), InteractionDialogWidget);
 			}
 			//Some error could occur between these two conditionals, making this extra check necessary
 			if(InteractionDialog != nullptr){
+				InteractionDialog->InitializeDialogSet(jsonFile,jsonDialogNode);
 				InteractionDialog->AddToViewport();
 			}
-			interactionState = InteractionState::end;
+			interactionState = InteractionState::middle;
 			break;
 		case InteractionState::middle:
+			if(InteractionDialog != nullptr){
+				InteractionDialog->AdvanceDialog();
+			}
+			if(InteractionDialog->DialogIsFinished()){
+				interactionState = InteractionState::end;
+			}
 			//Advance the dialog
 			break;
 		case InteractionState::end:
