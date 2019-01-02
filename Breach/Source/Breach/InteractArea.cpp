@@ -2,6 +2,7 @@
 
 #include "InteractArea.h"
 #include "CPP_InteractionDialogWidget.h"
+#include "CPP_FirstPersonCharacter.h"
 #include "Components/BoxComponent.h"
 #include "GameFramework/HUD.h"
 #include "Runtime/UMG/Public/Blueprint/UserWidget.h"
@@ -54,7 +55,7 @@ void AInteractArea::SetNotInRange(UPrimitiveComponent* OverlappedComponent, AAct
 	}
 }
 
-void AInteractArea::DoInteraction(){
+void AInteractArea::DoInteraction(ACPP_FirstPersonCharacter* fpsCharacter){
 	switch(interactionState){
 		case InteractionState::begin:
 			if(InteractionDialog == nullptr){
@@ -64,6 +65,9 @@ void AInteractArea::DoInteraction(){
 			if(InteractionDialog != nullptr){
 				InteractionDialog->InitializeDialogSet(jsonFile,jsonDialogNode);
 				InteractionDialog->AddToViewport();
+			}
+			if(fpsCharacter != nullptr){
+				fpsCharacter->SetCanMove(false);
 			}
 			interactionState = InteractionState::middle;
 			break;
@@ -79,6 +83,9 @@ void AInteractArea::DoInteraction(){
 		case InteractionState::end:
 			if(InteractionDialog != nullptr){
 				InteractionDialog->RemoveFromViewport();
+			}
+			if(fpsCharacter != nullptr){
+				fpsCharacter->SetCanMove(true);
 			}
 			interactionState = InteractionState::begin;
 			break;

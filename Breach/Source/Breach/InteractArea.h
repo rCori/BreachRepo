@@ -12,6 +12,7 @@ DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FIsInRangeInteract, bool, IsInRange)
 
 class UBoxComponent;
 class UUserWidget;
+class ACPP_FirstPersonCharacter;
 
 UENUM(BlueprintType)
 enum class InteractionState :uint8 
@@ -45,7 +46,7 @@ public:
 	void SetNotInRange(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex);
 
 	UFUNCTION(BlueprintCallable)
-	void DoInteraction();
+	void DoInteraction(ACPP_FirstPersonCharacter* fpsCharacter);
 
 	UPROPERTY(BlueprintReadWrite, EditAnywhere)
 	UBoxComponent* BoxComponent;

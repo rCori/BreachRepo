@@ -9,27 +9,6 @@
 #include "Engine/World.h"
 
 
-/*
-ACPP_FirstPersonGameMode::ACPP_FirstPersonGameMode(const FObjectInitializer & ObjectInitializer)
-	: Super(){
- 
-     // set default pawn class to our Blueprinted character
-     static ConstructorHelpers::FClassFinder<APawn> PlayerPawnBPClass(TEXT("/Game/BlueprintSource/FirstPersonCharacter"));
-     if (PlayerPawnBPClass.Class != NULL)
-     {
-         DefaultPawnClass = PlayerPawnBPClass.Class;
-     }
-
-	 // set default HUD class class to our Blueprinted character
-     static ConstructorHelpers::FClassFinder<AHUD> HudClassFinder(TEXT("/Game/BlueprintSource/FirstPersonCharacter"));
-	 if(HudClassFinder.Class != NULL){
-		 HUDClass = HudClassFinder.Class;
-	 }
-
-}
-*/
-
-
 ACPP_FirstPersonGameMode::ACPP_FirstPersonGameMode()
 {
 	

@@ -65,15 +65,4 @@ public:
 	UPROPERTY(BlueprintReadWrite, EditInstanceOnly, Category = "DoorProperties")
 	FString EventTag;
 
-	/*
-	IsLocked:boolean=false public
-	IsOpen:boolean = false
-	FirstCollision:boolean =true
-	UnlocksOnEvent:boolean=false public
-	PlayerInRange:boolean=false
-	WaypointOffest:Vector3=(0,0,0)
-	EventTag:String=""
-
-	*/
-
 };
