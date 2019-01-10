@@ -2,6 +2,7 @@
 
 #include "PickupSCAR.h"
 #include "CPP_FirstPersonGameMode.h"
+#include "Components/SkeletalMeshComponent.h"
 #include "Components/BoxComponent.h"
 #include "CPP_FirstPersonCharacter.h"
 #include "CPP_GenericInGameEvent.h"
@@ -13,15 +14,17 @@ APickupSCAR::APickupSCAR()
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
-	BoxComponent = CreateDefaultSubobject<UBoxComponent>(TEXT("Box"));
-	BoxComponent->SetupAttachment(RootComponent);
-	BoxComponent->SetCollisionResponseToAllChannels(ECollisionResponse::ECR_Ignore);
-	BoxComponent->SetCollisionResponseToChannel(ECollisionChannel::ECC_Pawn, ECollisionResponse::ECR_Overlap);
+	RootComponent = CreateDefaultSubobject<USceneComponent>(TEXT("RootComponent"));
 
 	GunMesh = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("SCARMesh"));
 	GunMesh->bCastDynamicShadow = true;
 	GunMesh->CastShadow = true;
 	GunMesh->SetupAttachment(RootComponent);
+
+	BoxComponent = CreateDefaultSubobject<UBoxComponent>(TEXT("Box"));
+	BoxComponent->SetupAttachment(RootComponent);
+	BoxComponent->SetCollisionResponseToAllChannels(ECollisionResponse::ECR_Ignore);
+	BoxComponent->SetCollisionResponseToChannel(ECollisionChannel::ECC_Pawn, ECollisionResponse::ECR_Overlap);
 }
 
 // Called when the game starts or when spawned

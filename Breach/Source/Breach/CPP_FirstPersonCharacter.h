@@ -6,6 +6,8 @@
 #include "GameFramework/Character.h"
 #include "CPP_FirstPersonCharacter.generated.h"
 
+class UPlayerHealthComponent;
+
 UCLASS()
 class BREACH_API ACPP_FirstPersonCharacter : public ACharacter
 {
@@ -31,6 +33,9 @@ public:
 	
 	UPROPERTY(EditAnywhere,BlueprintReadWrite)
 	bool hasSCAR;
+
+	UPROPERTY(EditAnywhere,BlueprintReadWrite)
+	UPlayerHealthComponent* healthComp;
 
 	UFUNCTION()
 	void SetCanMove(bool _canMove);

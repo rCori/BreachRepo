@@ -1,4 +1,4 @@
-﻿Log file open, 01/01/19 17:27:00
+﻿Log file open, 01/09/19 22:57:33
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -7,12 +7,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: Breach
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(2015675195) SRandInit(2015675195).
+LogInit: Display: RandInit(-949121045) SRandInit(-949121045).
 LogInit: Read version file with build ID '3709383'
 LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
 LogInit: Registered custom module enumerator with build ID '3709383'
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.368715
+LogStats: Stats thread started at 0.271896
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -195,851 +195,402 @@ LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2019.01.02-01.27.04:738][  0]LogInit: Selected Device Profile: [Windows]
-[2019.01.02-01.27.04:738][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.01.02-01.27.04:751][  0]LogInit: Computer: DESKTOP-PQPAGDU
-[2019.01.02-01.27.04:751][  0]LogInit: User: Ryanc
-[2019.01.02-01.27.04:751][  0]LogInit: CPU Page size=4096, Cores=4
-[2019.01.02-01.27.04:751][  0]LogInit: High frequency timer resolution =3.417972 MHz
-[2019.01.02-01.27.04:751][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2019.01.02-01.27.04:751][  0]LogMemory: Platform Memory Stats for Windows
-[2019.01.02-01.27.04:751][  0]LogMemory: Process Physical Memory: 274.78 MB used, 274.78 MB peak
-[2019.01.02-01.27.04:751][  0]LogMemory: Process Virtual Memory: 279.70 MB used, 279.70 MB peak
-[2019.01.02-01.27.04:751][  0]LogMemory: Physical Memory: 6310.75 MB used,  10015.93 MB free, 16326.68 MB total
-[2019.01.02-01.27.04:751][  0]LogMemory: Virtual Memory: 4789.66 MB used,  10015.93 MB free, 134217728.00 MB total
-[2019.01.02-01.27.05:067][  0]LogInit: Using OS detected language (en-US).
-[2019.01.02-01.27.05:067][  0]LogInit: Using OS detected locale (en-US).
-[2019.01.02-01.27.05:070][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2019.01.02-01.27.05:434][  0]LogInit: Setting process to per monitor DPI aware
-[2019.01.02-01.27.05:733][  0]LogD3D11RHI: D3D11 adapters:
-[2019.01.02-01.27.05:816][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
-[2019.01.02-01.27.05:816][  0]LogD3D11RHI:       8088/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2019.01.02-01.27.05:821][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.01.02-01.27.05:821][  0]LogD3D11RHI:       0/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.01.02-01.27.05:821][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.01.02-01.27.05:828][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.01.02-01.27.05:829][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
-[2019.01.02-01.27.05:829][  0]LogWindows: EnumDisplayDevices:
-[2019.01.02-01.27.05:829][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
-[2019.01.02-01.27.05:829][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2019.01.02-01.27.05:829][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2019.01.02-01.27.05:830][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2019.01.02-01.27.05:830][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2019.01.02-01.27.05:830][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
-[2019.01.02-01.27.05:830][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2019.01.02-01.27.05:830][  0]LogD3D11RHI:      Driver Date: Unknown
-[2019.01.02-01.27.05:830][  0]LogRHI: Texture pool is 5661 MB (70% of 8088 MB)
-[2019.01.02-01.27.05:878][  0]LogD3D11RHI: Async texture creation enabled
-[2019.01.02-01.27.05:908][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2019.01.02-01.27.05:958][  0]LogShaderCompilers: Guid format shader working directory is -27 characters bigger than the processId version (../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Intermediate/Shaders/WorkingDirectory/9148/).
-[2019.01.02-01.27.05:958][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Ryanc/AppData/Local/Temp/UnrealShaderWorkingDir/0A5432264171F4DEFE9E6CA36BEF17C7/'.
-[2019.01.02-01.27.05:958][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.01.02-01.27.06:960][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2019.01.02-01.27.07:058][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2019.01.02-01.27.07:154][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2019.01.02-01.27.07:251][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2019.01.02-01.27.07:345][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2019.01.02-01.27.07:441][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2019.01.02-01.27.07:536][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2019.01.02-01.27.07:631][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2019.01.02-01.27.07:720][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2019.01.02-01.27.07:812][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2019.01.02-01.27.07:904][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2019.01.02-01.27.07:999][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2019.01.02-01.27.08:092][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2019.01.02-01.27.08:183][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2019.01.02-01.27.08:368][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2019.01.02-01.27.08:368][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2019.01.02-01.27.08:460][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.02-01.27.08:549][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2019.01.02-01.27.08:708][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.01.02-01.27.08:755][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.01.02-01.27.08:847][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2019.01.02-01.27.08:940][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2019.01.02-01.27.09:034][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2019.01.02-01.27.09:127][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2019.01.02-01.27.09:128][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.01.02-01.27.10:184][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.01.02-01.27.10:286][  0]LogDerivedDataCache: Loaded boot cache 0.10s 81MB C:/Users/Ryanc/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2019.01.02-01.27.10:286][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Ryanc/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
-[2019.01.02-01.27.10:287][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.01.02-01.27.10:287][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.01.02-01.27.10:287][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.01.02-01.27.10:287][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.01.02-01.27.10:302][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.01.02-01.27.10:314][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Ryanc/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.01.02-01.27.10:323][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.01.02-01.27.10:324][  0]LogSlate: Using Freetype 2.6.0
-[2019.01.02-01.27.10:324][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.01.02-01.27.10:324][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.01.02-01.27.10:716][  0]LogInit: Selected Device Profile: [Windows]
-[2019.01.02-01.27.11:312][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2019.01.02-01.27.11:396][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2019.01.02-01.27.11:396][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.01.02-01.27.11:396][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2019.01.02-01.27.11:396][  0]LogMeshReduction: No automatic mesh merging module available
-[2019.01.02-01.27.11:396][  0]LogMeshMerging: No automatic mesh merging module available
-[2019.01.02-01.27.11:455][  0]LogNetVersion: Breach , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2924493875)
-[2019.01.02-01.27.11:683][  0]LogAssetRegistry: FAssetRegistry took 0.0279 seconds to start up
-[2019.01.02-01.27.12:325][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.064734 seconds
-[2019.01.02-01.27.12:331][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
-[2019.01.02-01.27.12:331][  0]LogUObjectAllocator: 7363704 out of 0 bytes used by permanent object pool.
-[2019.01.02-01.27.12:331][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.01.02-01.27.12:445][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2019.01.02-01.27.16:963][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.01.02-01.27.17:058][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.01.02-01.27.19:420][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2019.01.02-01.27.20:279][  0]SourceControl: Source control is disabled
-[2019.01.02-01.27.20:279][  0]SourceControl: Source control is disabled
-[2019.01.02-01.27.20:409][  0]SourceControl: Source control is disabled
-[2019.01.02-01.27.20:536][  0]SourceControl: Source control is disabled
-[2019.01.02-01.27.22:476][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.01.02-01.27.23:126][  0]LogOcInput: OculusInput pre-init called
-[2019.01.02-01.27.23:711][  0]LogEngine: Initializing Engine...
-[2019.01.02-01.27.23:714][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.01.02-01.27.23:933][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.01.02-01.27.23:934][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.01.02-01.27.24:188][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.01.02-01.27.24:218][  0]LogInit: XAudio2 using 'ASUS VH238 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2019.01.02-01.27.24:255][  0]LogInit: FAudioDevice initialized.
-[2019.01.02-01.27.24:486][  0]LogDerivedDataCache: Saved boot cache 0.23s 81MB C:/Users/Ryanc/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2019.01.02-01.27.24:527][  0]LogInit: Texture streaming: Enabled
-[2019.01.02-01.27.24:742][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.01.02-01.27.24:742][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Debugger, SessionId={2F3151F6-4985-EE9C-DBA5-9D9FFFE6D773}
-[2019.01.02-01.27.25:000][  0]LogInit: Transaction tracking system initialized
-[2019.01.02-01.27.25:645][  0]BlueprintLog: New page: Editor Load
-[2019.01.02-01.27.27:630][  0]LocalizationService: Localization service is disabled
-[2019.01.02-01.27.28:723][  0]LogLinker: Warning: Can't find file '/Game/TwinStickBP/TwinStickOverview'
-[2019.01.02-01.27.28:724][  0]LogLinker: Warning: Can't find file '/Game/TwinStickBP/TwinStickOverview'
-[2019.01.02-01.27.28:724][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/TwinStickBP/TwinStickOverview.TwinStickOverview_C'
-[2019.01.02-01.27.29:163][  0]LogConsoleResponse: Display: 
-[2019.01.02-01.27.29:409][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.01.02-01.27.29:409][  0]LogCook: Display: Mobile HDR setting 1
-[2019.01.02-01.27.29:409][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2019.01.02-01.27.29:772][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/' took 0.04s
-[2019.01.02-01.27.32:098][  0]SourceControl: Source control is disabled
-[2019.01.02-01.27.32:098][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/Maps/Level_1Map_1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.01.02-01.27.32:099][  0]LightingResults: New page: Lighting Build
-[2019.01.02-01.27.32:190][  0]MapCheck: New page: Map Check
-[2019.01.02-01.27.32:190][  0]LightingResults: New page: Lighting Build
-[2019.01.02-01.27.33:431][  0]LogAIModule: Creating AISystem for world Level_1Map_1
-[2019.01.02-01.27.33:451][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.01.02-01.27.33:467][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.01.02-01.27.33:607][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 139.993ms to complete.
-[2019.01.02-01.27.33:607][  0]LogFileHelpers: Loading map 'Level_1Map_1' took 1.509
-[2019.01.02-01.27.33:780][  0]LogCollectionManager: Loaded 0 collections in 0.003883 seconds
-[2019.01.02-01.27.33:906][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Saved/Collections/' took 0.01s
-[2019.01.02-01.27.33:906][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/Developers/Ryanc/Collections/' took 0.01s
-[2019.01.02-01.27.33:906][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/Collections/' took 0.01s
-[2019.01.02-01.27.33:906][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2019.01.02-01.27.33:915][  0]LogContentBrowser: Native class hierarchy populated in 0.0086 seconds. Added 2376 classes and 521 folders.
-[2019.01.02-01.27.34:051][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0015 seconds. Added 0 classes and 0 folders.
-[2019.01.02-01.27.34:119][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0013 seconds. Added 0 classes and 0 folders.
-[2019.01.02-01.27.34:211][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0014 seconds. Added 1 classes and 2 folders.
-[2019.01.02-01.27.34:304][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0014 seconds. Added 2 classes and 3 folders.
-[2019.01.02-01.27.34:420][  0]LogSlate: Took 0.000219 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.01.02-01.27.34:422][  0]LogSlate: Took 0.000200 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.01.02-01.27.34:426][  0]LogSlate: Took 0.000189 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.01.02-01.27.34:519][  0]LogRenderer: Reallocating scene render targets to support 988x560 Format 10 NumSamples 1 (Frame:1).
-[2019.01.02-01.27.34:728][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0014 seconds. Added 1 classes and 2 folders.
-[2019.01.02-01.27.34:728][  0]LogLoad: (Engine Initialization) Total time: 36.45 seconds
-[2019.01.02-01.27.34:728][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.01.02-01.27.34:728][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2019.01.02-01.27.34:728][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2019.01.02-01.27.34:737][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2019.01.02-01.27.34:759][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2019.01.02-01.27.34:859][  0]LogRenderer: Reallocating scene render targets to support 988x580 Format 10 NumSamples 1 (Frame:2).
-[2019.01.02-01.27.34:859][  0]LogSlate: Took 0.000277 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2019.01.02-01.27.34:887][  1]LogAssetRegistry: Asset discovery search completed in 23.2271 seconds
-[2019.01.02-01.27.34:889][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2019.01.02-01.27.34:889][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000111 seconds (updated 0 objects)
-[2019.01.02-01.27.40:308][611]LogSlate: Took 0.000204 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2019.01.02-01.27.40:508][611]LogAIModule: Creating AISystem for world Level_1Map_2
-[2019.01.02-01.27.40:534][611]Cmd: MAP LOAD FILE="../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/Maps/Level_1Map_2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.01.02-01.27.40:534][611]LightingResults: New page: Lighting Build
-[2019.01.02-01.27.40:535][611]LoadErrors: New page: Loading map: Level_1Map_2.umap
-[2019.01.02-01.27.40:536][611]MapCheck: New page: Map Check
-[2019.01.02-01.27.40:537][611]LightingResults: New page: Lighting Build
-[2019.01.02-01.27.40:630][611]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.01.02-01.27.40:701][611]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.01.02-01.27.40:845][611]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 143.777ms to complete.
-[2019.01.02-01.27.40:846][611]LogFileHelpers: Loading map 'Level_1Map_2' took 0.313
-[2019.01.02-01.27.44:688][ 65]LogEditorViewport: Clicking on Actor (LMB): BP_PickupSCAR_C (BP_PickupSCAR)
-[2019.01.02-01.27.50:057][627]LogSlate: Took 0.000253 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2019.01.02-01.27.50:782][703]LogTemp: Repeating last play command: Selected Viewport
-[2019.01.02-01.27.50:885][703]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_1Map_2.Level_1Map_2:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1Map_2.Level_1Map_2:PersistentLevel.Level_1Map_2' with GeneratedClass '/Game/Maps/Level_1Map_2.Level_1Map_2_C' with ClassGeneratedBy '/Game/Maps/Level_1Map_2.Level_1Map_2:PersistentLevel.Level_1Map_2'
-[2019.01.02-01.27.50:885][703]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.01.02-01.27.50:885][703]PIE: New page: PIE session: Level_1Map_2 (Jan 1, 2019, 9:27:50 AM)
-[2019.01.02-01.27.50:888][703]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_1Map_2
-[2019.01.02-01.27.50:908][703]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019752s)
-[2019.01.02-01.27.50:909][703]LogAIModule: Creating AISystem for world Level_1Map_2
-[2019.01.02-01.27.50:909][703]LogPlayLevel: PIE: World Init took: (0.000769s)
-[2019.01.02-01.27.50:910][703]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_1Map_2.Level_1Map_2 to /Game/Maps/UEDPIE_0_Level_1Map_2.Level_1Map_2 (0.021239s)
-[2019.01.02-01.27.50:942][703]LogInit: XAudio2 using 'ASUS VH238 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2019.01.02-01.27.50:953][703]LogInit: FAudioDevice initialized.
-[2019.01.02-01.27.51:004][703]LogLoad: Game class is 'CPP_FirstPersonGameMode'
-[2019.01.02-01.27.51:008][703]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_1Map_2.Level_1Map_2 up for play (max tick rate 0) at 2019.01.01-17.27.51
-[2019.01.02-01.27.51:008][703]LogWorld: Bringing up level for play took: 0.003134
-[2019.01.02-01.27.51:095][703]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0014 seconds. Added 11 classes and 0 folders.
-[2019.01.02-01.27.51:096][703]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/UEDPIE_0_Level_1Map_2.Level_1Map_2:PersistentLevel.FirstPersonCharacter_C_0.Mesh2P'
-[2019.01.02-01.27.51:099][703]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level_1Map_2 -0.38
-[2019.01.02-01.27.51:099][703]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_1Map_2.Level_1Map_2:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1Map_2.Level_1Map_2:PersistentLevel.Level_1Map_2' with GeneratedClass '/Game/Maps/Level_1Map_2.Level_1Map_2_C' with ClassGeneratedBy '/Game/Maps/Level_1Map_2.Level_1Map_2:PersistentLevel.Level_1Map_2'
-[2019.01.02-01.27.52:183][818]LogBlueprintUserMessages: [BP_PickupSCAR_2] Hello
-[2019.01.02-01.27.52:516][858]LogBlueprintUserMessages: [BP_GarageDoor_2] Hello from the Garage Door
-[2019.01.02-01.27.53:650][994]LogAnimation: Warning: AnimBP XM8_Skeleton_AnimBlueprint_C is incompatible with skeleton SKAR_Skeleton, removing AnimBP from actor.
-[2019.01.02-01.27.54:451][ 90]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_1Map_2.Level_1Map_2:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1Map_2.Level_1Map_2:PersistentLevel.Level_1Map_2' with GeneratedClass '/Game/Maps/Level_1Map_2.Level_1Map_2_C' with ClassGeneratedBy '/Game/Maps/Level_1Map_2.Level_1Map_2:PersistentLevel.Level_1Map_2'
-[2019.01.02-01.27.54:488][ 90]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_1Map_2.Level_1Map_2:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1Map_2.Level_1Map_2:PersistentLevel.Level_1Map_2' with GeneratedClass '/Game/Maps/Level_1Map_2.Level_1Map_2_C' with ClassGeneratedBy '/Game/Maps/Level_1Map_2.Level_1Map_2:PersistentLevel.Level_1Map_2'
-[2019.01.02-01.28.05:638][418]LogActor: Warning: BP_PickupSCAR_C /Engine/Transient.World_4:PersistentLevel.BP_PickupSCAR_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2019.01.02-01.28.05:640][418]LogActor: Warning: BP_GarageDoor_C /Engine/Transient.World_5:PersistentLevel.BP_GarageDoor_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2019.01.02-01.28.07:906][644]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0017 seconds. Added 116 classes and 0 folders.
-[2019.01.02-01.28.08:473][644]LogSlate: Took 0.000214 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.01.02-01.28.08:522][644]LogActor: Warning: BP_PickupSCAR_C /Engine/Transient.World_8:PersistentLevel.BP_PickupSCAR_C_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2019.01.02-01.28.08:525][644]LogSlate: Took 0.000245 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2019.01.02-01.28.18:216][784]BlueprintLog: New page: Compile BP_PickupSCAR
-[2019.01.02-01.28.18:223][784]LogActor: Warning: BP_PickupSCAR_C /Engine/Transient.World_4:PersistentLevel.BP_PickupSCAR_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2019.01.02-01.28.18:224][784]LogActor: Warning: BP_PickupSCAR_C /Game/Maps/Level_1Map_2.Level_1Map_2:PersistentLevel.BP_PickupSCAR_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2019.01.02-01.28.18:227][784]LogActor: Warning: BP_PickupSCAR_C /Engine/Transient.World_8:PersistentLevel.BP_PickupSCAR_C_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2019.01.02-01.28.18:605][784]LogActor: Warning: BP_PickupSCAR_C /Engine/Transient.World_4:PersistentLevel.BP_PickupSCAR_C_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2019.01.02-01.28.19:204][852]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BlueprintSource/BP_PickupSCAR" FILE="../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/BlueprintSource/BP_PickupSCAR.uasset" SILENT=true
-[2019.01.02-01.28.19:270][852]LogSavePackage: Save=26.86ms
-[2019.01.02-01.28.19:270][852]LogSavePackage: Moving '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Saved/BP_PickupSCAR325F848B49924924054CA0A866379F6E.tmp' to '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/BlueprintSource/BP_PickupSCAR.uasset'
-[2019.01.02-01.28.19:274][852]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/BlueprintSource/BP_PickupSCAR.uasset
-[2019.01.02-01.28.21:787][ 89]LogSavePackage: Save=431.22ms
-[2019.01.02-01.28.21:787][ 89]LogSavePackage: Moving '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Saved/Level_1Map_20D4D692A4BF2B4F1411905915DD73FD2.tmp' to '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/Maps/Level_1Map_2.umap'
-[2019.01.02-01.28.21:791][ 89]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/Maps/Level_1Map_2.umap
-[2019.01.02-01.28.21:852][ 89]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level_1Map_2_BuiltData" FILE="../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/Maps/Level_1Map_2_BuiltData.uasset" SILENT=true
-[2019.01.02-01.28.21:962][ 89]LogSavePackage: Save=79.05ms
-[2019.01.02-01.28.21:962][ 89]LogSavePackage: Moving '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Saved/Level_1Map_2_BuiltData95F9D3264D31679C4F89BABBB9C6440B.tmp' to '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/Maps/Level_1Map_2_BuiltData.uasset'
-[2019.01.02-01.28.21:964][ 89]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/Maps/Level_1Map_2_BuiltData.uasset
-[2019.01.02-01.28.23:629][256]LogActor: Warning: BP_GarageDoor_C /Engine/Transient.World_9:PersistentLevel.BP_GarageDoor_C_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2019.01.02-01.28.29:676][891]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BlueprintSource/BP_GarageDoor" FILE="../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/BlueprintSource/BP_GarageDoor.uasset" SILENT=true
-[2019.01.02-01.28.29:738][891]LogSavePackage: Save=23.47ms
-[2019.01.02-01.28.29:738][891]LogSavePackage: Moving '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Saved/BP_GarageDoor82E88A0B4B24C5E7458AE19666D315E7.tmp' to '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/BlueprintSource/BP_GarageDoor.uasset'
-[2019.01.02-01.28.29:742][891]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/BlueprintSource/BP_GarageDoor.uasset
-[2019.01.02-01.28.31:482][100]BlueprintLog: New page: Compile BP_GarageDoor
-[2019.01.02-01.28.31:487][100]LogActor: Warning: BP_GarageDoor_C /Game/Maps/Level_1Map_2.Level_1Map_2:PersistentLevel.BP_GarageDoor_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2019.01.02-01.28.31:488][100]LogActor: Warning: BP_GarageDoor_C /Engine/Transient.World_5:PersistentLevel.BP_GarageDoor_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2019.01.02-01.28.31:489][100]LogActor: Warning: BP_GarageDoor_C /Engine/Transient.World_9:PersistentLevel.BP_GarageDoor_C_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2019.01.02-01.28.31:867][100]LogActor: Warning: BP_GarageDoor_C /Engine/Transient.World_5:PersistentLevel.BP_GarageDoor_C_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2019.01.02-01.28.32:267][144]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BlueprintSource/BP_GarageDoor" FILE="../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/BlueprintSource/BP_GarageDoor.uasset" SILENT=true
-[2019.01.02-01.28.32:324][144]LogSavePackage: Save=23.30ms
-[2019.01.02-01.28.32:324][144]LogSavePackage: Moving '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Saved/BP_GarageDoor8C576D054930D8C4FB9D45B57446773F.tmp' to '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/BlueprintSource/BP_GarageDoor.uasset'
-[2019.01.02-01.28.32:325][144]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/BlueprintSource/BP_GarageDoor.uasset
-[2019.01.02-01.28.34:232][309]LogSavePackage: Save=434.90ms
-[2019.01.02-01.28.34:233][309]LogSavePackage: Moving '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Saved/Level_1Map_2955660AC46D64F86364F9DADB582415D.tmp' to '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/Maps/Level_1Map_2.umap'
-[2019.01.02-01.28.34:237][309]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/Maps/Level_1Map_2.umap
-[2019.01.02-01.28.34:297][309]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level_1Map_2_BuiltData" FILE="../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/Maps/Level_1Map_2_BuiltData.uasset" SILENT=true
-[2019.01.02-01.28.34:379][309]LogSavePackage: Save=56.99ms
-[2019.01.02-01.28.34:379][309]LogSavePackage: Moving '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Saved/Level_1Map_2_BuiltData27EB7512402360724B153F9C0FE19D02.tmp' to '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/Maps/Level_1Map_2_BuiltData.uasset'
-[2019.01.02-01.28.34:381][309]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/Maps/Level_1Map_2_BuiltData.uasset
-[2019.01.02-01.28.35:081][389]LogTemp: Repeating last play command: Selected Viewport
-[2019.01.02-01.28.35:123][389]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_1Map_2.Level_1Map_2:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1Map_2.Level_1Map_2:PersistentLevel.Level_1Map_2' with GeneratedClass '/Game/Maps/Level_1Map_2.Level_1Map_2_C' with ClassGeneratedBy '/Game/Maps/Level_1Map_2.Level_1Map_2:PersistentLevel.Level_1Map_2'
-[2019.01.02-01.28.35:123][389]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.01.02-01.28.35:124][389]PIE: New page: PIE session: Level_1Map_2 (Jan 1, 2019, 9:28:35 AM)
-[2019.01.02-01.28.35:124][389]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_1Map_2
-[2019.01.02-01.28.35:142][389]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017853s)
-[2019.01.02-01.28.35:143][389]LogAIModule: Creating AISystem for world Level_1Map_2
-[2019.01.02-01.28.35:143][389]LogPlayLevel: PIE: World Init took: (0.000663s)
-[2019.01.02-01.28.35:143][389]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_1Map_2.Level_1Map_2 to /Game/Maps/UEDPIE_0_Level_1Map_2.Level_1Map_2 (0.018987s)
-[2019.01.02-01.28.35:187][389]LogInit: XAudio2 using 'ASUS VH238 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2019.01.02-01.28.35:203][389]LogInit: FAudioDevice initialized.
-[2019.01.02-01.28.35:240][389]LogLoad: Game class is 'CPP_FirstPersonGameMode'
-[2019.01.02-01.28.35:243][389]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_1Map_2.Level_1Map_2 up for play (max tick rate 0) at 2019.01.01-17.28.35
-[2019.01.02-01.28.35:244][389]LogWorld: Bringing up level for play took: 0.003316
-[2019.01.02-01.28.35:245][389]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/UEDPIE_0_Level_1Map_2.Level_1Map_2:PersistentLevel.FirstPersonCharacter_C_0.Mesh2P'
-[2019.01.02-01.28.35:247][389]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level_1Map_2 -0.231
-[2019.01.02-01.28.35:248][389]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_1Map_2.Level_1Map_2:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1Map_2.Level_1Map_2:PersistentLevel.Level_1Map_2' with GeneratedClass '/Game/Maps/Level_1Map_2.Level_1Map_2_C' with ClassGeneratedBy '/Game/Maps/Level_1Map_2.Level_1Map_2:PersistentLevel.Level_1Map_2'
-[2019.01.02-01.28.36:977][582]LogBlueprintUserMessages: [BP_GarageDoor_2] Hello from the Garage Door
-[2019.01.02-01.28.38:179][726]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_1Map_2.Level_1Map_2:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1Map_2.Level_1Map_2:PersistentLevel.Level_1Map_2' with GeneratedClass '/Game/Maps/Level_1Map_2.Level_1Map_2_C' with ClassGeneratedBy '/Game/Maps/Level_1Map_2.Level_1Map_2:PersistentLevel.Level_1Map_2'
-[2019.01.02-01.28.38:218][726]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_1Map_2.Level_1Map_2:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1Map_2.Level_1Map_2:PersistentLevel.Level_1Map_2' with GeneratedClass '/Game/Maps/Level_1Map_2.Level_1Map_2_C' with ClassGeneratedBy '/Game/Maps/Level_1Map_2.Level_1Map_2:PersistentLevel.Level_1Map_2'
-[2019.01.02-01.28.38:918][804]LogEditorViewport: Clicking on Actor (LMB): BP_GarageDoor_C (BP_GarageDoor)
-[2019.01.02-01.28.49:626][ 64]LogRenderer: Reallocating scene render targets to support 1020x696 Format 10 NumSamples 1 (Frame:1).
-[2019.01.02-01.29.10:248][524]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
-[2019.01.02-01.29.10:248][524]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
-[2019.01.02-01.29.10:248][524]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
-[2019.01.02-01.29.31:493][ 67]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
-[2019.01.02-01.29.31:493][ 67]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
-[2019.01.02-01.29.31:494][ 67]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
-[2019.01.02-01.30.08:670][493]LogEditorTransaction: Undo Edit Y
-[2019.01.02-01.30.08:680][493]LogSlate: Took 0.000249 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2019.01.02-01.30.09:604][602]LogEditorTransaction: Undo Edit X
-[2019.01.02-01.30.10:145][666]LogEditorTransaction: Undo Modify Component(s)
-[2019.01.02-01.30.10:596][719]LogEditorTransaction: Undo Set Vector Property
-[2019.01.02-01.30.10:979][764]LogEditorTransaction: Undo Change Collision Profile
-[2019.01.02-01.30.11:166][785]LogEditorTransaction: Undo Change Collision Profile
-[2019.01.02-01.30.19:002][649]Cmd: TRANSACTION REDO
-[2019.01.02-01.30.19:002][649]LogEditorTransaction: Redo Change Collision Profile
-[2019.01.02-01.30.19:205][672]Cmd: TRANSACTION REDO
-[2019.01.02-01.30.19:205][672]LogEditorTransaction: Redo Change Collision Profile
-[2019.01.02-01.30.19:397][693]Cmd: TRANSACTION REDO
-[2019.01.02-01.30.19:397][693]LogEditorTransaction: Redo Set Vector Property
-[2019.01.02-01.30.19:625][719]Cmd: TRANSACTION REDO
-[2019.01.02-01.30.19:625][719]LogEditorTransaction: Redo Modify Component(s)
-[2019.01.02-01.30.19:816][741]Cmd: TRANSACTION REDO
-[2019.01.02-01.30.19:816][741]LogEditorTransaction: Redo Edit X
-[2019.01.02-01.30.19:947][756]Cmd: TRANSACTION REDO
-[2019.01.02-01.30.19:947][756]LogEditorTransaction: Redo Edit Y
-[2019.01.02-01.31.30:593][206]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BlueprintSource/BP_GarageDoor" FILE="../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/BlueprintSource/BP_GarageDoor.uasset" SILENT=true
-[2019.01.02-01.31.30:653][206]LogSavePackage: Save=25.97ms
-[2019.01.02-01.31.30:653][206]LogSavePackage: Moving '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Saved/BP_GarageDoorE5A726C446287E147C3499B954304027.tmp' to '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/BlueprintSource/BP_GarageDoor.uasset'
-[2019.01.02-01.31.30:657][206]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/BlueprintSource/BP_GarageDoor.uasset
-[2019.01.02-01.31.31:672][327]BlueprintLog: New page: Compile BP_GarageDoor
-[2019.01.02-01.31.31:677][327]LogActor: Warning: BP_GarageDoor_C /Game/Maps/Level_1Map_2.Level_1Map_2:PersistentLevel.BP_GarageDoor_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2019.01.02-01.31.31:697][327]LogActor: Warning: BP_GarageDoor_C /Engine/Transient.World_9:PersistentLevel.BP_GarageDoor_C_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2019.01.02-01.31.31:698][327]LogActor: Warning: BP_GarageDoor_C /Engine/Transient.World_5:PersistentLevel.BP_GarageDoor_C_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2019.01.02-01.31.32:109][327]LogActor: Warning: BP_GarageDoor_C /Engine/Transient.World_5:PersistentLevel.BP_GarageDoor_C_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2019.01.02-01.31.32:725][394]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BlueprintSource/BP_GarageDoor" FILE="../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/BlueprintSource/BP_GarageDoor.uasset" SILENT=true
-[2019.01.02-01.31.32:783][394]LogSavePackage: Save=24.47ms
-[2019.01.02-01.31.32:783][394]LogSavePackage: Moving '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Saved/BP_GarageDoorD6012740493D4F6F60F2228EE68EF2F7.tmp' to '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/BlueprintSource/BP_GarageDoor.uasset'
-[2019.01.02-01.31.32:785][394]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/BlueprintSource/BP_GarageDoor.uasset
-[2019.01.02-01.31.34:705][563]LogSavePackage: Save=436.34ms
-[2019.01.02-01.31.34:706][563]LogSavePackage: Moving '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Saved/Level_1Map_2D1ED72DC46024AF6DC5424AA52D9EC20.tmp' to '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/Maps/Level_1Map_2.umap'
-[2019.01.02-01.31.34:710][563]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/Maps/Level_1Map_2.umap
-[2019.01.02-01.31.34:770][563]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level_1Map_2_BuiltData" FILE="../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/Maps/Level_1Map_2_BuiltData.uasset" SILENT=true
-[2019.01.02-01.31.34:861][563]LogSavePackage: Save=57.11ms
-[2019.01.02-01.31.34:861][563]LogSavePackage: Moving '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Saved/Level_1Map_2_BuiltDataED2B29214EA3F8DEC8175BBBDB5528F0.tmp' to '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/Maps/Level_1Map_2_BuiltData.uasset'
-[2019.01.02-01.31.34:863][563]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/Maps/Level_1Map_2_BuiltData.uasset
-[2019.01.02-01.31.35:328][617]LogTemp: Repeating last play command: Selected Viewport
-[2019.01.02-01.31.35:365][617]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_1Map_2.Level_1Map_2:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1Map_2.Level_1Map_2:PersistentLevel.Level_1Map_2' with GeneratedClass '/Game/Maps/Level_1Map_2.Level_1Map_2_C' with ClassGeneratedBy '/Game/Maps/Level_1Map_2.Level_1Map_2:PersistentLevel.Level_1Map_2'
-[2019.01.02-01.31.35:365][617]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.01.02-01.31.35:365][617]PIE: New page: PIE session: Level_1Map_2 (Jan 1, 2019, 9:31:35 AM)
-[2019.01.02-01.31.35:366][617]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_1Map_2
-[2019.01.02-01.31.35:385][617]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018297s)
-[2019.01.02-01.31.35:385][617]LogAIModule: Creating AISystem for world Level_1Map_2
-[2019.01.02-01.31.35:386][617]LogPlayLevel: PIE: World Init took: (0.000986s)
-[2019.01.02-01.31.35:386][617]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_1Map_2.Level_1Map_2 to /Game/Maps/UEDPIE_0_Level_1Map_2.Level_1Map_2 (0.020015s)
-[2019.01.02-01.31.35:424][617]LogInit: XAudio2 using 'ASUS VH238 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2019.01.02-01.31.35:435][617]LogInit: FAudioDevice initialized.
-[2019.01.02-01.31.35:468][617]LogLoad: Game class is 'CPP_FirstPersonGameMode'
-[2019.01.02-01.31.35:471][617]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_1Map_2.Level_1Map_2 up for play (max tick rate 0) at 2019.01.01-17.31.35
-[2019.01.02-01.31.35:471][617]LogWorld: Bringing up level for play took: 0.002857
-[2019.01.02-01.31.35:472][617]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/UEDPIE_0_Level_1Map_2.Level_1Map_2:PersistentLevel.FirstPersonCharacter_C_0.Mesh2P'
-[2019.01.02-01.31.35:474][617]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level_1Map_2 -0.004
-[2019.01.02-01.31.35:475][617]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_1Map_2.Level_1Map_2:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1Map_2.Level_1Map_2:PersistentLevel.Level_1Map_2' with GeneratedClass '/Game/Maps/Level_1Map_2.Level_1Map_2_C' with ClassGeneratedBy '/Game/Maps/Level_1Map_2.Level_1Map_2:PersistentLevel.Level_1Map_2'
-[2019.01.02-01.31.39:686][118]LogBlueprintUserMessages: [BP_GarageDoor_2] Hello from the Garage Door
-[2019.01.02-01.31.40:396][203]LogAnimation: Warning: AnimBP XM8_Skeleton_AnimBlueprint_C is incompatible with skeleton SKAR_Skeleton, removing AnimBP from actor.
-[2019.01.02-01.31.57:666][273]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_1Map_2.Level_1Map_2:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1Map_2.Level_1Map_2:PersistentLevel.Level_1Map_2' with GeneratedClass '/Game/Maps/Level_1Map_2.Level_1Map_2_C' with ClassGeneratedBy '/Game/Maps/Level_1Map_2.Level_1Map_2:PersistentLevel.Level_1Map_2'
-[2019.01.02-01.31.57:705][273]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_1Map_2.Level_1Map_2:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1Map_2.Level_1Map_2:PersistentLevel.Level_1Map_2' with GeneratedClass '/Game/Maps/Level_1Map_2.Level_1Map_2_C' with ClassGeneratedBy '/Game/Maps/Level_1Map_2.Level_1Map_2:PersistentLevel.Level_1Map_2'
-[2019.01.02-01.32.18:743][491]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (InitialPlayer Start)
-[2019.01.02-01.32.19:543][574]LogEditorViewport: Clicking on Actor (context menu): PlayerStart (InitialPlayer Start)
-[2019.01.02-01.32.22:364][873]LogEditorViewport: Clicking on Actor (double click): PlayerStart (InitialPlayer Start)
-[2019.01.02-01.32.25:909][283]LogEditorViewport: Clicking on Actor (context menu): PlayerStart (InitialPlayer Start)
-[2019.01.02-01.32.29:522][663]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2019.01.02-01.32.33:175][ 54]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2019.01.02-01.32.39:002][724]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2019.01.02-01.32.42:504][103]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2019.01.02-01.32.43:453][155]LogSavePackage: Save=440.11ms
-[2019.01.02-01.32.43:453][155]LogSavePackage: Moving '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Saved/Level_1Map_2D512D69F4BB671DC31EACA869376BCBB.tmp' to '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/Maps/Level_1Map_2.umap'
-[2019.01.02-01.32.43:457][155]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/Maps/Level_1Map_2.umap
-[2019.01.02-01.32.43:517][155]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level_1Map_2_BuiltData" FILE="../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/Maps/Level_1Map_2_BuiltData.uasset" SILENT=true
-[2019.01.02-01.32.43:606][155]LogSavePackage: Save=56.38ms
-[2019.01.02-01.32.43:606][155]LogSavePackage: Moving '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Saved/Level_1Map_2_BuiltData391B5A784A406E7A28AE94955A3E0B88.tmp' to '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/Maps/Level_1Map_2_BuiltData.uasset'
-[2019.01.02-01.32.43:608][155]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/Maps/Level_1Map_2_BuiltData.uasset
-[2019.01.02-01.32.59:879][ 20]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2019.01.02-01.33.40:246][783]LogEditorViewport: Clicking Background
-[2019.01.02-01.33.53:923][318]LogEditorViewport: Clicking Background
-[2019.01.02-01.34.00:911][130]LogEditorViewport: Clicking Background
-[2019.01.02-01.34.02:297][288]LogEditorViewport: Clicking Background
-[2019.01.02-01.34.05:673][644]LogEditorViewport: Clicking Background
-[2019.01.02-01.36.00:174][663]Cmd: EDCALLBACK SURFPROPS
-[2019.01.02-01.37.01:836][835]Cmd: TRANSACTION UNDO
-[2019.01.02-01.37.01:836][835]LogEditorTransaction: Undo Move Actors
-[2019.01.02-01.37.10:846][826]Cmd: TRANSACTION UNDO
-[2019.01.02-01.37.10:846][826]LogEditorTransaction: Undo Move Actors
-[2019.01.02-01.37.11:705][897]Cmd: TRANSACTION UNDO
-[2019.01.02-01.37.11:705][897]LogEditorTransaction: Undo Move Actors
-[2019.01.02-01.38.48:846][121]LogSavePackage: Save=14.66ms
-[2019.01.02-01.38.48:846][121]LogSavePackage: Moving '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Saved/GarageDoorE04602FF4B8D6920A3CCA6B7EE8AA99A.tmp' to '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/MyContent/Meshes/SecondLevel/Area2Geometry/GarageDoor.uasset'
-[2019.01.02-01.38.48:849][121]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/MyContent/Meshes/SecondLevel/Area2Geometry/GarageDoor.uasset
-[2019.01.02-01.38.48:993][121]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BlueprintSource/BP_GarageDoor" FILE="../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/BlueprintSource/BP_GarageDoor.uasset" SILENT=true
-[2019.01.02-01.38.49:058][121]LogSavePackage: Save=25.17ms
-[2019.01.02-01.38.49:058][121]LogSavePackage: Moving '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Saved/BP_GarageDoorA0311AB148EF125D895A60A2AD8D2FF9.tmp' to '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/BlueprintSource/BP_GarageDoor.uasset'
-[2019.01.02-01.38.49:062][121]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/BlueprintSource/BP_GarageDoor.uasset
-[2019.01.02-01.39.00:155][398]LogSavePackage: Save=13.93ms
-[2019.01.02-01.39.00:155][398]LogSavePackage: Moving '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Saved/GarageDoorD235DCAF438FE3651B81009630501493.tmp' to '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/MyContent/Meshes/SecondLevel/Area2/GarageDoor.uasset'
-[2019.01.02-01.39.00:158][398]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/MyContent/Meshes/SecondLevel/Area2/GarageDoor.uasset
-[2019.01.02-01.39.00:303][398]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BlueprintSource/BP_GarageDoor" FILE="../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/BlueprintSource/BP_GarageDoor.uasset" SILENT=true
-[2019.01.02-01.39.00:361][398]LogSavePackage: Save=24.25ms
-[2019.01.02-01.39.00:361][398]LogSavePackage: Moving '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Saved/BP_GarageDoorB7FEF96945B29711C48E6F9F0297DB5C.tmp' to '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/BlueprintSource/BP_GarageDoor.uasset'
-[2019.01.02-01.39.00:365][398]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/BlueprintSource/BP_GarageDoor.uasset
-[2019.01.02-01.39.12:809][811]LogSavePackage: Save=13.43ms
-[2019.01.02-01.39.12:809][811]LogSavePackage: Moving '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Saved/RightWallB02C7CAA412A83F84569B1B109746316.tmp' to '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/MyContent/Meshes/SecondLevel/Area1/RightWall.uasset'
-[2019.01.02-01.39.12:813][811]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/MyContent/Meshes/SecondLevel/Area1/RightWall.uasset
-[2019.01.02-01.39.12:860][811]LogSavePackage: Save=4.43ms
-[2019.01.02-01.39.12:860][811]LogSavePackage: Moving '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Saved/RightWall36CA1119454AEB6A867C85B28BD82D1E.tmp' to '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/MyContent/Meshes/SecondLevel/RightWall.uasset'
-[2019.01.02-01.39.12:863][811]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/MyContent/Meshes/SecondLevel/RightWall.uasset
-[2019.01.02-01.39.12:891][811]LogSavePackage: Save=13.43ms
-[2019.01.02-01.39.12:891][811]LogSavePackage: Moving '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Saved/BackWallC9F5A2744491A48CC61B63A691397612.tmp' to '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/MyContent/Meshes/SecondLevel/Area1/BackWall.uasset'
-[2019.01.02-01.39.12:895][811]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/MyContent/Meshes/SecondLevel/Area1/BackWall.uasset
-[2019.01.02-01.39.12:950][811]LogSavePackage: Save=21.68ms
-[2019.01.02-01.39.12:950][811]LogSavePackage: Moving '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Saved/BackWall6A164D5544C90DFAF8CD67883A354F5C.tmp' to '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/MyContent/Meshes/SecondLevel/BackWall.uasset'
-[2019.01.02-01.39.12:954][811]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/MyContent/Meshes/SecondLevel/BackWall.uasset
-[2019.01.02-01.39.12:982][811]LogSavePackage: Save=14.60ms
-[2019.01.02-01.39.12:982][811]LogSavePackage: Moving '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Saved/CeilingA7D87D184401D28C744D08B148CFA94D.tmp' to '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/MyContent/Meshes/SecondLevel/Area1/Ceiling.uasset'
-[2019.01.02-01.39.12:986][811]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/MyContent/Meshes/SecondLevel/Area1/Ceiling.uasset
-[2019.01.02-01.39.13:023][811]LogSavePackage: Save=4.53ms
-[2019.01.02-01.39.13:023][811]LogSavePackage: Moving '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Saved/Ceiling29B5B20E4BD66344B71A9692BAF99E0A.tmp' to '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/MyContent/Meshes/SecondLevel/Ceiling.uasset'
-[2019.01.02-01.39.13:033][811]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/MyContent/Meshes/SecondLevel/Ceiling.uasset
-[2019.01.02-01.39.13:062][811]LogSavePackage: Save=13.97ms
-[2019.01.02-01.39.13:062][811]LogSavePackage: Moving '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Saved/FloorB81E262C46CF8F7B601747B451CB5CA1.tmp' to '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/MyContent/Meshes/SecondLevel/Area1/Floor.uasset'
-[2019.01.02-01.39.13:066][811]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/MyContent/Meshes/SecondLevel/Area1/Floor.uasset
-[2019.01.02-01.39.13:102][811]LogSavePackage: Save=4.47ms
-[2019.01.02-01.39.13:102][811]LogSavePackage: Moving '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Saved/FloorA6C6D453479CA0E3BFC6DDB5FAC1CA40.tmp' to '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/MyContent/Meshes/SecondLevel/Floor.uasset'
-[2019.01.02-01.39.13:106][811]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/MyContent/Meshes/SecondLevel/Floor.uasset
-[2019.01.02-01.39.13:133][811]LogSavePackage: Save=13.64ms
-[2019.01.02-01.39.13:133][811]LogSavePackage: Moving '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Saved/FrontWall38FE6B6C43C34BE64C3193930D990C9D.tmp' to '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/MyContent/Meshes/SecondLevel/Area1/FrontWall.uasset'
-[2019.01.02-01.39.13:137][811]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/MyContent/Meshes/SecondLevel/Area1/FrontWall.uasset
-[2019.01.02-01.39.13:173][811]LogSavePackage: Save=4.79ms
-[2019.01.02-01.39.13:173][811]LogSavePackage: Moving '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Saved/FrontWallE721BAF843640CFB9DB96893E40E9067.tmp' to '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/MyContent/Meshes/SecondLevel/FrontWall.uasset'
-[2019.01.02-01.39.13:177][811]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/MyContent/Meshes/SecondLevel/FrontWall.uasset
-[2019.01.02-01.39.13:207][811]LogSavePackage: Save=13.80ms
-[2019.01.02-01.39.13:207][811]LogSavePackage: Moving '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Saved/LeftWallBF16B52049CE03072BE8108D81262078.tmp' to '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/MyContent/Meshes/SecondLevel/Area1/LeftWall.uasset'
-[2019.01.02-01.39.13:211][811]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/MyContent/Meshes/SecondLevel/Area1/LeftWall.uasset
-[2019.01.02-01.39.13:255][811]LogSavePackage: Save=4.42ms
-[2019.01.02-01.39.13:255][811]LogSavePackage: Moving '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Saved/LeftWall551E9F56464B063E95ACFB8F2998537B.tmp' to '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/MyContent/Meshes/SecondLevel/LeftWall.uasset'
-[2019.01.02-01.39.13:259][811]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/MyContent/Meshes/SecondLevel/LeftWall.uasset
-[2019.01.02-01.41.17:412][631]LogStaticMesh: Building static mesh Room1...
-[2019.01.02-01.41.17:436][631]LogStaticMesh: Built static mesh [0.02s] /Game/MyContent/Meshes/SecondLevel/Area2/Room1.Room1
-[2019.01.02-01.41.17:479][631]LogActorFactory: Actor Factory created Room1
-[2019.01.02-01.41.17:515][631]LogEditor: Error: Actor 'Brush /Game/Maps/Level_1Map_2.Level_1Map_2:PersistentLevel.Room1BackWall1' is marked pending kill and cannot be converted
-[2019.01.02-01.41.17:517][631]LogEditor: Error: Actor 'Brush /Game/Maps/Level_1Map_2.Level_1Map_2:PersistentLevel.Room1BackWall2' is marked pending kill and cannot be converted
-[2019.01.02-01.41.17:517][631]LogEditor: Error: Actor 'Brush /Game/Maps/Level_1Map_2.Level_1Map_2:PersistentLevel.Room1BackWall3' is marked pending kill and cannot be converted
-[2019.01.02-01.41.17:517][631]LogEditor: Error: Actor 'Brush /Game/Maps/Level_1Map_2.Level_1Map_2:PersistentLevel.Room1Ceiling' is marked pending kill and cannot be converted
-[2019.01.02-01.41.17:517][631]LogEditor: Error: Actor 'Brush /Game/Maps/Level_1Map_2.Level_1Map_2:PersistentLevel.Room1Floor' is marked pending kill and cannot be converted
-[2019.01.02-01.41.17:517][631]LogEditor: Error: Actor 'Brush /Game/Maps/Level_1Map_2.Level_1Map_2:PersistentLevel.Room1FrontWall1' is marked pending kill and cannot be converted
-[2019.01.02-01.41.17:517][631]LogEditor: Error: Actor 'Brush /Game/Maps/Level_1Map_2.Level_1Map_2:PersistentLevel.Room1LeftWall' is marked pending kill and cannot be converted
-[2019.01.02-01.41.17:517][631]LogEditor: Error: Actor 'Brush /Game/Maps/Level_1Map_2.Level_1Map_2:PersistentLevel.Room1RightWall1' is marked pending kill and cannot be converted
-[2019.01.02-01.41.17:517][631]LogEditor: Error: Actor 'Brush /Game/Maps/Level_1Map_2.Level_1Map_2:PersistentLevel.Room1RightWall2' is marked pending kill and cannot be converted
-[2019.01.02-01.41.17:517][631]LogEditor: Error: Actor 'Brush /Game/Maps/Level_1Map_2.Level_1Map_2:PersistentLevel.Room1RightWall2_0' is marked pending kill and cannot be converted
-[2019.01.02-01.41.17:518][631]LogEditor: Error: Actor 'Brush /Game/Maps/Level_1Map_2.Level_1Map_2:PersistentLevel.Room1RightWall3_1' is marked pending kill and cannot be converted
-[2019.01.02-01.41.17:518][631]LogEditor: Error: Actor 'Brush /Game/Maps/Level_1Map_2.Level_1Map_2:PersistentLevel.Room1RightWall3' is marked pending kill and cannot be converted
-[2019.01.02-01.41.17:518][631]EditorErrors: New page: Actor Reattachment
-[2019.01.02-01.41.25:207][541]MapCheck: New page: Map Check
-[2019.01.02-01.41.25:216][541]Cmd: MAP REBUILD ALLVISIBLE
-[2019.01.02-01.41.25:220][541]LogEditorServer: Rebuildmap Clear paths rebuilt
-[2019.01.02-01.41.25:595][541]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
-[2019.01.02-01.41.25:603][541]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Wood_Pine, compiling. 
-[2019.01.02-01.41.25:609][541]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy firstRoomFloor, compiling. 
-[2019.01.02-01.41.25:614][541]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy bunkerTileMaterial, compiling. 
-[2019.01.02-01.41.25:620][541]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy CeilingMaterial, compiling. 
-[2019.01.02-01.41.25:625][541]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Frame, compiling. 
-[2019.01.02-01.41.25:630][541]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Door, compiling. 
-[2019.01.02-01.41.25:636][541]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Glass, compiling. 
-[2019.01.02-01.41.25:641][541]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MAT_SKAR_AMMO, compiling. 
-[2019.01.02-01.41.25:649][541]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy metalWallMaterial, compiling. 
-[2019.01.02-01.41.26:690][541]TextureStreamingBuild: Display: Compiling optional shaders took 1.101 seconds.
-[2019.01.02-01.41.26:700][541]LogLevel: Display: Export Material TexCoord Scales took 0.010 seconds.
-[2019.01.02-01.41.26:716][541]TextureStreamingBuild: Display: Build Texture Streaming took 0.016 seconds.
-[2019.01.02-01.41.26:734][541]LightingResults: New page: Lighting Build - Jan 1, 2019, 9:41:26 AM
-[2019.01.02-01.41.26:793][541]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
-[2019.01.02-01.41.26:876][541]LogSwarmInterface: [OpenConnection] Connecting to agent ...
-[2019.01.02-01.41.26:891][541]LogSwarmInterface: [TryOpenConnection] Testing the Agent
-[2019.01.02-01.41.27:402][541]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
-[2019.01.02-01.41.27:402][541]LogSwarmInterface: [TryOpenConnection] Local Process ID is 9148
-[2019.01.02-01.41.32:113][541]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
-[2019.01.02-01.41.32:114][541]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
-[2019.01.02-01.41.32:114][541]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
-[2019.01.02-01.41.32:114][541]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
-[2019.01.02-01.41.32:114][541]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
-[2019.01.02-01.41.32:291][541]Cmd: MAP CHECK DONTDISPLAYDIALOG
-[2019.01.02-01.41.32:291][541]MapCheck: New page: Level_1Map_2 - Jan 1, 2019, 9:41:32 AM
-[2019.01.02-01.41.32:292][541]MapCheck: Error: WorldSettings_1 Maps need lighting rebuilt 
-[2019.01.02-01.41.32:450][541]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 159.135ms to complete.
-[2019.01.02-01.41.32:476][541]LogEditorBuildUtils: Build time 0:07
-[2019.01.02-01.41.34:234][664]LightingResults: Warning: Floor Object has overlapping UVs.
-[2019.01.02-01.41.34:234][664]LightingResults: Floor Lightmap UV are overlapping by 2.7%. Please adjust content - Enable Error Coloring to visualize.
-[2019.01.02-01.41.35:357][766]LightingResults: Warning: Room1 Object has wrapping UVs.
-[2019.01.02-01.41.35:494][778]Job is a success!
-[2019.01.02-01.41.35:549][779]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.012s
-[2019.01.02-01.41.35:549][779]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
-[2019.01.02-01.41.35:549][779]LogVolumetricLightmapImport:      BrickData 290x5x5 = 0.2Mb
-[2019.01.02-01.41.35:550][779]LogVolumetricLightmapImport:      Bricks at Level
-[2019.01.02-01.41.35:550][779]LogVolumetricLightmapImport:          0: 1.7% covering 100.0% of volume
-[2019.01.02-01.41.35:550][779]LogVolumetricLightmapImport:          1: 6.9% covering 6.3% of volume
-[2019.01.02-01.41.35:550][779]LogVolumetricLightmapImport:          2: 91.4% covering 1.3% of volume
-[2019.01.02-01.41.35:837][779]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 512X512)
-[2019.01.02-01.41.35:837][779]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 512X512)
-[2019.01.02-01.41.35:837][779]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 512X512)
-[2019.01.02-01.41.35:838][779]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 512X512)
-[2019.01.02-01.41.35:881][779]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (BGRA8, 256X256)
-[2019.01.02-01.41.35:882][779]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (BGRA8, 1024X128)
-[2019.01.02-01.41.35:967][779]LogStaticLightingSystem: Illumination: 9.21 sec (241 ms encoding lightmaps, 38 ms encoding shadowmaps)
-[2019.01.02-01.41.35:972][779]LogStaticLightingSystem: Lightmap texture memory:  1.0 MB (0.5 MB streaming, 0.5 MB non-streaming), 4 textures
-[2019.01.02-01.41.35:974][779]LogStaticLightingSystem: Shadowmap texture memory: 1.0 MB (0.7 MB streaming, 0.3 MB non-streaming), 2 textures
-[2019.01.02-01.41.36:131][779]Lightmass on DESKTOP-PQPAGDU: 2.98 sec total, 273 ms importing, 16 ms setup, 371 ms photons, 2.28 sec processing, 0 ms extra exporting [180/180 mappings]. Threads: 9.08 sec total, 3.72 sec processing.
-[2019.01.02-01.41.36:131][779]DumpUnbuiltLightIteractions
-[2019.01.02-01.41.36:131][779]Lights with unbuilt interactions: 0
-[2019.01.02-01.41.36:131][779]
-[2019.01.02-01.41.36:131][779]Primitives with unbuilt interactions: 0
-[2019.01.02-01.41.36:136][780]Cmd: MAP CHECK NOTIFYRESULTS
-[2019.01.02-01.41.36:136][780]MapCheck: New page: Level_1Map_2 - Jan 1, 2019, 9:41:36 AM
-[2019.01.02-01.41.36:295][780]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 159.237ms to complete.
-[2019.01.02-01.41.41:194][282]LogSavePackage: Save=462.21ms
-[2019.01.02-01.41.41:195][282]LogSavePackage: Moving '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Saved/Level_1Map_2B4EF4EAC4571FB6C51EF8596E3B2F77E.tmp' to '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/Maps/Level_1Map_2.umap'
-[2019.01.02-01.41.41:202][282]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/Maps/Level_1Map_2.umap
-[2019.01.02-01.41.41:264][282]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level_1Map_2_BuiltData" FILE="../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/Maps/Level_1Map_2_BuiltData.uasset" SILENT=true
-[2019.01.02-01.41.41:364][282]LogSavePackage: Save=55.91ms
-[2019.01.02-01.41.41:364][282]LogSavePackage: Moving '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Saved/Level_1Map_2_BuiltData4638801B406767D59158A5A2BE62054F.tmp' to '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/Maps/Level_1Map_2_BuiltData.uasset'
-[2019.01.02-01.41.41:369][282]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/Maps/Level_1Map_2_BuiltData.uasset
-[2019.01.02-01.41.49:937][117]LogRenderer: Reallocating scene render targets to support 1084x924 Format 10 NumSamples 1 (Frame:1).
-[2019.01.02-01.42.43:070][419]LogSavePackage: Save=14.68ms
-[2019.01.02-01.42.43:070][419]LogSavePackage: Moving '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Saved/Room14DD9736D4DE3CE50F7161BAC42F5D90B.tmp' to '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/MyContent/Meshes/SecondLevel/Area2/Room1.uasset'
-[2019.01.02-01.42.43:073][419]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/MyContent/Meshes/SecondLevel/Area2/Room1.uasset
-[2019.01.02-01.46.22:126][920]LogFbx: Warning: FBX version number for this version of the FBX SDK is 7.5.0
-
-
-[2019.01.02-02.01.42:382][129]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (RightWall)
-[2019.01.02-02.01.48:187][769]LogContentBrowser: Native class hierarchy updated for 'MaterialEditor' in 0.0014 seconds. Added 1 classes and 0 folders.
-[2019.01.02-02.01.48:189][769]LogMaterial: Missing cached shader map for material bunkerTileMaterial, compiling. 
-[2019.01.02-02.01.48:264][769]LogMaterial: Missing cached shader map for material bunkerTileMaterial, compiling. 
-[2019.01.02-02.01.48:283][769]LogMaterial: Missing cached shader map for material bunkerTileMaterial, compiling. 
-[2019.01.02-02.01.48:328][769]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
-[2019.01.02-02.01.48:352][769]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_9, compiling. 
-[2019.01.02-02.01.48:356][769]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling. 
-[2019.01.02-02.01.48:361][769]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling. 
-[2019.01.02-02.01.51:534][116]MaterialEditorStats: Base pass shader: 114 instructions
-[2019.01.02-02.01.51:534][116]MaterialEditorStats: Base pass shader with Surface Lightmap: 135 instructions
-[2019.01.02-02.01.51:534][116]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 192 instructions
-[2019.01.02-02.01.51:534][116]MaterialEditorStats: Vertex shader: 31 instructions
-[2019.01.02-02.01.51:534][116]MaterialEditorStats: Texture samplers: 7/16
-[2019.01.02-02.01.51:534][116]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
-[2019.01.02-02.03.04:334][114]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ceiling)
-[2019.01.02-02.03.14:668][242]LogMaterial: Missing cached shader map for material CeilingMaterial, compiling. 
-[2019.01.02-02.03.14:743][242]LogMaterial: Missing cached shader map for material CeilingMaterial, compiling. 
-[2019.01.02-02.03.14:761][242]LogMaterial: Missing cached shader map for material CeilingMaterial, compiling. 
-[2019.01.02-02.03.14:806][242]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
-[2019.01.02-02.03.14:810][242]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
-[2019.01.02-02.03.14:815][242]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
-[2019.01.02-02.03.14:819][242]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
-[2019.01.02-02.03.20:242][845]MaterialEditorStats: Base pass shader: 114 instructions
-[2019.01.02-02.03.20:243][845]MaterialEditorStats: Base pass shader with Surface Lightmap: 135 instructions
-[2019.01.02-02.03.20:243][845]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 192 instructions
-[2019.01.02-02.03.20:243][845]MaterialEditorStats: Vertex shader: 31 instructions
-[2019.01.02-02.03.20:243][845]MaterialEditorStats: Texture samplers: 7/16
-[2019.01.02-02.03.20:243][845]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
-[2019.01.02-02.04.08:070][646]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2019.01.02-02.04.11:525][ 29]LogMaterial: Missing cached shader map for material firstRoomFloor, compiling. 
-[2019.01.02-02.04.11:602][ 29]LogMaterial: Missing cached shader map for material firstRoomFloor, compiling. 
-[2019.01.02-02.04.11:623][ 29]LogMaterial: Missing cached shader map for material firstRoomFloor, compiling. 
-[2019.01.02-02.04.11:675][ 29]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
-[2019.01.02-02.04.11:686][ 29]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
-[2019.01.02-02.04.11:691][ 29]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
-[2019.01.02-02.04.11:695][ 29]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
-[2019.01.02-02.04.17:125][518]MaterialEditorStats: Base pass shader: 114 instructions
-[2019.01.02-02.04.17:125][518]MaterialEditorStats: Base pass shader with Surface Lightmap: 135 instructions
-[2019.01.02-02.04.17:125][518]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 192 instructions
-[2019.01.02-02.04.17:125][518]MaterialEditorStats: Vertex shader: 31 instructions
-[2019.01.02-02.04.17:125][518]MaterialEditorStats: Texture samplers: 7/16
-[2019.01.02-02.04.17:127][518]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
-[2019.01.02-02.04.59:620][639]LogMaterial: Missing cached shader map for material CeilingMaterial, compiling. 
-[2019.01.02-02.04.59:668][639]LogMaterial: Missing cached shader map for material CeilingMaterial, compiling. 
-[2019.01.02-02.04.59:714][639]LogMaterial: Missing cached shader map for material CeilingMaterial, compiling. 
-[2019.01.02-02.04.59:796][639]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy CeilingMaterial, compiling. 
-[2019.01.02-02.05.01:992][639]TextureStreamingBuild: Display: Compiling optional shaders took 2.225 seconds.
-[2019.01.02-02.05.04:394][639]LogSavePackage: Save=16.64ms
-[2019.01.02-02.05.04:394][639]LogSavePackage: Moving '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Saved/CeilingMaterial92C66BA44E6CC7D109B369A39A0229EB.tmp' to '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/MyContent/Materials/CeilingMaterial.uasset'
-[2019.01.02-02.05.04:401][639]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/MyContent/Materials/CeilingMaterial.uasset
-[2019.01.02-02.05.04:618][639]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2019.01.02-02.05.05:330][640]Cmd: QUIT_EDITOR
-[2019.01.02-02.05.05:774][640]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2019.01.02-02.05.05:786][640]LogExit: Preparing to exit.
-[2019.01.02-02.05.06:431][640]LogDirectoryWatcher: A directory notification for 'C:/Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/' was aborted.
-[2019.01.02-02.05.06:466][640]LogExit: Editor shut down
-[2019.01.02-02.05.06:469][640]LogExit: Transaction tracking system shut down
-[2019.01.02-02.05.06:660][640]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2019.01.02-02.05.06:660][640]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/' was aborted.
-[2019.01.02-02.05.06:661][640]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2019.01.02-02.05.06:661][640]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Media/MediaCompositing/Content/' was aborted.
-[2019.01.02-02.05.06:661][640]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/AppleARKit/Content/' was aborted.
-[2019.01.02-02.05.06:661][640]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
-[2019.01.02-02.05.06:662][640]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
-[2019.01.02-02.05.06:744][640]LogExit: Object subsystem successfully closed.
-[2019.01.02-02.05.06:773][640]LogD3D11RHI: Shutdown
-[2019.01.02-02.05.06:773][640]LogD3D11RHI: CleanupD3DDevice
-[2019.01.02-02.05.06:777][640]LogD3D11RHI: ~FD3D11DynamicRHI
-[2019.01.02-02.05.06:821][640]LogModuleManager: Shutting down and abandoning module MaterialEditor (562)
-[2019.01.02-02.05.06:821][640]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (560)
-[2019.01.02-02.05.06:821][640]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (558)
-[2019.01.02-02.05.06:821][640]LogModuleManager: Shutting down and abandoning module BlueprintGraph (556)
-[2019.01.02-02.05.06:821][640]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (554)
-[2019.01.02-02.05.06:822][640]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (552)
-[2019.01.02-02.05.06:822][640]LogModuleManager: Shutting down and abandoning module DesktopPlatform (550)
-[2019.01.02-02.05.06:822][640]LogModuleManager: Shutting down and abandoning module WorldBrowser (548)
-[2019.01.02-02.05.06:822][640]LogModuleManager: Shutting down and abandoning module SceneOutliner (546)
-[2019.01.02-02.05.06:822][640]LogModuleManager: Shutting down and abandoning module AddContentDialog (544)
-[2019.01.02-02.05.06:822][640]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.18/FeaturePacks/' was aborted.
-[2019.01.02-02.05.06:823][640]LogModuleManager: Shutting down and abandoning module WidgetCarousel (543)
-[2019.01.02-02.05.06:823][640]LogModuleManager: Shutting down and abandoning module EditorWidgets (540)
-[2019.01.02-02.05.06:823][640]LogModuleManager: Shutting down and abandoning module CollectionManager (538)
-[2019.01.02-02.05.06:823][640]LogDirectoryWatcher: A directory notification for 'C:/Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/Collections/' was aborted.
-[2019.01.02-02.05.06:823][640]LogDirectoryWatcher: A directory notification for 'C:/Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/Developers/Ryanc/Collections/' was aborted.
-[2019.01.02-02.05.06:824][640]LogDirectoryWatcher: A directory notification for 'C:/Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Saved/Collections/' was aborted.
-[2019.01.02-02.05.06:824][640]LogModuleManager: Shutting down and abandoning module StatsViewer (536)
-[2019.01.02-02.05.06:824][640]LogModuleManager: Shutting down and abandoning module FoliageEdit (534)
-[2019.01.02-02.05.06:824][640]LogModuleManager: Shutting down and abandoning module LandscapeEditor (532)
-[2019.01.02-02.05.06:824][640]LogModuleManager: Shutting down and abandoning module MeshPaintMode (530)
-[2019.01.02-02.05.06:824][640]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (528)
-[2019.01.02-02.05.06:825][640]LogModuleManager: Shutting down and abandoning module ActorPickerMode (526)
-[2019.01.02-02.05.06:825][640]LogModuleManager: Shutting down and abandoning module GeometryMode (524)
-[2019.01.02-02.05.06:825][640]LogModuleManager: Shutting down and abandoning module TextureAlignMode (522)
-[2019.01.02-02.05.06:825][640]LogModuleManager: Shutting down and abandoning module BspMode (520)
-[2019.01.02-02.05.06:825][640]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (518)
-[2019.01.02-02.05.06:825][640]LogModuleManager: Shutting down and abandoning module HardwareSurvey (516)
-[2019.01.02-02.05.06:825][640]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (514)
-[2019.01.02-02.05.06:825][640]LogModuleManager: Shutting down and abandoning module AutomationWorker (512)
-[2019.01.02-02.05.06:825][640]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (510)
-[2019.01.02-02.05.06:826][640]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (508)
-[2019.01.02-02.05.06:826][640]LogModuleManager: Shutting down and abandoning module PlacementMode (507)
-[2019.01.02-02.05.06:826][640]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (504)
-[2019.01.02-02.05.06:826][640]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (502)
-[2019.01.02-02.05.06:827][640]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (500)
-[2019.01.02-02.05.06:827][640]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (498)
-[2019.01.02-02.05.06:827][640]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (496)
-[2019.01.02-02.05.06:827][640]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (494)
-[2019.01.02-02.05.06:827][640]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (492)
-[2019.01.02-02.05.06:827][640]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (490)
-[2019.01.02-02.05.06:827][640]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (488)
-[2019.01.02-02.05.06:827][640]LogModuleManager: Shutting down and abandoning module CharacterAI (486)
-[2019.01.02-02.05.06:827][640]LogModuleManager: Shutting down and abandoning module AudioCapture (484)
-[2019.01.02-02.05.06:827][640]LogModuleManager: Shutting down and abandoning module SequenceRecorder (483)
-[2019.01.02-02.05.06:828][640]LogModuleManager: Shutting down and abandoning module SmartSnapping (480)
-[2019.01.02-02.05.06:828][640]LogModuleManager: Shutting down and abandoning module SessionServices (478)
-[2019.01.02-02.05.06:828][640]LogModuleManager: Shutting down and abandoning module ViewportSnapping (476)
-[2019.01.02-02.05.06:828][640]LogModuleManager: Shutting down and abandoning module ViewportInteraction (474)
-[2019.01.02-02.05.06:828][640]LogModuleManager: Shutting down and abandoning module ClothPainter (472)
-[2019.01.02-02.05.06:828][640]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (471)
-[2019.01.02-02.05.06:828][640]LogModuleManager: Shutting down and abandoning module LogVisualizer (468)
-[2019.01.02-02.05.06:828][640]LogModuleManager: Shutting down and abandoning module IntroTutorials (466)
-[2019.01.02-02.05.06:828][640]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (465)
-[2019.01.02-02.05.06:829][640]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (462)
-[2019.01.02-02.05.06:829][640]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (460)
-[2019.01.02-02.05.06:829][640]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (458)
-[2019.01.02-02.05.06:829][640]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (457)
-[2019.01.02-02.05.07:643][640]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (454)
-[2019.01.02-02.05.07:643][640]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (452)
-[2019.01.02-02.05.07:643][640]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (450)
-[2019.01.02-02.05.07:644][640]LogModuleManager: Shutting down and abandoning module InputBindingEditor (448)
-[2019.01.02-02.05.07:644][640]LogModuleManager: Shutting down and abandoning module MergeActors (446)
-[2019.01.02-02.05.07:644][640]LogModuleManager: Shutting down and abandoning module SizeMap (444)
-[2019.01.02-02.05.07:644][640]LogModuleManager: Shutting down and abandoning module TreeMap (442)
-[2019.01.02-02.05.07:644][640]LogModuleManager: Shutting down and abandoning module ReferenceViewer (440)
-[2019.01.02-02.05.07:645][640]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (438)
-[2019.01.02-02.05.07:645][640]LogModuleManager: Shutting down and abandoning module LocalizationService (437)
-[2019.01.02-02.05.07:645][640]LogModuleManager: Shutting down and abandoning module HardwareTargeting (434)
-[2019.01.02-02.05.07:645][640]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (432)
-[2019.01.02-02.05.07:645][640]LogModuleManager: Shutting down and abandoning module UndoHistory (430)
-[2019.01.02-02.05.07:646][640]LogModuleManager: Shutting down and abandoning module XmlParser (428)
-[2019.01.02-02.05.07:646][640]LogModuleManager: Shutting down and abandoning module Blutility (426)
-[2019.01.02-02.05.07:646][640]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (424)
-[2019.01.02-02.05.07:646][640]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (423)
-[2019.01.02-02.05.07:647][640]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (420)
-[2019.01.02-02.05.07:647][640]LogModuleManager: Shutting down and abandoning module SettingsEditor (418)
-[2019.01.02-02.05.07:647][640]LogModuleManager: Shutting down and abandoning module ProjectLauncher (416)
-[2019.01.02-02.05.07:647][640]LogModuleManager: Shutting down and abandoning module SessionFrontend (414)
-[2019.01.02-02.05.07:647][640]LogModuleManager: Shutting down and abandoning module ProfilerClient (412)
-[2019.01.02-02.05.07:647][640]LogModuleManager: Shutting down and abandoning module DeviceManager (410)
-[2019.01.02-02.05.07:648][640]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (409)
-[2019.01.02-02.05.07:714][640]LogModuleManager: Shutting down and abandoning module AutomationController (406)
-[2019.01.02-02.05.07:714][640]LogModuleManager: Shutting down and abandoning module AutomationWindow (404)
-[2019.01.02-02.05.07:714][640]LogModuleManager: Shutting down and abandoning module Layers (402)
-[2019.01.02-02.05.07:714][640]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (400)
-[2019.01.02-02.05.07:714][640]LogModuleManager: Shutting down and abandoning module DetailCustomizations (398)
-[2019.01.02-02.05.07:714][640]LogModuleManager: Shutting down and abandoning module PackagesDialog (396)
-[2019.01.02-02.05.07:715][640]LogModuleManager: Shutting down and abandoning module Persona (394)
-[2019.01.02-02.05.07:715][640]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (393)
-[2019.01.02-02.05.07:715][640]LogModuleManager: Shutting down and abandoning module AnimGraph (391)
-[2019.01.02-02.05.07:715][640]LogModuleManager: Shutting down and abandoning module Kismet (388)
-[2019.01.02-02.05.07:726][640]LogModuleManager: Shutting down and abandoning module ClassViewer (386)
-[2019.01.02-02.05.07:726][640]LogModuleManager: Shutting down and abandoning module Toolbox (384)
-[2019.01.02-02.05.07:726][640]LogModuleManager: Shutting down and abandoning module ModuleUI (382)
-[2019.01.02-02.05.07:727][640]LogModuleManager: Shutting down and abandoning module MovieSceneTools (380)
-[2019.01.02-02.05.07:727][640]LogModuleManager: Shutting down and abandoning module OutputLog (378)
-[2019.01.02-02.05.07:727][640]LogModuleManager: Shutting down and abandoning module GammaUI (376)
-[2019.01.02-02.05.07:727][640]LogModuleManager: Shutting down and abandoning module Documentation (374)
-[2019.01.02-02.05.07:727][640]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (372)
-[2019.01.02-02.05.07:728][640]LogModuleManager: Shutting down and abandoning module MovieScene (370)
-[2019.01.02-02.05.07:728][640]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (368)
-[2019.01.02-02.05.07:728][640]LogModuleManager: Shutting down and abandoning module LauncherPlatform (366)
-[2019.01.02-02.05.07:728][640]LogModuleManager: Shutting down and abandoning module AnalyticsET (364)
-[2019.01.02-02.05.07:728][640]LogModuleManager: Shutting down and abandoning module PortalServices (362)
-[2019.01.02-02.05.07:729][640]LogModuleManager: Shutting down and abandoning module PortalRpc (360)
-[2019.01.02-02.05.07:729][640]LogModuleManager: Shutting down and abandoning module MessagingRpc (358)
-[2019.01.02-02.05.07:729][640]LogModuleManager: Shutting down and abandoning module AIModule (356)
-[2019.01.02-02.05.07:729][640]LogModuleManager: Shutting down and abandoning module GameplayDebugger (355)
-[2019.01.02-02.05.07:729][640]LogModuleManager: Shutting down and abandoning module AITestSuite (353)
-[2019.01.02-02.05.07:730][640]LogModuleManager: Shutting down and abandoning module ProfilerService (350)
-[2019.01.02-02.05.07:948][640]LogModuleManager: Shutting down and abandoning module TaskGraph (348)
-[2019.01.02-02.05.07:948][640]LogModuleManager: Shutting down and abandoning module SteamVRController (346)
-[2019.01.02-02.05.07:948][640]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (344)
-[2019.01.02-02.05.07:949][640]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (342)
-[2019.01.02-02.05.07:949][640]LogModuleManager: Shutting down and abandoning module OculusInput (340)
-[2019.01.02-02.05.07:949][640]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (338)
-[2019.01.02-02.05.07:949][640]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (336)
-[2019.01.02-02.05.07:949][640]LogModuleManager: Shutting down and abandoning module CableComponent (334)
-[2019.01.02-02.05.07:950][640]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (332)
-[2019.01.02-02.05.07:950][640]LogModuleManager: Shutting down and abandoning module AndroidPermission (330)
-[2019.01.02-02.05.07:950][640]LogModuleManager: Shutting down and abandoning module ActorSequence (326)
-[2019.01.02-02.05.07:950][640]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (324)
-[2019.01.02-02.05.07:950][640]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (322)
-[2019.01.02-02.05.07:950][640]LogModuleManager: Shutting down and abandoning module MediaCompositing (320)
-[2019.01.02-02.05.07:951][640]LogModuleManager: Shutting down and abandoning module HTML5Networking (318)
-[2019.01.02-02.05.07:951][640]LogModuleManager: Shutting down and abandoning module AlembicImporter (316)
-[2019.01.02-02.05.07:951][640]LogModuleManager: Shutting down and abandoning module AlembicLibrary (315)
-[2019.01.02-02.05.07:951][640]LogModuleManager: Shutting down and abandoning module GeometryCache (314)
-[2019.01.02-02.05.07:951][640]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (313)
-[2019.01.02-02.05.07:951][640]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (308)
-[2019.01.02-02.05.07:952][640]LogModuleManager: Shutting down and abandoning module PluginBrowser (306)
-[2019.01.02-02.05.07:952][640]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (304)
-[2019.01.02-02.05.07:952][640]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (302)
-[2019.01.02-02.05.07:952][640]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (300)
-[2019.01.02-02.05.07:952][640]LogModuleManager: Shutting down and abandoning module UObjectPlugin (298)
-[2019.01.02-02.05.07:952][640]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (296)
-[2019.01.02-02.05.07:953][640]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (294)
-[2019.01.02-02.05.07:953][640]LogModuleManager: Shutting down and abandoning module GitSourceControl (292)
-[2019.01.02-02.05.07:953][640]LogModuleManager: Shutting down and abandoning module SourceControl (291)
-[2019.01.02-02.05.07:953][640]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (288)
-[2019.01.02-02.05.07:953][640]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (286)
-[2019.01.02-02.05.07:954][640]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (284)
-[2019.01.02-02.05.07:954][640]LogModuleManager: Shutting down and abandoning module Paper2DEditor (282)
-[2019.01.02-02.05.07:954][640]LogModuleManager: Shutting down and abandoning module MeshPaint (281)
-[2019.01.02-02.05.07:954][640]LogModuleManager: Shutting down and abandoning module LevelEditor (279)
-[2019.01.02-02.05.07:955][640]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (278)
-[2019.01.02-02.05.07:955][640]LogModuleManager: Shutting down and abandoning module MainFrame (276)
-[2019.01.02-02.05.07:955][640]LogModuleManager: Shutting down and abandoning module HotReload (275)
-[2019.01.02-02.05.07:956][640]LogDirectoryWatcher: A directory notification for 'C:/Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Binaries/Win64' was aborted.
-[2019.01.02-02.05.07:956][640]LogModuleManager: Shutting down and abandoning module Breach (270)
-[2019.01.02-02.05.07:956][640]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (268)
-[2019.01.02-02.05.07:957][640]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (266)
-[2019.01.02-02.05.07:957][640]LogModuleManager: Shutting down and abandoning module PhysXVehicles (264)
-[2019.01.02-02.05.07:957][640]LogModuleManager: Shutting down and abandoning module OculusEditor (262)
-[2019.01.02-02.05.07:957][640]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (260)
-[2019.01.02-02.05.07:957][640]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (258)
-[2019.01.02-02.05.07:957][640]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (256)
-[2019.01.02-02.05.07:957][640]LogModuleManager: Shutting down and abandoning module UdpMessaging (254)
-[2019.01.02-02.05.08:058][640]LogModuleManager: Shutting down and abandoning module TcpMessaging (252)
-[2019.01.02-02.05.08:159][640]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (250)
-[2019.01.02-02.05.08:159][640]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (248)
-[2019.01.02-02.05.08:159][640]LogModuleManager: Shutting down and abandoning module FacialAnimation (246)
-[2019.01.02-02.05.08:159][640]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (244)
-[2019.01.02-02.05.08:159][640]LogModuleManager: Shutting down and abandoning module GraphEditor (243)
-[2019.01.02-02.05.08:159][640]LogModuleManager: Shutting down and abandoning module ContentBrowser (241)
-[2019.01.02-02.05.08:160][640]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (238)
-[2019.01.02-02.05.08:161][640]LogModuleManager: Shutting down and abandoning module Paper2D (236)
-[2019.01.02-02.05.08:161][640]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (234)
-[2019.01.02-02.05.08:161][640]LogModuleManager: Shutting down and abandoning module WmfMedia (232)
-[2019.01.02-02.05.08:171][640]LogModuleManager: Shutting down and abandoning module ImgMedia (230)
-[2019.01.02-02.05.08:171][640]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
-[2019.01.02-02.05.08:171][640]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
-[2019.01.02-02.05.08:171][640]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
-[2019.01.02-02.05.08:171][640]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
-[2019.01.02-02.05.08:171][640]LogModuleManager: Shutting down and abandoning module Media (221)
-[2019.01.02-02.05.08:178][640]LogModuleManager: Shutting down and abandoning module Overlay (218)
-[2019.01.02-02.05.08:178][640]LogModuleManager: Shutting down and abandoning module OverlayEditor (217)
-[2019.01.02-02.05.08:178][640]LogModuleManager: Shutting down and abandoning module VREditor (214)
-[2019.01.02-02.05.08:178][640]LogModuleManager: Shutting down and abandoning module StringTableEditor (212)
-[2019.01.02-02.05.08:178][640]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (210)
-[2019.01.02-02.05.08:178][640]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (208)
-[2019.01.02-02.05.08:178][640]LogModuleManager: Shutting down and abandoning module FunctionalTesting (206)
-[2019.01.02-02.05.08:178][640]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (204)
-[2019.01.02-02.05.08:178][640]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (203)
-[2019.01.02-02.05.08:179][640]LogModuleManager: Shutting down and abandoning module UMG (200)
-[2019.01.02-02.05.08:179][640]LogModuleManager: Shutting down and abandoning module UMGEditor (199)
-[2019.01.02-02.05.08:179][640]LogModuleManager: Shutting down and abandoning module Sequencer (198)
-[2019.01.02-02.05.08:179][640]LogModuleManager: Shutting down and abandoning module MessageLog (195)
-[2019.01.02-02.05.08:179][640]LogModuleManager: Shutting down and abandoning module SlateReflector (190)
-[2019.01.02-02.05.08:179][640]LogModuleManager: Shutting down and abandoning module Slate (188)
-[2019.01.02-02.05.08:180][640]LogModuleManager: Shutting down and abandoning module EditorStyle (186)
-[2019.01.02-02.05.08:182][640]LogModuleManager: Shutting down and abandoning module MRMesh (184)
-[2019.01.02-02.05.08:182][640]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
-[2019.01.02-02.05.08:182][640]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
-[2019.01.02-02.05.08:182][640]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
-[2019.01.02-02.05.08:183][640]LogModuleManager: Shutting down and abandoning module Networking (176)
-[2019.01.02-02.05.08:183][640]LogModuleManager: Shutting down and abandoning module Core (172)
-[2019.01.02-02.05.08:183][640]LogModuleManager: Shutting down and abandoning module LevelSequence (168)
-[2019.01.02-02.05.08:183][640]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (166)
-[2019.01.02-02.05.08:184][640]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
-[2019.01.02-02.05.08:184][640]LogModuleManager: Shutting down and abandoning module MeshUtilities (162)
-[2019.01.02-02.05.08:184][640]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (161)
-[2019.01.02-02.05.08:184][640]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (160)
-[2019.01.02-02.05.08:184][640]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (159)
-[2019.01.02-02.05.08:184][640]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (157)
-[2019.01.02-02.05.08:184][640]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (155)
-[2019.01.02-02.05.08:184][640]LogModuleManager: Shutting down and abandoning module MaterialBaking (151)
-[2019.01.02-02.05.08:185][640]LogModuleManager: Shutting down and abandoning module DerivedDataCache (148)
-[2019.01.02-02.05.08:194][640]LogDerivedDataCache: Shutdown
-[2019.01.02-02.05.08:194][640]LogModuleManager: Shutting down and abandoning module TargetPlatform (146)
-[2019.01.02-02.05.08:194][640]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (145)
-[2019.01.02-02.05.08:194][640]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (143)
-[2019.01.02-02.05.08:194][640]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (141)
-[2019.01.02-02.05.08:194][640]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (139)
-[2019.01.02-02.05.08:195][640]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (137)
-[2019.01.02-02.05.08:195][640]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (135)
-[2019.01.02-02.05.08:195][640]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (133)
-[2019.01.02-02.05.08:195][640]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (131)
-[2019.01.02-02.05.08:195][640]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (129)
-[2019.01.02-02.05.08:196][640]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (127)
-[2019.01.02-02.05.08:196][640]LogModuleManager: Shutting down and abandoning module ImageWrapper (126)
-[2019.01.02-02.05.08:196][640]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (123)
-[2019.01.02-02.05.08:196][640]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (121)
-[2019.01.02-02.05.08:197][640]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (119)
-[2019.01.02-02.05.08:197][640]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (117)
-[2019.01.02-02.05.08:197][640]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (115)
-[2019.01.02-02.05.08:197][640]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (113)
-[2019.01.02-02.05.08:197][640]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (111)
-[2019.01.02-02.05.08:197][640]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (109)
-[2019.01.02-02.05.08:197][640]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (107)
-[2019.01.02-02.05.08:197][640]LogModuleManager: Shutting down and abandoning module Messaging (105)
-[2019.01.02-02.05.08:197][640]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (103)
-[2019.01.02-02.05.08:198][640]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (101)
-[2019.01.02-02.05.08:198][640]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (99)
-[2019.01.02-02.05.08:198][640]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (97)
-[2019.01.02-02.05.08:198][640]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (95)
-[2019.01.02-02.05.08:198][640]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (93)
-[2019.01.02-02.05.08:198][640]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (91)
-[2019.01.02-02.05.08:198][640]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (89)
-[2019.01.02-02.05.08:198][640]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (87)
-[2019.01.02-02.05.08:198][640]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (85)
-[2019.01.02-02.05.08:198][640]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (83)
-[2019.01.02-02.05.08:199][640]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (81)
-[2019.01.02-02.05.08:199][640]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (79)
-[2019.01.02-02.05.08:199][640]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (77)
-[2019.01.02-02.05.08:199][640]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (75)
-[2019.01.02-02.05.08:199][640]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (73)
-[2019.01.02-02.05.08:199][640]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (71)
-[2019.01.02-02.05.08:199][640]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (69)
-[2019.01.02-02.05.08:199][640]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (67)
-[2019.01.02-02.05.08:199][640]LogModuleManager: Shutting down and abandoning module InputCore (64)
-[2019.01.02-02.05.08:199][640]LogModuleManager: Shutting down and abandoning module Settings (62)
-[2019.01.02-02.05.08:200][640]LogModuleManager: Shutting down and abandoning module PhysXCooking (60)
-[2019.01.02-02.05.08:200][640]LogModuleManager: Shutting down and abandoning module SteamVR (58)
-[2019.01.02-02.05.08:200][640]LogModuleManager: Shutting down and abandoning module OculusHMD (56)
-[2019.01.02-02.05.08:200][640]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (54)
-[2019.01.02-02.05.08:200][640]LogModuleManager: Shutting down and abandoning module AppleARKit (52)
-[2019.01.02-02.05.08:200][640]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
-[2019.01.02-02.05.08:201][640]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
-[2019.01.02-02.05.08:201][640]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
-[2019.01.02-02.05.08:201][640]LogModuleManager: Shutting down and abandoning module XMPP (43)
-[2019.01.02-02.05.08:201][640]LogModuleManager: Shutting down and abandoning module HTTP (41)
-[2019.01.02-02.05.08:201][640]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2019.01.02-02.05.08:201][640]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8C38118A-440B-7806-2956-4196F46E4C45%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.18.3-3832480%2B%2B%2BUE4%2BRelease-4.18&UserID=ccf7dd34489de02701ff4fbb735dfda8%7C1c47cca3f81a4d49b4afc58710f55152%7C89d16c0c-a512-46c7-bff7-fefdf66a64da&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2019.01.02-02.05.08:225][640]LogModuleManager: Shutting down and abandoning module SSL (40)
-[2019.01.02-02.05.08:226][640]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2019.01.02-02.05.08:226][640]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2019.01.02-02.05.08:227][640]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2019.01.02-02.05.08:227][640]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2019.01.02-02.05.08:227][640]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2019.01.02-02.05.08:227][640]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2019.01.02-02.05.08:227][640]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2019.01.02-02.05.08:228][640]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2019.01.02-02.05.08:228][640]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2019.01.02-02.05.08:228][640]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2019.01.02-02.05.08:228][640]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2019.01.02-02.05.08:228][640]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2019.01.02-02.05.08:228][640]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2019.01.02-02.05.08:229][640]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2019.01.02-02.05.08:229][640]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2019.01.02-02.05.08:229][640]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2019.01.02-02.05.08:229][640]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2019.01.02-02.05.08:229][640]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2019.01.02-02.05.08:239][640]LogExit: Exiting.
-[2019.01.02-02.05.08:268][640]Log file closed, 01/01/19 18:05:08
+[2019.01.10-06.57.38:695][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.10-06.57.38:695][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.01.10-06.57.38:708][  0]LogInit: Computer: DESKTOP-PQPAGDU
+[2019.01.10-06.57.38:708][  0]LogInit: User: Ryanc
+[2019.01.10-06.57.38:708][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.01.10-06.57.38:708][  0]LogInit: High frequency timer resolution =3.417969 MHz
+[2019.01.10-06.57.38:708][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.01.10-06.57.38:708][  0]LogMemory: Platform Memory Stats for Windows
+[2019.01.10-06.57.38:708][  0]LogMemory: Process Physical Memory: 274.75 MB used, 274.75 MB peak
+[2019.01.10-06.57.38:708][  0]LogMemory: Process Virtual Memory: 279.64 MB used, 279.64 MB peak
+[2019.01.10-06.57.38:708][  0]LogMemory: Physical Memory: 7005.03 MB used,  9321.66 MB free, 16326.68 MB total
+[2019.01.10-06.57.38:708][  0]LogMemory: Virtual Memory: 4789.66 MB used,  9321.66 MB free, 134217728.00 MB total
+[2019.01.10-06.57.39:031][  0]LogInit: Using OS detected language (en-US).
+[2019.01.10-06.57.39:031][  0]LogInit: Using OS detected locale (en-US).
+[2019.01.10-06.57.39:034][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.01.10-06.57.39:411][  0]LogInit: Setting process to per monitor DPI aware
+[2019.01.10-06.57.39:712][  0]LogD3D11RHI: D3D11 adapters:
+[2019.01.10-06.57.39:795][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2019.01.10-06.57.39:795][  0]LogD3D11RHI:       8088/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.01.10-06.57.39:801][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.01.10-06.57.39:801][  0]LogD3D11RHI:       0/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.01.10-06.57.39:801][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.01.10-06.57.39:808][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.01.10-06.57.39:808][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2019.01.10-06.57.39:808][  0]LogWindows: EnumDisplayDevices:
+[2019.01.10-06.57.39:808][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2019.01.10-06.57.39:809][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2019.01.10-06.57.39:809][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2019.01.10-06.57.39:809][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2019.01.10-06.57.39:809][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.01.10-06.57.39:809][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2019.01.10-06.57.39:809][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.01.10-06.57.39:809][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.01.10-06.57.39:809][  0]LogRHI: Texture pool is 5661 MB (70% of 8088 MB)
+[2019.01.10-06.57.39:857][  0]LogD3D11RHI: Async texture creation enabled
+[2019.01.10-06.57.39:888][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.01.10-06.57.39:937][  0]LogShaderCompilers: Guid format shader working directory is -28 characters bigger than the processId version (../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Intermediate/Shaders/WorkingDirectory/11076/).
+[2019.01.10-06.57.39:937][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Ryanc/AppData/Local/Temp/UnrealShaderWorkingDir/43C65BC04C59F5328920A5B823AC658F/'.
+[2019.01.10-06.57.39:937][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.01.10-06.57.40:947][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.01.10-06.57.41:044][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.01.10-06.57.41:147][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.01.10-06.57.41:242][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.01.10-06.57.41:339][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.01.10-06.57.41:436][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.01.10-06.57.41:532][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.01.10-06.57.41:628][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.01.10-06.57.41:717][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.01.10-06.57.41:808][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2019.01.10-06.57.41:907][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2019.01.10-06.57.41:998][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2019.01.10-06.57.42:091][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2019.01.10-06.57.42:184][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2019.01.10-06.57.42:371][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2019.01.10-06.57.42:371][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2019.01.10-06.57.42:463][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.10-06.57.42:548][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.01.10-06.57.42:702][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.01.10-06.57.42:749][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.01.10-06.57.42:848][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.01.10-06.57.42:940][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.01.10-06.57.43:036][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.01.10-06.57.43:127][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.01.10-06.57.43:127][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.01.10-06.57.44:186][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.01.10-06.57.44:291][  0]LogDerivedDataCache: Loaded boot cache 0.10s 81MB C:/Users/Ryanc/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2019.01.10-06.57.44:291][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Ryanc/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2019.01.10-06.57.44:291][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.01.10-06.57.44:292][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.01.10-06.57.44:292][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.01.10-06.57.44:292][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.01.10-06.57.44:307][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.01.10-06.57.44:319][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Ryanc/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.01.10-06.57.44:328][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.01.10-06.57.44:329][  0]LogSlate: Using Freetype 2.6.0
+[2019.01.10-06.57.44:329][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.01.10-06.57.44:329][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.01.10-06.57.44:729][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.10-06.57.45:330][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.01.10-06.57.45:414][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.01.10-06.57.45:414][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.01.10-06.57.45:414][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.01.10-06.57.45:414][  0]LogMeshReduction: No automatic mesh merging module available
+[2019.01.10-06.57.45:414][  0]LogMeshMerging: No automatic mesh merging module available
+[2019.01.10-06.57.45:472][  0]LogNetVersion: Breach , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2924493875)
+[2019.01.10-06.57.45:711][  0]LogAssetRegistry: FAssetRegistry took 0.0278 seconds to start up
+[2019.01.10-06.57.46:406][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.063429 seconds
+[2019.01.10-06.57.46:411][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
+[2019.01.10-06.57.46:411][  0]LogUObjectAllocator: 7363696 out of 0 bytes used by permanent object pool.
+[2019.01.10-06.57.46:411][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.01.10-06.57.46:526][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2019.01.10-06.57.51:116][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.01.10-06.57.51:212][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.01.10-06.57.53:596][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2019.01.10-06.57.54:457][  0]SourceControl: Source control is disabled
+[2019.01.10-06.57.54:458][  0]SourceControl: Source control is disabled
+[2019.01.10-06.57.54:587][  0]SourceControl: Source control is disabled
+[2019.01.10-06.57.54:718][  0]SourceControl: Source control is disabled
+[2019.01.10-06.57.56:659][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.01.10-06.57.57:315][  0]LogOcInput: OculusInput pre-init called
+[2019.01.10-06.57.57:881][  0]LogEngine: Initializing Engine...
+[2019.01.10-06.57.57:883][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.01.10-06.57.58:184][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.10-06.57.58:184][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.10-06.57.58:444][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.01.10-06.57.58:480][  0]LogInit: XAudio2 using 'Speakers (2- Logitech G35 Gaming Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
+[2019.01.10-06.57.58:527][  0]LogInit: FAudioDevice initialized.
+[2019.01.10-06.57.58:740][  0]LogDerivedDataCache: Saved boot cache 0.21s 81MB C:/Users/Ryanc/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2019.01.10-06.57.58:778][  0]LogInit: Texture streaming: Enabled
+[2019.01.10-06.57.58:992][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.01.10-06.57.58:992][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Debugger, SessionId={DF5A7830-43E5-184A-5F56-95BEF5032B4B}
+[2019.01.10-06.57.59:244][  0]LogInit: Transaction tracking system initialized
+[2019.01.10-06.57.59:890][  0]BlueprintLog: New page: Editor Load
+[2019.01.10-06.58.01:852][  0]LocalizationService: Localization service is disabled
+[2019.01.10-06.58.02:952][  0]LogLinker: Warning: Can't find file '/Game/TwinStickBP/TwinStickOverview'
+[2019.01.10-06.58.02:952][  0]LogLinker: Warning: Can't find file '/Game/TwinStickBP/TwinStickOverview'
+[2019.01.10-06.58.02:952][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/TwinStickBP/TwinStickOverview.TwinStickOverview_C'
+[2019.01.10-06.58.03:388][  0]LogConsoleResponse: Display: 
+[2019.01.10-06.58.03:632][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.01.10-06.58.03:632][  0]LogCook: Display: Mobile HDR setting 1
+[2019.01.10-06.58.03:632][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.01.10-06.58.03:985][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/' took 0.04s
+[2019.01.10-06.58.06:384][  0]SourceControl: Source control is disabled
+[2019.01.10-06.58.06:387][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/Maps/Level_1Map_1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.10-06.58.06:388][  0]LightingResults: New page: Lighting Build
+[2019.01.10-06.58.06:476][  0]MapCheck: New page: Map Check
+[2019.01.10-06.58.06:477][  0]LightingResults: New page: Lighting Build
+[2019.01.10-06.58.07:777][  0]LogAIModule: Creating AISystem for world Level_1Map_1
+[2019.01.10-06.58.07:799][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.01.10-06.58.07:816][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.10-06.58.07:956][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 140.227ms to complete.
+[2019.01.10-06.58.07:956][  0]LogFileHelpers: Loading map 'Level_1Map_1' took 1.570
+[2019.01.10-06.58.08:123][  0]LogCollectionManager: Loaded 0 collections in 0.003680 seconds
+[2019.01.10-06.58.08:249][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Saved/Collections/' took 0.01s
+[2019.01.10-06.58.08:249][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/Developers/Ryanc/Collections/' took 0.01s
+[2019.01.10-06.58.08:249][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/Collections/' took 0.01s
+[2019.01.10-06.58.08:249][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.01.10-06.58.08:258][  0]LogContentBrowser: Native class hierarchy populated in 0.0087 seconds. Added 2377 classes and 521 folders.
+[2019.01.10-06.58.08:396][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0013 seconds. Added 0 classes and 0 folders.
+[2019.01.10-06.58.08:464][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0014 seconds. Added 0 classes and 0 folders.
+[2019.01.10-06.58.08:556][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0014 seconds. Added 1 classes and 2 folders.
+[2019.01.10-06.58.08:653][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0015 seconds. Added 2 classes and 3 folders.
+[2019.01.10-06.58.08:771][  0]LogSlate: Took 0.000222 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.01.10-06.58.08:774][  0]LogSlate: Took 0.000195 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.01.10-06.58.08:779][  0]LogSlate: Took 0.000183 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.01.10-06.58.08:874][  0]LogRenderer: Reallocating scene render targets to support 988x560 Format 10 NumSamples 1 (Frame:1).
+[2019.01.10-06.58.09:124][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0014 seconds. Added 1 classes and 2 folders.
+[2019.01.10-06.58.09:124][  0]LogLoad: (Engine Initialization) Total time: 37.11 seconds
+[2019.01.10-06.58.09:124][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.01.10-06.58.09:124][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2019.01.10-06.58.09:124][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2019.01.10-06.58.09:134][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.01.10-06.58.09:156][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.01.10-06.58.09:251][  1]LogRenderer: Reallocating scene render targets to support 988x580 Format 10 NumSamples 1 (Frame:2).
+[2019.01.10-06.58.09:266][  1]LogAssetRegistry: Asset discovery search completed in 23.5785 seconds
+[2019.01.10-06.58.09:269][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.01.10-06.58.09:269][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000123 seconds (updated 0 objects)
+[2019.01.10-06.58.13:492][135]LogSlate: Took 0.000188 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2019.01.10-07.08.30:234][572]LogSlate: Took 0.000196 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2019.01.10-07.08.30:530][572]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0018 seconds. Added 116 classes and 0 folders.
+[2019.01.10-07.08.31:100][572]LogSlate: Took 0.000180 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.01.10-07.08.31:155][572]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_1.Mesh2P'
+[2019.01.10-07.08.31:160][572]LogSlate: Took 0.000245 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.01.10-07.08.31:825][633]LogSlate: Took 0.000237 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.01.10-07.08.42:229][868]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_1.Mesh2P'
+[2019.01.10-07.08.42:230][868]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_1.Mesh2P'
+[2019.01.10-07.08.42:270][869]LogRenderer: Reallocating scene render targets to support 1020x696 Format 10 NumSamples 1 (Frame:1).
+[2019.01.10-07.13.46:748][703]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2019.01.10-07.13.46:752][703]Candidate modules for hot reload:
+[2019.01.10-07.13.46:752][703]  Breach
+[2019.01.10-07.13.46:752][703]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe Breach -ModuleWithSuffix Breach 9601 Win64 DebugGame -editorrecompile -canskiplink "C:/Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Breach.uproject" ]
+[2019.01.10-07.13.46:760][703]Warning: Starting HotReload took  0.0s.
+[2019.01.10-07.14.00:891][903]CompilerResultsLog: New page: Compilation - Jan 9, 2019, 3:14:00 PM
+[2019.01.10-07.14.00:891][903]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.01.10-07.14.00:891][903]CompilerResultsLog: Compiling game modules for hot reload
+[2019.01.10-07.14.00:891][903]CompilerResultsLog: Parsing headers for BreachEditor
+[2019.01.10-07.14.00:892][903]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Ryanc\Documents\Unreal Projects\BreachRepo\Breach\Breach.uproject" "C:\Users\Ryanc\Documents\Unreal Projects\BreachRepo\Breach\Intermediate\Build\Win64\BreachEditor\DebugGame\BreachEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.01.10-07.14.00:892][903]CompilerResultsLog: Reflection code generated for BreachEditor in 7.8893494 seconds
+[2019.01.10-07.14.00:892][903]CompilerResultsLog: Performing 8 actions (4 in parallel)
+[2019.01.10-07.14.00:892][903]CompilerResultsLog: Breach.init.gen.cpp
+[2019.01.10-07.14.00:892][903]CompilerResultsLog: CPP_FirstPersonCharacter.gen.cpp
+[2019.01.10-07.14.00:892][903]CompilerResultsLog: ZombieEnemyCharacter.cpp
+[2019.01.10-07.14.00:892][903]CompilerResultsLog: PickupSCAR.cpp
+[2019.01.10-07.14.00:893][903]CompilerResultsLog: Error: C:\Users\Ryanc\Documents\Unreal Projects\BreachRepo\Breach\Source\Breach\ZombieEnemyCharacter.cpp(4) : error C4067: unexpected tokens following preprocessor directive - expected a newline
+[2019.01.10-07.14.00:893][903]CompilerResultsLog: InteractArea.cpp
+[2019.01.10-07.14.00:893][903]CompilerResultsLog: CPP_FirstPersonCharacter.cpp
+[2019.01.10-07.14.00:893][903]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: C:\Users\Ryanc\Documents\Unreal Projects\BreachRepo\Breach\Binaries\Win64\UE4Editor-Breach-9601-Win64-DebugGame.dll
+[2019.01.10-07.14.00:893][903]CompilerResultsLog: Total build time: 13.79 seconds (Local executor: 0.00 seconds)
+[2019.01.10-07.14.00:893][903]LogMainFrame: MainFrame: Module compiling took 14.146 seconds
+[2019.01.10-07.14.00:893][903]Warning: HotReload failed, recompile failed
+[2019.01.10-07.15.03:547][552]LogSlate: Took 0.012000 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2019.01.10-07.15.35:039][987]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2019.01.10-07.15.35:042][987]Candidate modules for hot reload:
+[2019.01.10-07.15.35:042][987]  Breach
+[2019.01.10-07.15.35:042][987]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe Breach -ModuleWithSuffix Breach 8391 Win64 DebugGame -editorrecompile -canskiplink "C:/Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Breach.uproject" ]
+[2019.01.10-07.15.35:049][987]Warning: Starting HotReload took  0.0s.
+[2019.01.10-07.15.39:218][485]CompilerResultsLog: New page: Compilation - Jan 9, 2019, 3:15:39 PM
+[2019.01.10-07.15.39:218][485]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.01.10-07.15.39:219][485]CompilerResultsLog: Compiling game modules for hot reload
+[2019.01.10-07.15.39:219][485]CompilerResultsLog: Performing 3 actions (4 in parallel)
+[2019.01.10-07.15.39:219][485]CompilerResultsLog: ZombieEnemyCharacter.cpp
+[2019.01.10-07.15.39:219][485]CompilerResultsLog: [2/3] Link UE4Editor-Breach-8391-Win64-DebugGame.dll
+[2019.01.10-07.15.39:219][485]CompilerResultsLog: [3/3] Link UE4Editor-Breach-8391-Win64-DebugGame.lib
+[2019.01.10-07.15.39:219][485]CompilerResultsLog:    Creating library C:\Users\Ryanc\Documents\Unreal Projects\BreachRepo\Breach\Intermediate\Build\Win64\UE4Editor\DebugGame\UE4Editor-Breach-8391-Win64-DebugGame.lib and object C:\Users\Ryanc\Documents\Unreal Projects\BreachRepo\Breach\Intermediate\Build\Win64\UE4Editor\DebugGame\UE4Editor-Breach-8391-Win64-DebugGame.exp
+[2019.01.10-07.15.39:220][485]CompilerResultsLog:    Creating library C:\Users\Ryanc\Documents\Unreal Projects\BreachRepo\Breach\Intermediate\Build\Win64\UE4Editor\DebugGame\UE4Editor-Breach-8391-Win64-DebugGame.suppressed.lib and object C:\Users\Ryanc\Documents\Unreal Projects\BreachRepo\Breach\Intermediate\Build\Win64\UE4Editor\DebugGame\UE4Editor-Breach-8391-Win64-DebugGame.suppressed.exp
+[2019.01.10-07.15.39:220][485]CompilerResultsLog: Total build time: 3.97 seconds (Local executor: 2.44 seconds)
+[2019.01.10-07.15.39:220][485]LogMainFrame: MainFrame: Module compiling took 4.180 seconds
+[2019.01.10-07.15.39:499][485]LogClass: Could not find existing class CPP_FirstPersonCharacter in package /Script/Breach for HotReload, assuming new class
+[2019.01.10-07.15.39:499][485]LogClass: Function GetCanMove is new.
+[2019.01.10-07.15.39:500][485]LogClass: Function ObtainSCAR is new.
+[2019.01.10-07.15.39:500][485]LogClass: Function SetCanMove is new.
+[2019.01.10-07.15.39:512][485]LogClass: InteractionState HotReload.
+[2019.01.10-07.15.39:523][485]LogHotReload: Re-instancing CPP_FirstPersonCharacter after hot-reload.
+[2019.01.10-07.15.39:822][485]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_1.Mesh2P'
+[2019.01.10-07.15.39:930][485]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_1.Mesh2P'
+[2019.01.10-07.15.39:932][485]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_1.Mesh2P'
+[2019.01.10-07.15.40:065][485]LogHotReload: Re-instancing CPP_NewLevelLoad after hot-reload.
+[2019.01.10-07.15.40:254][485]LogContentBrowser: Native class hierarchy updated for 'Breach' in 0.0015 seconds. Added 14 classes and 2 folders.
+[2019.01.10-07.15.40:257][485]Display: HotReload successful (18 functions remapped  0 scriptstructs remapped)
+[2019.01.10-07.15.40:580][485]LogContentBrowser: Native class hierarchy populated in 0.0089 seconds. Added 2381 classes and 528 folders.
+[2019.01.10-07.15.40:584][485]Display: HotReload took  5.5s.
+[2019.01.10-07.15.41:562][594]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_1.Mesh2P'
+[2019.01.10-07.15.41:563][594]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_1.Mesh2P'
+[2019.01.10-07.16.14:741][563]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_1.Mesh2P'
+[2019.01.10-07.16.14:745][563]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_1.Mesh2P'
+[2019.01.10-07.16.14:747][563]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_1.Mesh2P'
+[2019.01.10-07.16.14:751][563]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_1.Mesh2P'
+[2019.01.10-07.16.14:752][563]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_1.Mesh2P'
+[2019.01.10-07.16.14:763][563]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_1.Mesh2P'
+[2019.01.10-07.16.14:765][563]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_1.Mesh2P'
+[2019.01.10-07.16.15:288][587]LogSavePackage: Save=260.30ms
+[2019.01.10-07.16.15:288][587]LogSavePackage: Moving '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Saved/FirstPersonCharacter311D7EE147A0DF07A9FF6E95B314546C.tmp' to '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/BlueprintSource/FirstPersonCharacter.uasset'
+[2019.01.10-07.16.15:295][587]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/BlueprintSource/FirstPersonCharacter.uasset
+[2019.01.10-07.16.22:661][465]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_1.Mesh2P'
+[2019.01.10-07.16.22:665][465]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_1.Mesh2P'
+[2019.01.10-07.16.22:666][465]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_1.Mesh2P'
+[2019.01.10-07.16.22:670][465]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_1.Mesh2P'
+[2019.01.10-07.16.22:671][465]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_1.Mesh2P'
+[2019.01.10-07.16.22:678][465]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_1.Mesh2P'
+[2019.01.10-07.16.22:680][465]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_1.Mesh2P'
+[2019.01.10-07.16.24:031][627]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_1.Mesh2P'
+[2019.01.10-07.16.24:034][627]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_1.Mesh2P'
+[2019.01.10-07.16.24:035][627]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_1.Mesh2P'
+[2019.01.10-07.16.24:039][627]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_1.Mesh2P'
+[2019.01.10-07.16.24:040][627]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_1.Mesh2P'
+[2019.01.10-07.16.24:047][627]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_1.Mesh2P'
+[2019.01.10-07.16.24:048][627]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_1.Mesh2P'
+[2019.01.10-07.16.26:420][664]LogSavePackage: Save=264.24ms
+[2019.01.10-07.16.26:421][664]LogSavePackage: Moving '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Saved/FirstPersonCharacter79CA4B3A404B229A6C7BFE9DBB6038E3.tmp' to '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/BlueprintSource/FirstPersonCharacter.uasset'
+[2019.01.10-07.16.26:424][664]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/BlueprintSource/FirstPersonCharacter.uasset
+[2019.01.10-07.16.31:531][274]BlueprintLog: New page: Compile FirstPersonCharacter
+[2019.01.10-07.16.31:920][274]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_1.Mesh2P'
+[2019.01.10-07.16.32:192][274]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_1.Mesh2P'
+[2019.01.10-07.16.32:193][274]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_1.Mesh2P'
+[2019.01.10-07.16.32:249][274]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_1.Mesh2P'
+[2019.01.10-07.16.32:250][274]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_1.Mesh2P'
+[2019.01.10-07.16.33:043][332]LogSavePackage: Save=260.85ms
+[2019.01.10-07.16.33:043][332]LogSavePackage: Moving '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Saved/FirstPersonCharacterF78DB451428E5660FE8678A12A6A44C4.tmp' to '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/BlueprintSource/FirstPersonCharacter.uasset'
+[2019.01.10-07.16.33:045][332]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/BlueprintSource/FirstPersonCharacter.uasset
+[2019.01.10-07.17.09:704][591]BlueprintLog: New page: Compile FirstPersonCharacter
+[2019.01.10-07.17.09:948][591]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_1.Mesh2P'
+[2019.01.10-07.17.10:196][591]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_1.Mesh2P'
+[2019.01.10-07.17.10:197][591]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_1.Mesh2P'
+[2019.01.10-07.17.10:998][644]LogSavePackage: Save=262.73ms
+[2019.01.10-07.17.10:998][644]LogSavePackage: Moving '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Saved/FirstPersonCharacterA8DD7B6E4FF05D7AD1333A8F737EC7E1.tmp' to '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/BlueprintSource/FirstPersonCharacter.uasset'
+[2019.01.10-07.17.11:002][644]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/BlueprintSource/FirstPersonCharacter.uasset
+[2019.01.10-07.17.12:969][877]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.10-07.17.13:085][877]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_1Map_1.Level_1Map_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1Map_1.Level_1Map_1:PersistentLevel.Level_1Map_1' with GeneratedClass '/Game/Maps/Level_1Map_1.Level_1Map_1_C' with ClassGeneratedBy '/Game/Maps/Level_1Map_1.Level_1Map_1:PersistentLevel.Level_1Map_1'
+[2019.01.10-07.17.13:085][877]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.10-07.17.13:086][877]PIE: New page: PIE session: Level_1Map_1 (Jan 9, 2019, 3:17:13 PM)
+[2019.01.10-07.17.13:089][877]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_1Map_1
+[2019.01.10-07.17.13:120][877]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030767s)
+[2019.01.10-07.17.13:121][877]LogAIModule: Creating AISystem for world Level_1Map_1
+[2019.01.10-07.17.13:121][877]LogPlayLevel: PIE: World Init took: (0.000907s)
+[2019.01.10-07.17.13:122][877]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_1Map_1.Level_1Map_1 to /Game/Maps/UEDPIE_0_Level_1Map_1.Level_1Map_1 (0.032568s)
+[2019.01.10-07.17.13:169][877]LogInit: XAudio2 using 'Speakers (2- Logitech G35 Gaming Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
+[2019.01.10-07.17.13:193][877]LogInit: FAudioDevice initialized.
+[2019.01.10-07.17.13:241][877]LogLoad: Game class is 'CPP_FirstPersonGameMode'
+[2019.01.10-07.17.13:246][877]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_1Map_1.Level_1Map_1 up for play (max tick rate 0) at 2019.01.09-23.17.13
+[2019.01.10-07.17.13:246][877]LogWorld: Bringing up level for play took: 0.004157
+[2019.01.10-07.17.13:382][877]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0014 seconds. Added 11 classes and 0 folders.
+[2019.01.10-07.17.13:383][877]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/UEDPIE_0_Level_1Map_1.Level_1Map_1:PersistentLevel.FirstPersonCharacter_C_0.Mesh2P'
+[2019.01.10-07.17.13:385][877]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level_1Map_1 0.208
+[2019.01.10-07.17.13:386][877]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_1Map_1.Level_1Map_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1Map_1.Level_1Map_1:PersistentLevel.Level_1Map_1' with GeneratedClass '/Game/Maps/Level_1Map_1.Level_1Map_1_C' with ClassGeneratedBy '/Game/Maps/Level_1Map_1.Level_1Map_1:PersistentLevel.Level_1Map_1'
+[2019.01.10-07.17.19:822][636]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_1Map_1.Level_1Map_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1Map_1.Level_1Map_1:PersistentLevel.Level_1Map_1' with GeneratedClass '/Game/Maps/Level_1Map_1.Level_1Map_1_C' with ClassGeneratedBy '/Game/Maps/Level_1Map_1.Level_1Map_1:PersistentLevel.Level_1Map_1'
+[2019.01.10-07.17.19:862][636]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_1Map_1.Level_1Map_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1Map_1.Level_1Map_1:PersistentLevel.Level_1Map_1' with GeneratedClass '/Game/Maps/Level_1Map_1.Level_1Map_1_C' with ClassGeneratedBy '/Game/Maps/Level_1Map_1.Level_1Map_1:PersistentLevel.Level_1Map_1'
+[2019.01.10-07.17.37:309][671]LogSlate: Took 0.000245 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2019.01.10-07.18.05:716][  6]LogSavePackage: Save=42.90ms
+[2019.01.10-07.18.05:716][  6]LogSavePackage: Moving '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Saved/HealthWidgetAABC7F844A89409273C4EFA1EBAA4793.tmp' to '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/BlueprintSource/UI/HealthWidget.uasset'
+[2019.01.10-07.18.05:721][  6]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/BlueprintSource/UI/HealthWidget.uasset
+[2019.01.10-07.18.09:818][497]BlueprintLog: New page: Compile HealthWidget
+[2019.01.10-07.18.09:849][497]LogBlueprint: Error: [Compiler HealthWidget] This blueprint (self) is not a PlayerHealthComponent, therefore ' Target ' must have a connection.
+[2019.01.10-07.18.09:876][497]LogBlueprint: Warning: [Compiler HealthWidget] [1237.86] Compile of HealthWidget failed. 1 Fatal Issue(s) 0 Warning(s) [in 57 ms] (/Game/BlueprintSource/UI/HealthWidget.HealthWidget)
+[2019.01.10-07.18.17:896][452]BlueprintLog: New page: Compile HealthWidget
+[2019.01.10-07.18.18:544][516]LogSavePackage: Save=28.56ms
+[2019.01.10-07.18.18:545][516]LogSavePackage: Moving '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Saved/HealthWidget5E2B36624FC2ECB30C51CF8F5CBB3FD0.tmp' to '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/BlueprintSource/UI/HealthWidget.uasset'
+[2019.01.10-07.18.18:548][516]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/BlueprintSource/UI/HealthWidget.uasset
+[2019.01.10-07.18.19:944][681]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.10-07.18.19:994][681]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_1Map_1.Level_1Map_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1Map_1.Level_1Map_1:PersistentLevel.Level_1Map_1' with GeneratedClass '/Game/Maps/Level_1Map_1.Level_1Map_1_C' with ClassGeneratedBy '/Game/Maps/Level_1Map_1.Level_1Map_1:PersistentLevel.Level_1Map_1'
+[2019.01.10-07.18.19:995][681]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.10-07.18.19:995][681]PIE: New page: PIE session: Level_1Map_1 (Jan 9, 2019, 3:18:19 PM)
+[2019.01.10-07.18.19:996][681]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_1Map_1
+[2019.01.10-07.18.20:026][681]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030261s)
+[2019.01.10-07.18.20:027][681]LogAIModule: Creating AISystem for world Level_1Map_1
+[2019.01.10-07.18.20:027][681]LogPlayLevel: PIE: World Init took: (0.000780s)
+[2019.01.10-07.18.20:028][681]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_1Map_1.Level_1Map_1 to /Game/Maps/UEDPIE_0_Level_1Map_1.Level_1Map_1 (0.031772s)
+[2019.01.10-07.18.20:076][681]LogInit: XAudio2 using 'Speakers (2- Logitech G35 Gaming Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
+[2019.01.10-07.18.20:097][681]LogInit: FAudioDevice initialized.
+[2019.01.10-07.18.20:131][681]LogLoad: Game class is 'CPP_FirstPersonGameMode'
+[2019.01.10-07.18.20:135][681]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_1Map_1.Level_1Map_1 up for play (max tick rate 0) at 2019.01.09-23.18.20
+[2019.01.10-07.18.20:135][681]LogWorld: Bringing up level for play took: 0.004062
+[2019.01.10-07.18.20:137][681]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/UEDPIE_0_Level_1Map_1.Level_1Map_1:PersistentLevel.FirstPersonCharacter_C_0.Mesh2P'
+[2019.01.10-07.18.20:139][681]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level_1Map_1 0.962
+[2019.01.10-07.18.20:139][681]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_1Map_1.Level_1Map_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1Map_1.Level_1Map_1:PersistentLevel.Level_1Map_1' with GeneratedClass '/Game/Maps/Level_1Map_1.Level_1Map_1_C' with ClassGeneratedBy '/Game/Maps/Level_1Map_1.Level_1Map_1:PersistentLevel.Level_1Map_1'
+[2019.01.10-07.18.32:293][129]LogNet: Browse: /Game/Maps/Level_1Map_1
+[2019.01.10-07.18.32:294][129]LogLoad: LoadMap: /Game/Maps/Level_1Map_1
+[2019.01.10-07.18.32:373][129]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_1Map_1
+[2019.01.10-07.18.32:402][129]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028158s)
+[2019.01.10-07.18.32:402][129]LogAIModule: Creating AISystem for world Level_1Map_1
+[2019.01.10-07.18.32:403][129]LogPlayLevel: PIE: World Init took: (0.000751s)
+[2019.01.10-07.18.32:403][129]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_1Map_1.Level_1Map_1 to /Game/Maps/UEDPIE_0_Level_1Map_1.Level_1Map_1 (0.029739s)
+[2019.01.10-07.18.32:403][129]LogLoad: Game class is 'CPP_FirstPersonGameMode'
+[2019.01.10-07.18.32:407][129]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_1Map_1.Level_1Map_1 up for play (max tick rate 0) at 2019.01.09-23.18.32
+[2019.01.10-07.18.32:408][129]LogWorld: Bringing up level for play took: 0.003926
+[2019.01.10-07.18.32:409][129]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/UEDPIE_0_Level_1Map_1.Level_1Map_1:PersistentLevel.FirstPersonCharacter_C_0.Mesh2P'
+[2019.01.10-07.18.32:427][129]LogLoad: Took 0.133360 seconds to LoadMap(/Game/Maps/UEDPIE_0_Level_1Map_1)
+[2019.01.10-07.18.34:852][415]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_1Map_1.Level_1Map_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1Map_1.Level_1Map_1:PersistentLevel.Level_1Map_1' with GeneratedClass '/Game/Maps/Level_1Map_1.Level_1Map_1_C' with ClassGeneratedBy '/Game/Maps/Level_1Map_1.Level_1Map_1:PersistentLevel.Level_1Map_1'
+[2019.01.10-07.18.34:889][415]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_1Map_1.Level_1Map_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1Map_1.Level_1Map_1:PersistentLevel.Level_1Map_1' with GeneratedClass '/Game/Maps/Level_1Map_1.Level_1Map_1_C' with ClassGeneratedBy '/Game/Maps/Level_1Map_1.Level_1Map_1:PersistentLevel.Level_1Map_1'
+[2019.01.10-07.18.41:037][141]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_1.Mesh2P'
+[2019.01.10-07.18.41:038][141]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_1.Mesh2P'
+[2019.01.10-07.18.42:633][326]BlueprintLog: New page: Compile FirstPersonCharacter
+[2019.01.10-07.18.42:697][326]LogBlueprint: Warning: [HealthWidget] 'PlayerHealth' variable not found. Base class was probably changed. /Game/BlueprintSource/UI/HealthWidget.HealthWidget
+[2019.01.10-07.18.42:885][326]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_1.Mesh2P'
+[2019.01.10-07.18.43:136][326]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_1.Mesh2P'
+[2019.01.10-07.18.43:137][326]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_1.Mesh2P'
+[2019.01.10-07.18.44:544][453]LogSavePackage: Save=258.84ms
+[2019.01.10-07.18.44:544][453]LogSavePackage: Moving '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Saved/FirstPersonCharacterD8206E61412BD2CF1DF236A598917657.tmp' to '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/BlueprintSource/FirstPersonCharacter.uasset'
+[2019.01.10-07.18.44:548][453]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/BlueprintSource/FirstPersonCharacter.uasset
+[2019.01.10-07.18.48:635][940]BlueprintLog: New page: Compile HealthWidget
+[2019.01.10-07.18.52:576][398]LogSavePackage: Save=33.06ms
+[2019.01.10-07.18.52:576][398]LogSavePackage: Moving '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Saved/HealthWidgetBC767575479A6D2159DCF9B577712E85.tmp' to '../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/BlueprintSource/UI/HealthWidget.uasset'
+[2019.01.10-07.18.52:580][398]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Content/BlueprintSource/UI/HealthWidget.uasset
+[2019.01.10-07.18.53:741][534]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.10-07.18.53:778][534]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_1Map_1.Level_1Map_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1Map_1.Level_1Map_1:PersistentLevel.Level_1Map_1' with GeneratedClass '/Game/Maps/Level_1Map_1.Level_1Map_1_C' with ClassGeneratedBy '/Game/Maps/Level_1Map_1.Level_1Map_1:PersistentLevel.Level_1Map_1'
+[2019.01.10-07.18.53:779][534]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.10-07.18.53:779][534]PIE: New page: PIE session: Level_1Map_1 (Jan 9, 2019, 3:18:53 PM)
+[2019.01.10-07.18.53:780][534]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_1Map_1
+[2019.01.10-07.18.53:812][534]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031713s)
+[2019.01.10-07.18.53:812][534]LogAIModule: Creating AISystem for world Level_1Map_1
+[2019.01.10-07.18.53:813][534]LogPlayLevel: PIE: World Init took: (0.001135s)
+[2019.01.10-07.18.53:813][534]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_1Map_1.Level_1Map_1 to /Game/Maps/UEDPIE_0_Level_1Map_1.Level_1Map_1 (0.033672s)
+[2019.01.10-07.18.53:860][534]LogInit: XAudio2 using 'Speakers (2- Logitech G35 Gaming Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
+[2019.01.10-07.18.53:881][534]LogInit: FAudioDevice initialized.
+[2019.01.10-07.18.53:916][534]LogLoad: Game class is 'CPP_FirstPersonGameMode'
+[2019.01.10-07.18.53:920][534]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_1Map_1.Level_1Map_1 up for play (max tick rate 0) at 2019.01.09-23.18.53
+[2019.01.10-07.18.53:921][534]LogWorld: Bringing up level for play took: 0.004355
+[2019.01.10-07.18.53:922][534]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/UEDPIE_0_Level_1Map_1.Level_1Map_1:PersistentLevel.FirstPersonCharacter_C_0.Mesh2P'
+[2019.01.10-07.18.53:924][534]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level_1Map_1 0.748
+[2019.01.10-07.18.53:925][534]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_1Map_1.Level_1Map_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1Map_1.Level_1Map_1:PersistentLevel.Level_1Map_1' with GeneratedClass '/Game/Maps/Level_1Map_1.Level_1Map_1_C' with ClassGeneratedBy '/Game/Maps/Level_1Map_1.Level_1Map_1:PersistentLevel.Level_1Map_1'
+[2019.01.10-07.19.02:382][540]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_1Map_1.Level_1Map_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1Map_1.Level_1Map_1:PersistentLevel.Level_1Map_1' with GeneratedClass '/Game/Maps/Level_1Map_1.Level_1Map_1_C' with ClassGeneratedBy '/Game/Maps/Level_1Map_1.Level_1Map_1:PersistentLevel.Level_1Map_1'
+[2019.01.10-07.19.02:423][540]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_1Map_1.Level_1Map_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1Map_1.Level_1Map_1:PersistentLevel.Level_1Map_1' with GeneratedClass '/Game/Maps/Level_1Map_1.Level_1Map_1_C' with ClassGeneratedBy '/Game/Maps/Level_1Map_1.Level_1Map_1:PersistentLevel.Level_1Map_1'
+[2019.01.10-07.24.45:113][950]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2019.01.10-07.24.45:117][950]Candidate modules for hot reload:
+[2019.01.10-07.24.45:117][950]  Breach
+[2019.01.10-07.24.45:117][950]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe Breach -ModuleWithSuffix Breach 7232 Win64 DebugGame -editorrecompile -canskiplink "C:/Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Breach.uproject" ]
+[2019.01.10-07.24.45:138][950]Warning: Starting HotReload took  0.0s.
+[2019.01.10-07.24.49:586][477]CompilerResultsLog: New page: Compilation - Jan 9, 2019, 3:24:49 PM
+[2019.01.10-07.24.49:586][477]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.01.10-07.24.49:586][477]CompilerResultsLog: Compiling game modules for hot reload
+[2019.01.10-07.24.49:587][477]CompilerResultsLog: Performing 3 actions (4 in parallel)
+[2019.01.10-07.24.49:587][477]CompilerResultsLog: ZombieEnemyCharacter.cpp
+[2019.01.10-07.24.49:587][477]CompilerResultsLog: [2/3] Link UE4Editor-Breach-7232-Win64-DebugGame.dll
+[2019.01.10-07.24.49:587][477]CompilerResultsLog: [3/3] Link UE4Editor-Breach-7232-Win64-DebugGame.lib
+[2019.01.10-07.24.49:587][477]CompilerResultsLog:    Creating library C:\Users\Ryanc\Documents\Unreal Projects\BreachRepo\Breach\Intermediate\Build\Win64\UE4Editor\DebugGame\UE4Editor-Breach-7232-Win64-DebugGame.lib and object C:\Users\Ryanc\Documents\Unreal Projects\BreachRepo\Breach\Intermediate\Build\Win64\UE4Editor\DebugGame\UE4Editor-Breach-7232-Win64-DebugGame.exp
+[2019.01.10-07.24.49:587][477]CompilerResultsLog:    Creating library C:\Users\Ryanc\Documents\Unreal Projects\BreachRepo\Breach\Intermediate\Build\Win64\UE4Editor\DebugGame\UE4Editor-Breach-7232-Win64-DebugGame.suppressed.lib and object C:\Users\Ryanc\Documents\Unreal Projects\BreachRepo\Breach\Intermediate\Build\Win64\UE4Editor\DebugGame\UE4Editor-Breach-7232-Win64-DebugGame.suppressed.exp
+[2019.01.10-07.24.49:588][477]CompilerResultsLog: Total build time: 4.22 seconds (Local executor: 2.64 seconds)
+[2019.01.10-07.24.49:588][477]LogMainFrame: MainFrame: Module compiling took 4.475 seconds
+[2019.01.10-07.24.49:787][477]LogClass: InteractionState HotReload.
+[2019.01.10-07.24.49:791][477]LogHotReload: Re-instancing CPP_NewLevelLoad after hot-reload.
+[2019.01.10-07.24.50:030][477]LogContentBrowser: Native class hierarchy updated for 'Breach' in 0.0014 seconds. Added 14 classes and 2 folders.
+[2019.01.10-07.24.50:034][477]Display: HotReload successful (21 functions remapped  0 scriptstructs remapped)
+[2019.01.10-07.24.50:323][477]LogContentBrowser: Native class hierarchy populated in 0.0088 seconds. Added 2381 classes and 528 folders.
+[2019.01.10-07.24.50:327][477]Display: HotReload took  5.2s.
+[2019.01.10-07.24.53:371][839]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2019.01.10-07.24.53:375][839]Candidate modules for hot reload:
+[2019.01.10-07.24.53:375][839]  Breach
+[2019.01.10-07.24.53:375][839]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe Breach -ModuleWithSuffix Breach 2972 Win64 DebugGame -editorrecompile -canskiplink "C:/Users/Ryanc/Documents/Unreal Projects/BreachRepo/Breach/Breach.uproject" ]
+[2019.01.10-07.24.53:401][839]Warning: Starting HotReload took  0.0s.
+[2019.01.10-07.24.55:255][ 53]CompilerResultsLog: New page: Compilation - Jan 9, 2019, 3:24:55 PM
+[2019.01.10-07.24.55:258][ 53]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.01.10-07.24.55:258][ 53]CompilerResultsLog: Compiling game modules for hot reload
+[2019.01.10-07.24.55:259][ 53]CompilerResultsLog: Target is up to date
+[2019.01.10-07.24.55:259][ 53]CompilerResultsLog: Total build time: 1.62 seconds (NoActionsToExecute executor: 0.00 seconds)
+[2019.01.10-07.24.55:259][ 53]LogMainFrame: MainFrame: Module compiling took 1.887 seconds
+[2019.01.10-07.24.55:516][ 53]LogContentBrowser: Native class hierarchy populated in 0.0087 seconds. Added 2381 classes and 528 folders.
+[2019.01.10-07.24.55:520][ 53]Display: HotReload took  2.2s.
+[2019.01.10-07.24.58:190][328]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.01.10-07.24.58:402][329]Cmd: QUIT_EDITOR
+[2019.01.10-07.24.58:704][329]LogExit: Preparing to exit.
