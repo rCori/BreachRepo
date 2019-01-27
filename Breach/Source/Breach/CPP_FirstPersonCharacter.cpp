@@ -11,7 +11,8 @@ ACPP_FirstPersonCharacter::ACPP_FirstPersonCharacter()
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
-	healthComp = CreateDefaultSubobject<UPlayerHealthComponent>(TEXT("healthComp"));
+	healthComponent = CreateDefaultSubobject<UPlayerHealthComponent>(TEXT("healthComp"));
+	//AddOwnedComponent(healthComp);
 }
 
 // Called when the game starts or when spawned

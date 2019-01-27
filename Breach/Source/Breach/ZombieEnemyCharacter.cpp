@@ -3,8 +3,14 @@
 #include "ZombieEnemyCharacter.h"
 #include "PlayerHealthComponent.h"
 #include "CPP_FirstPersonCharacter.h"
+#include "GameFramework/CharacterMovementComponent.h"
 #include "Components/SkeletalMeshComponent.h"
 #include "Components/BoxComponent.h"
+#include "Animation/AnimInstance.h"
+
+
+DEFINE_LOG_CATEGORY(LogAttackRange);
+
 
 // Sets default values
 AZombieEnemyCharacter::AZombieEnemyCharacter()
@@ -12,15 +18,28 @@ AZombieEnemyCharacter::AZombieEnemyCharacter()
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
-	CharacterMesh = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("CharacterMesh"));
-	CharacterMesh->bCastDynamicShadow = true;
-	CharacterMesh->CastShadow = true;
-	CharacterMesh->SetupAttachment(RootComponent);
-
 	AttackRange = CreateDefaultSubobject<UBoxComponent>(TEXT("Box"));
 	AttackRange->SetupAttachment(RootComponent);
 	AttackRange->SetCollisionResponseToAllChannels(ECollisionResponse::ECR_Ignore);
 	AttackRange->SetCollisionResponseToChannel(ECollisionChannel::ECC_Pawn, ECollisionResponse::ECR_Overlap);
+
+	HitBox = CreateDefaultSubobject<UBoxComponent>(TEXT("HitBox"));
+	HitBox->SetupAttachment(GetMesh());
+	HitBox->SetCollisionResponseToAllChannels(ECollisionResponse::ECR_Overlap);
+	//ECC_GameTraceChannel1 = "Projectile"
+	HitBox->SetCollisionResponseToChannel(ECollisionChannel::ECC_GameTraceChannel1,ECollisionResponse::ECR_Block);
+	//ECC_GameTraceChannel2 = "EnemyLOS"
+	HitBox->SetCollisionResponseToChannel(ECollisionChannel::ECC_GameTraceChannel2,ECollisionResponse::ECR_Block);
+	
+
+	GetMesh()->SetCollisionResponseToAllChannels(ECollisionResponse::ECR_Ignore);
+	GetMesh()->SetCollisionResponseToChannel(ECollisionChannel::ECC_Visibility,ECollisionResponse::ECR_Ignore);
+	GetMesh()->SetCollisionResponseToChannel(ECollisionChannel::ECC_Camera,ECollisionResponse::ECR_Block);
+
+	walkSpeed = 200.0;
+	health = 100.0;
+	isAttackRange = false;
+	firstPersonCharacter = nullptr;
 }
 
 // Called when the game starts or when spawned
@@ -28,12 +47,23 @@ void AZombieEnemyCharacter::BeginPlay()
 {
 	Super::BeginPlay();
 	
+	AttackRange->OnComponentBeginOverlap.AddDynamic(this, &AZombieEnemyCharacter::SetIsInRange);
+	AttackRange->OnComponentEndOverlap.AddDynamic(this, &AZombieEnemyCharacter::SetNotInRange);
+
+	GetCharacterMovement()->MaxWalkSpeed = walkSpeed;
+	attackCooldown = 0.0;
 }
 
 // Called every frame
 void AZombieEnemyCharacter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+	if(attackCooldown > 0.0){
+		attackCooldown -= DeltaTime;
+		if(attackCooldown <= 0.0){
+			GetCharacterMovement()->MaxWalkSpeed = walkSpeed;
+		}
+	}
 
 }
 
@@ -44,11 +74,68 @@ void AZombieEnemyCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInp
 
 }
 
-// Attempt an attack if the player is within bounds
-void AZombieEnemyCharacter::DoAttack(ACPP_FirstPersonCharacter* firstPersonCharacter)
-{
-	TSubclassOf<UPlayerHealthComponent> playerHealthClass;
-	UPlayerHealthComponent* healthComponent = Cast<UPlayerHealthComponent>(firstPersonCharacter->GetComponentByClass(playerHealthClass));
-	healthComponent->TakeDamage(30.0f);
 
+void AZombieEnemyCharacter::SetIsInRange(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult)
+{
+	ACPP_FirstPersonCharacter* playerCharacter = Cast<ACPP_FirstPersonCharacter>(OtherActor);
+	if(playerCharacter != nullptr){
+		UE_LOG(LogAttackRange, Warning, TEXT("Zombie is in range"));
+		firstPersonCharacter = playerCharacter;
+		isAttackRange = true;
+	} 
+}
+
+void AZombieEnemyCharacter::SetNotInRange(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex)
+{
+	ACPP_FirstPersonCharacter* playerCharacter = Cast<ACPP_FirstPersonCharacter>(OtherActor);
+	if(playerCharacter != nullptr){
+		UE_LOG(LogAttackRange, Warning, TEXT("Zombie left range"));
+		firstPersonCharacter = nullptr;
+		isAttackRange = false;
+	}
+}
+
+// Attempt an attack if the player is within bounds
+void AZombieEnemyCharacter::DoAttack()
+{
+	if(attackCooldown > 0.0){
+		return;
+	}
+	UE_LOG(LogAttackRange, Warning, TEXT("Zombie Attack!"));
+	if(firstPersonCharacter != nullptr && isAttackRange){
+		UE_LOG(LogAttackRange, Warning, TEXT("firstPersonCharacterRef is valid and attackInRange is true"));
+		//TSubclassOf<UPlayerHealthComponent> playerHealthClass;
+		//UPlayerHealthComponent* healthComponent = Cast<UPlayerHealthComponent>(firstPersonCharacter->GetComponentByClass(playerHealthClass));
+		// try and play a firing animation if specified
+		if (AttackAnimation != NULL)
+		{
+			UE_LOG(LogAttackRange, Warning, TEXT("AttackAnimation found"));
+			// Get the animation object for zombie character mesh
+			// ACharacters have a default mesh and we can get a reference to it with GetMEsh
+			UAnimInstance* AnimInstance = GetMesh()->GetAnimInstance();
+			if (AnimInstance != NULL)
+			{
+				attackCooldown = AnimInstance->Montage_Play(AttackAnimation, 1.f,EMontagePlayReturnType::Duration);
+			}
+		} else {
+			UE_LOG(LogAttackRange, Warning, TEXT("No AttackAnimation set"));
+		}
+		GetCharacterMovement()->MaxWalkSpeed = 0.0;
+		firstPersonCharacter->healthComponent->TakeDamage(5.0f);
+	} else {
+		if(firstPersonCharacter == nullptr){
+			UE_LOG(LogAttackRange, Warning, TEXT("firstPersonCharacterRef is null"));
+		}
+
+		if(!isAttackRange){
+			UE_LOG(LogAttackRange, Warning, TEXT("attackInRange is false."));
+		}
+	}
+
+}
+
+
+bool AZombieEnemyCharacter::IsReadyToAttack()
+{
+	return (attackCooldown <= 0.0);
 }

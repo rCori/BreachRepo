@@ -11,6 +11,8 @@ class UBoxComponent;
 class UAnimMontage;
 class ACPP_FirstPersonCharacter;
 
+DECLARE_LOG_CATEGORY_EXTERN(LogAttackRange, Log, All);
+
 UCLASS()
 class BREACH_API AZombieEnemyCharacter : public ACharacter
 {
@@ -20,16 +22,34 @@ public:
 	// Sets default values for this character's properties
 	AZombieEnemyCharacter();
 
-	/** Pawn mesh: 1st person view (arms; seen only by self) */
-	UPROPERTY(VisibleAnywhere,BlueprintReadWrite, Category=Mesh)
-	USkeletalMeshComponent* CharacterMesh;
-
 	UPROPERTY(VisibleAnywhere,BlueprintReadWrite, Category=Attack)
 	UBoxComponent* AttackRange;
 
+	UPROPERTY(VisibleAnywhere,BlueprintReadWrite, Category=Gameplay)
+	UBoxComponent* HitBox;
+
 	/** AnimMontage to play each time we fire */
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
-	UAnimMontage* FireAnimation;
+	UAnimMontage* AttackAnimation;
+
+	UPROPERTY(BlueprintReadOnly, Category=Attack)
+	ACPP_FirstPersonCharacter* firstPersonCharacter;
+
+	UPROPERTY(EditAnywhere,BlueprintReadWrite)
+	bool isAttackRange;
+
+	UPROPERTY(EditAnywhere,BlueprintReadWrite)
+	float walkSpeed;
+
+	UPROPERTY(BlueprintReadWrite,EditAnywhere,Category="Health")
+	float health;
+
+	UPROPERTY(BlueprintReadWrite,EditAnywhere,Category="Health")
+	bool hasDied;
+
+	float attackCooldown;
+	float attackRate;
+		
 
 protected:
 	// Called when the game starts or when spawned
@@ -42,8 +62,16 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
+	UFUNCTION()
+	void SetIsInRange(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult);
+
+	UFUNCTION()
+	void SetNotInRange(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex);
+
 	UFUNCTION(BlueprintCallable)
-	void DoAttack(ACPP_FirstPersonCharacter* firstPersonCharacter);
+	void DoAttack();
 	
+	UFUNCTION(BlueprintCallable)
+	bool IsReadyToAttack();
 	
 };

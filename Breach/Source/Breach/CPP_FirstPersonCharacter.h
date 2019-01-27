@@ -35,7 +35,7 @@ public:
 	bool hasSCAR;
 
 	UPROPERTY(EditAnywhere,BlueprintReadWrite)
-	UPlayerHealthComponent* healthComp;
+	UPlayerHealthComponent* healthComponent;
 
 	UFUNCTION()
 	void SetCanMove(bool _canMove);
