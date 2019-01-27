@@ -12,6 +12,7 @@ class UAnimMontage;
 class ACPP_FirstPersonCharacter;
 
 DECLARE_LOG_CATEGORY_EXTERN(LogAttackRange, Log, All);
+DECLARE_LOG_CATEGORY_EXTERN(HitByFPSProjectile, Log, All);
 
 UCLASS()
 class BREACH_API AZombieEnemyCharacter : public ACharacter
@@ -47,6 +48,15 @@ public:
 	UPROPERTY(BlueprintReadWrite,EditAnywhere,Category="Health")
 	bool hasDied;
 
+	UPROPERTY()
+	TSubclassOf<AActor> FirstPersonProjectileClass;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Particles)
+	UParticleSystem* BloodParticle;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Particles)
+	UParticleSystem* SmokeParticle;
+
 	float attackCooldown;
 	float attackRate;
 		
@@ -73,5 +83,9 @@ public:
 	
 	UFUNCTION(BlueprintCallable)
 	bool IsReadyToAttack();
-	
+
+	UFUNCTION()
+    void OnHit(AActor* SelfActor, AActor* OtherActor, FVector NormalImpulse, const FHitResult& Hit);
+
+
 };

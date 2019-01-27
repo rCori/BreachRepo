@@ -3,13 +3,16 @@
 #include "ZombieEnemyCharacter.h"
 #include "PlayerHealthComponent.h"
 #include "CPP_FirstPersonCharacter.h"
+#include "UObject/ConstructorHelpers.h"
 #include "GameFramework/CharacterMovementComponent.h"
 #include "Components/SkeletalMeshComponent.h"
 #include "Components/BoxComponent.h"
 #include "Animation/AnimInstance.h"
+#include "Kismet/GameplayStatics.h"
 
 
 DEFINE_LOG_CATEGORY(LogAttackRange);
+DEFINE_LOG_CATEGORY(HitByFPSProjectile);
 
 
 // Sets default values
@@ -17,6 +20,13 @@ AZombieEnemyCharacter::AZombieEnemyCharacter()
 {
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
+
+	 // set default pawn class to our Blueprinted character
+     static ConstructorHelpers::FClassFinder<AActor> FirstPersonProjectileClassTemp(TEXT("/Game/BlueprintSource/FirstPersonProjectile"));
+     if (FirstPersonProjectileClassTemp.Class != NULL)
+     {
+         FirstPersonProjectileClass = FirstPersonProjectileClassTemp.Class;
+     }
 
 	AttackRange = CreateDefaultSubobject<UBoxComponent>(TEXT("Box"));
 	AttackRange->SetupAttachment(RootComponent);
@@ -40,6 +50,10 @@ AZombieEnemyCharacter::AZombieEnemyCharacter()
 	health = 100.0;
 	isAttackRange = false;
 	firstPersonCharacter = nullptr;
+
+	//Assign the Event Hit delegate
+	OnActorHit.AddDynamic(this, &AZombieEnemyCharacter::OnHit);
+
 }
 
 // Called when the game starts or when spawned
@@ -138,4 +152,26 @@ void AZombieEnemyCharacter::DoAttack()
 bool AZombieEnemyCharacter::IsReadyToAttack()
 {
 	return (attackCooldown <= 0.0);
+}
+
+void AZombieEnemyCharacter::OnHit(AActor* SelfActor, AActor* OtherActor, FVector NormalImpulse, const FHitResult& Hit)
+{
+	UE_LOG(HitByFPSProjectile, Warning, TEXT("Zombie onHit"));
+	UE_LOG(HitByFPSProjectile, Warning, TEXT("SelfActor was %s"), *SelfActor->GetName());
+	UE_LOG(HitByFPSProjectile, Warning, TEXT("OtherActor was %s"), *OtherActor->GetName());
+	UE_LOG(HitByFPSProjectile, Warning, TEXT("Hit.GetComponent() was %s"), *Hit.GetComponent()->GetName());
+	
+	UBoxComponent* SelfActorBoxComponent = Cast<UBoxComponent>(OtherActor);
+	if(Hit.GetComponent() == HitBox){
+		if(FirstPersonProjectileClass->IsChildOf(OtherActor->StaticClass())){
+			OtherActor->Destroy();
+			FRotator rotation = FRotator::ZeroRotator;
+			UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), BloodParticle, Hit.Location, rotation);
+			health -= 30;
+			if(health <= 0){
+				UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), SmokeParticle, GetActorLocation(), GetActorRotation());
+				Destroy();
+			}
+		}
+	}
 }
